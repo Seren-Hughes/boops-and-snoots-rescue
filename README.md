@@ -22,11 +22,35 @@
 ## Design & Planning:
 
 ### Objectives
-#### Main Objective
+#### Main Objective:
 - Create an engaging, user-friendly platform that inspires adoptions, encourages donations, and promotes volunteering opportunities.
+#### Supporting Objectives:
+- Increase awareness of the Boops & Snoots Rescue organisation.
+- Highlight the organisation’s story, mission, and team to foster trust and connection.
+- Showcase the organisation’s positive impact through success stories, event highlights, and community engagement to encourage trust and support, including donations.
+- Provide assurance that all animals available for adoption have been thoroughly assessed for health and behaviour, ensuring they are ready for their new homes—especially important for families with children.
+- Provide clear and accessible information about volunteering, with a focus on roles and community involvement.
+- Celebrate past events with photos and details to inspire participation and direct users to social media for updates on future activities.
+- Maintain a positive, welcoming tone to build enthusiasm and support for the organisation.
 
 ### User Stories
-Write your user stories in this section
+#### Donations:
+- "As a pet owner, I want to donate items like unused pet food to help the shelter and avoid waste."
+- "As a visitor to the site, I want to know what items the shelter needs so I can contribute effectively."
+- "As someone who wants to support the organisation financially, I want clear information on how to donate money, so I can contribute easily and confidently."
+#### Adoptions:
+- "As someone looking to adopt, I want to see photos and details of available animals, understand the adoption process (including costs and requirements), and easily find contact information to speak to someone about adoptions or ask questions.""As someone adopting a pet, I want to know where the shelter is located and its opening hours so I can plan my visit."
+- "As someone adopting a pet, I want to feel confident that the animal I adopt has been assessed for health and behaviour, ensuring it is ready for a safe and happy transition into my home—especially if I have children."
+#### Volunteering:
+- "As someone seeking work experience, I want to know what volunteer roles are available and how volunteering could benefit my CV and employability."
+- "As someone looking to join a community, I want to know about volunteering opportunities that allow me to meet new people and connect with animal lovers."
+- "As an animal lover unable to adopt, I want to volunteer to spend time with animals and support their care."
+- "As a parent, I want to know about family-friendly volunteer opportunities where my children and I can work together to help animals, such as socialising animals, participating in events, or helping with simple tasks like cleaning, while also fulfilling requirements for programmes like The Duke of Edinburgh’s Award."
+- "As someone who attended a past event, I want to view photos and details of previous events and learn more about the organisation and what other fun events they hold."
+- "As a visitor, I want to find out about upcoming events so I can participate and support the organisation."
+#### Success Stories:
+- "As a donor, volunteer or adopter, I want to see how my contributions have made and will make a difference by viewing success stories with photos of adopted animals in their new homes and stories of their journeys." 
+
 ### Wireframes
 Attach wireframes in this section
 ### Typography
