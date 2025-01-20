@@ -52,6 +52,9 @@
 - "As a donor, volunteer or adopter, I want to see how my contributions have made and will make a difference by viewing success stories with photos of adopted animals in their new homes and stories of their journeys." 
 
 ### Wireframes
+#### Home Page:
+![Home Page Wireframes](https://github.com/user-attachments/assets/01b55bf4-0e42-45a9-bd93-a72d43a8350a)
+
 Attach wireframes in this section
 ### Typography
 Explain font you've used for your project
