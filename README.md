@@ -34,12 +34,20 @@
 - Maintain a positive, welcoming tone to build enthusiasm and support for the organisation.
 
 ### User Stories
+
+#### Home Page:
+- "As someone visiting the website, I want to easily understand what the organization is about, find information about available animals, learn about the adoption process (including fees) how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
+#### About Us:
+- "As a visitor to the site, I want to learn about the team behind the organisation so I can feel connected and trust the people involved."
+- "As a potential supporter or adopter, I want to know the organisation's mission and goals to understand its values and vision."
+- "I follow Boops & Snoots Rescue on Facebook and wanted to find out more about the people behind the lovely photos and stories I see on their page.”
 #### Donations:
 - "As a pet owner, I want to donate items like unused pet food to help the shelter and avoid waste."
 - "As a visitor to the site, I want to know what items the shelter needs so I can contribute effectively."
 - "As someone who wants to support the organisation financially, I want clear information on how to donate money, so I can contribute easily and confidently."
 #### Adoptions:
-- "As someone looking to adopt, I want to see photos and details of available animals, understand the adoption process (including costs and requirements), and easily find contact information to speak to someone about adoptions or ask questions.""As someone adopting a pet, I want to know where the shelter is located and its opening hours so I can plan my visit."
+- "As someone looking to adopt, I want to find out how I can find a pet, understand the adoption process (including costs and requirements), and easily find contact information to speak to someone about adoptions or ask questions."
+- "As someone adopting a pet, I want to know where the shelter is located and its opening hours so I can plan my visit."
 - "As someone adopting a pet, I want to feel confident that the animal I adopt has been assessed for health and behaviour, ensuring it is ready for a safe and happy transition into my home—especially if I have children."
 #### Volunteering:
 - "As someone seeking work experience, I want to know what volunteer roles are available and how volunteering could benefit my CV and employability."
