@@ -41,6 +41,14 @@
 - "As a visitor to the site, I want to learn about the team behind the organisation so I can feel connected and trust the people involved."
 - "As a potential supporter or adopter, I want to know the organisation's mission and goals to understand its values and vision."
 - "I follow Boops & Snoots Rescue on Facebook and wanted to find out more about the people behind the lovely photos and stories I see on their page.”
+
+#### Contact:
+- "As a visitor to the website, I want to easily find contact information so that I can quickly get in touch with the organization for general inquiries."
+- "As someone wanting to ask a question, I want a simple inquiry form so I can send a message without needing to email directly."
+- "As a potential visitor, I want to know the organization’s location, phone number, and opening hours so I can plan my visit."
+- "As a social media user, I want links to the organization’s social accounts so I can follow updates and message them through my preferred platform."
+- "As a user visiting the website, I want a disclaimer that explains the website is fictional so I understand its purpose and context."
+  
 #### Donations:
 - "As a pet owner, I want to donate items like unused pet food to help the shelter and avoid waste."
 - "As a visitor to the site, I want to know what items the shelter needs so I can contribute effectively."
