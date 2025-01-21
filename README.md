@@ -49,6 +49,7 @@
 - "As someone looking to adopt, I want to find out how I can find a pet, understand the adoption process (including costs and requirements), and easily find contact information to speak to someone about adoptions or ask questions."
 - "As someone adopting a pet, I want to know where the shelter is located and its opening hours so I can plan my visit."
 - "As someone adopting a pet, I want to feel confident that the animal I adopt has been assessed for health and behaviour, ensuring it is ready for a safe and happy transition into my home—especially if I have children."
+- "As someone looking to adopt or foster an animal, I want an online application form so that I can easily provide my details and speed up the process of being matched with a suitable pet."
 #### Volunteering:
 - "As someone seeking work experience, I want to know what volunteer roles are available and how volunteering could benefit my CV and employability."
 - "As someone looking to join a community, I want to know about volunteering opportunities that allow me to meet new people and connect with animal lovers."
