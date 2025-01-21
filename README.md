@@ -31,6 +31,7 @@
 - Provide assurance that all animals available for adoption have been thoroughly assessed for health and behaviour, ensuring they are ready for their new homes—especially important for families with children.
 - Provide clear and accessible information about volunteering, with a focus on roles and community involvement.
 - Celebrate past events with photos and details to inspire participation and direct users to social media for updates on future activities.
+- Provide clear ways for users to contact the organisation, including location, phone number, social media links, and an enquiry form.
 - Maintain a positive, welcoming tone to build enthusiasm and support for the organisation.
 
 ### User Stories
