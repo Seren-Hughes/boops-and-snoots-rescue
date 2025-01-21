@@ -63,6 +63,8 @@
 - "As someone looking to join a community, I want to know about volunteering opportunities that allow me to meet new people and connect with animal lovers."
 - "As an animal lover unable to adopt, I want to volunteer to spend time with animals and support their care."
 - "As a parent, I want to know about family-friendly volunteer opportunities where my children and I can work together to help animals, such as socialising animals, participating in events, or helping with simple tasks like cleaning, while also fulfilling requirements for programmes like The Duke of Edinburgh’s Award."
+
+#### Events:
 - "As someone who attended a past event, I want to view photos and details of previous events and learn more about the organisation and what other fun events they hold."
 - "As a visitor, I want to find out about upcoming events so I can participate and support the organisation."
 #### Success Stories:
