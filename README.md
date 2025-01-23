@@ -73,7 +73,7 @@
 
 ### Wireframes
 #### Home Page:
-![Home Page Wireframes](https://github.com/user-attachments/assets/01b55bf4-0e42-45a9-bd93-a72d43a8350a)
+
 
 Attach wireframes in this section
 ### Typography
