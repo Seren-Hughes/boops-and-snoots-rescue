@@ -41,11 +41,7 @@ footer {
 /*--------------------End of global styles-------------------*/
 
 /* Header and hero Section */
-#hero-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 /* Commented out main header styling for quick testing of uppercase look on the website */
 /* header > h1 {
@@ -102,3 +98,16 @@ footer {
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0;
 }
+
+#hero-image {
+  background-image: url("../images/homepage-hero-banner-placeholder.png");
+  max-width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: left;
+}
+
+
+
+
+
