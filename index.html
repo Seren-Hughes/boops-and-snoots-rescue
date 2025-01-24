@@ -8,13 +8,27 @@
       name="description"
       content="Boops & Snoots Rescue. Animal shelter charity in North Wales. pet adoption. dog adoption. cat adoption. puppy adoption. kitten adoption."
     />
-    <title>Boops & Snoots Rescue</title>
+    <title>Boops & Snoots Rescue | Home</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Bootstrap 5 CSS -->
     <link
@@ -24,12 +38,98 @@
       crossorigin="anonymous"
     />
 
-    <!-- External CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <h1>Boops & Snoots Rescue</h1>
-    <h3 class="sub-heading-color">Helping Pets Find Their Forever Homes</h3>
+
+  <!-- Flex classes to keep footer at the bottom of the page added to footer -->
+  <body class="d-flex flex-column min-vh-100">
+    <!--Navigation will go here-->
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Boops & Snoots Rescue</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Donate</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!--Header and hero image -->
+    <header>
+      <h1>Boops & Snoots Rescue</h1>
+      <h3 class="sub-heading-color">Helping Pets Find Their Forever Homes</h3>
+    </header>
+
+    <!--Main Content-->
+    <main>
+      <!-- Welcome and Introduction text with text nav links and Donate button -->
+      <section class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <h2>Welcome to Boops & Snoots Rescue</h2>
+            <p>
+              At Boops & Snoots Rescue, we're passionate about giving pets a
+              second chance and finding them the loving homes they deserve.
+              Based in the heart of North Wales, we are dedicated to rescuing,
+              rehabilitating, and rehoming animals in need. We also promote
+              responsible pet ownership and support the well-being of our
+              community through our events. We believe every animal deserves to
+              be loved, cared for, and treated with kindness. Whether you're
+              looking to adopt, volunteer, or donate, your support helps make a
+              difference in the lives of countless animals. Join us in our
+              mission to create a better world for animals and their humans, one
+              snoot at a time!
+            </p>
+          </div>
+          <!-- At a glance highlights with positive cute image -->
+          <div class="col-12 col-md-6">
+            <h3 class="text-center">Adopt, Volunteer, Donate. Your Actions Save Lives</h3>
+            <p>200+ Animals Rehomed Last Year</p>
+            <p>30 Dedicated Volunteers</p>
+            <p>10 Successful Fundraising Events in 2024</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer and Contact Section -->
+    <!-- mt-auto class to push footer to the bottom -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-between">
+            <div class="col-12 col-md-4 col-xl-4">
+                <h4>Boops & Snoots Rescue</h4>
+                <p>123 Main Street, North Wales, UK</p>
+                <p>Phone: 01234 567890</p>
+                <p>Email:</p> 
+            </div>
+            <div class="col-12 col-md-4 col-xl-4 text-center">
+                <p>social media icon links</p>
+            </div>
+            <div class="col-12 col-md-4 col-xl-4 text-center">
+                <p>Opening Hours</p>
+                <p>Weekdays</p>
+                <p>9am to 5pm</p>
+            </div>
+    </footer>
 
     <!-- Bootstrap 5 JS -->
     <script
