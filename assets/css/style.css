@@ -1,5 +1,5 @@
 /* Google Fonts Import - Quicksand for bold headings and Lato for bodies of text */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap");
 
 /* CSS Variables */
 :root {
@@ -7,7 +7,11 @@
   --secondary-font: "Lato", sans-serif;
   --primary-color: rgb(27, 54, 70);
   --secondary-color: rgb(75, 127, 153);
-  --primary-highlight-color: rgb(228, 129, 11); /* Orange - for calls to action */
+  --primary-highlight-color: rgb(
+    228,
+    129,
+    11
+  ); /* Orange - for calls to action */
   --secondary-highlight-color: #fbc037;
   --accent-color: #ffd878;
   --neutral-color: #f2f2e7;
@@ -31,13 +35,9 @@ h3 {
   font-optical-sizing: auto;
 }
 
-
 .sub-heading-color {
   color: var(--primary-color);
 }
-
-
-
 
 /*--------------------End of global styles-------------------*/
 
@@ -77,7 +77,6 @@ h3 {
 /* Customizes the bootstrap smaller screen toggler button */
 .navbar-toggler {
   border-color: var(--primary-color);
-
 }
 
 /* Customizes the bootstrap smaller screen toggler burger icon inside the button. To change colour, adjust stroke rgba. !important declaration to override the bootstrap default svg */
@@ -100,8 +99,6 @@ h3 {
   background-repeat: no-repeat;
 }
 
-
-
 header > h1 {
   text-transform: uppercase;
   color: var(--primary-color);
@@ -109,19 +106,48 @@ header > h1 {
   font-weight: 700;
 }
 
-
 /* Contact footer section */
 footer {
   background-color: var(--secondary-color);
   color: white;
+  position: relative;
 }
 
 .social-links i {
   color: white;
   font-size: 2rem;
-  padding-right: 20px;
-  align-items: center;
+  margin-right: 1.3rem;
+  padding-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
+#copyright {
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
+}
 
+/* Media queries */
 
+/* Medium size devices - Tablets 768px and up  */
+@media (min-width: 768px) {
+  #hero-image {
+    height: 40vh;
+  }
+
+  header > h1 {
+    font-size: 1.5rem;
+  }
+
+  .social-links i {
+    font-size: 1.5rem;
+  }
+
+  #navbar .navbar-brand {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
