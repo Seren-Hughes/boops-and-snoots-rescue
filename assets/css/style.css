@@ -5,7 +5,7 @@
 :root {
   --primary-font: "Fredoka", serif;
   --secondary-font: "Nunito", sans-serif;
-  --primary-color: #1b3646;
+  --primary-color: rgb(27, 54, 70);
   --secondary-color: #4b7f99;
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
   --secondary-highlight-color: #fbc037;
@@ -30,7 +30,7 @@ h3 {
 
 
 .sub-heading-color {
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 footer {
@@ -40,19 +40,10 @@ footer {
 
 /*--------------------End of global styles-------------------*/
 
-/* Header and hero Section */
-
-
-/* Commented out main header styling for quick testing of uppercase look on the website */
-/* header > h1 {
-    text-transform: uppercase;
-}
-*/
-
 /* Navbar styles */
 
 #navbar {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
 }
 
@@ -67,10 +58,8 @@ footer {
 }
 
 /* Navbar Brand */
-.navbar-brand {
-  font-family: var(--secondary-font);
-  font-size: medium;
-  color: var(--secondary-color);
+.navbar-brand .logo {
+  width: 80px;
 }
 
 .navbar-brand:hover {
@@ -86,12 +75,13 @@ footer {
 
 /* Customizes the bootstrap smaller screen toggler button */
 .navbar-toggler {
-  border-color: var(--secondary-color);
+  border-color: var(--primary-color);
+
 }
 
 /* Customizes the bootstrap smaller screen toggler burger icon inside the button. To change colour, adjust stroke rgba. !important declaration to override the bootstrap default svg */
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(75, 127, 153, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(27, 54, 70, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 /* Removes bootstrap border shadow effect on the smaller screens toggler */
@@ -104,9 +94,17 @@ footer {
   max-width: 100%;
   height: 50vh;
   background-size: cover;
-  background-position: left;
+  background-position: center 100%;
 }
 
+/* Header and hero Section */
+
+header > h1 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
 
 
 
