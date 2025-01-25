@@ -36,10 +36,8 @@ h3 {
   color: var(--primary-color);
 }
 
-footer {
-  background-color: var(--secondary-color);
-  color: white;
-}
+
+
 
 /*--------------------End of global styles-------------------*/
 
@@ -92,6 +90,7 @@ footer {
   box-shadow: 0 0 0 0;
 }
 
+/* Header and hero Section */
 #hero-image {
   background-image: url("../images/freepik__expand__92566.jpeg");
   max-width: 100%;
@@ -101,7 +100,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-/* Header and hero Section */
+
 
 header > h1 {
   text-transform: uppercase;
@@ -111,7 +110,18 @@ header > h1 {
 }
 
 
+/* Contact footer section */
+footer {
+  background-color: var(--secondary-color);
+  color: white;
+}
 
+.social-links i {
+  color: white;
+  font-size: 2rem;
+  padding-right: 20px;
+  align-items: center;
+}
 
 
 
