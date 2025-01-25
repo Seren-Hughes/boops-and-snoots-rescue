@@ -1,10 +1,10 @@
-/* Google Fonts Import */
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* Google Fonts Import - Quicksand for bold headings and Lato for bodies of text */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
 
 /* CSS Variables */
 :root {
-  --primary-font: "Fredoka", serif;
-  --secondary-font: "Nunito", sans-serif;
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "Lato", sans-serif;
   --primary-color: rgb(27, 54, 70);
   --secondary-color: #4b7f99;
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
@@ -24,8 +24,11 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   color: var(--primary-highlight-color);
+  font-style: semiBold;
+  font-weight: 700;
+  font-optical-sizing: auto;
 }
 
 
