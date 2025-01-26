@@ -19,6 +19,7 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-color);
   background-color: white;
+  font-size: 18px;
 }
 
 h1,
@@ -60,6 +61,7 @@ h3 {
   width: 80px;
 }
 
+/* for brand text */
 .navbar-brand:hover {
   text-decoration: underline;
   color: var(--secondary-color);
@@ -112,16 +114,21 @@ header > h1 {
 /* Main section elements styling */
 
 
-/* Call to action bulletpoints - image with text overlay */
+/* Call to action and our impact bulletpoints - image with text overlay */
 #at-a-glance {
   position: relative; 
   background-image: url("../images/closeup-shot-brown-kitten-ground.jpg");
-  padding: 2rem 1rem; 
+  padding: 2rem; 
   background-size: cover;
   background-position: center;
   color: var(--primary-color);
+  min-height: 25vh;
   z-index: 1; 
   overflow: hidden; 
+  margin-bottom: 0;
+  align-items: stretch;
+  width: 100%;
+  border-radius: 10px;
 }
 /* Pseudo-element to create dark overlay on image for better readability of the text */
 #at-a-glance::before {
@@ -132,12 +139,19 @@ header > h1 {
   width: 100%;
   height: 100%;
   background-color: rgba(68, 51, 27, 0.6); /* Dark transparent overlay for contrast readability */
-  z-index: -1; /* Place behind the content */
+  z-index: -1; /* Place behind the text and icons */
+}
+
+#at-a-glance h4 {
+  color: white;
+  font-size: 1rem;
 }
 
 #at-a-glance p {
   color: white;
 }
+
+/* ................ End of homepage call to action | Our impact bulletpoints section .............*/
 
 
 /* Donate Button */
