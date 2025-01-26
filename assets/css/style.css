@@ -106,6 +106,25 @@ header > h1 {
   font-weight: 700;
 }
 
+/* Main section elements styling */
+
+/* Donate Button */
+.custom-btn {
+  background-color: var(--primary-highlight-color);
+  color: white;
+  border: none;
+  padding: 1rem 1rem;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: var(--secondary-highlight-color);
+}
+
 /* Contact footer section */
 footer {
   background-color: var(--secondary-color);
@@ -130,7 +149,7 @@ footer {
 /* Media queries */
 
 /* Medium size devices - Tablets 768px and up  */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   #hero-image {
     height: 40vh;
   }
