@@ -43,6 +43,7 @@ h3 {
 #navbar {
   background-color: var(--secondary-color);
   color: white;
+  padding: 0;
 }
 
 /* Navbar Links */
@@ -58,13 +59,13 @@ h3 {
 
 /* Navbar Brand */
 .navbar-brand .logo {
-  width: 80px;
+  width: 150px;
 }
 
 /* for brand text */
 .navbar-brand:hover {
   text-decoration: underline;
-  color: var(--secondary-color);
+  
 }
 
 /* Active page navbar link styling */
