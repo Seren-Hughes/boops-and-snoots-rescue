@@ -12,10 +12,10 @@
 :root {
   --primary-font: "Quicksand", sans-serif;
   --secondary-font: "Lato", sans-serif;
-  --primary-color: rgb(45, 74, 91);
-  --secondary-color: rgb(64, 108, 144);
+  --primary-color: #2d4a5b;
+  --secondary-color: #365B78;
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
-  --secondary-highlight-color: rgb(251, 192, 55);
+  --secondary-highlight-color: #fbc037;
   --accent-color: #ffd878;
   --neutral-color: #f2f2e7;
   --dark-color: #0b161c;
@@ -209,11 +209,11 @@ header > h1 {
 
 .custom-btn {
   background-color: var(--primary-highlight-color);
-  color: white;
+  color: #1B2C36;
   border: none;
   padding: 1rem 1rem;
   font-family: var(--primary-font);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 2rem;
   border-radius: 5px;
   cursor: pointer;
@@ -223,6 +223,7 @@ header > h1 {
 
 .custom-btn:hover {
   background-color: var(--secondary-highlight-color);
+  color: #1B2C36;
 }
 
 /* Overrides default blue on click */
