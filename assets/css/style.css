@@ -1,25 +1,30 @@
 /* Google Fonts Import - Quicksand for bold headings and Lato for bodies of text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap");
 
-/* CSS Variables */
+/* ................................... */
+/* ................................... */
+/* ========== Global Styles ========== */
+/* ................................... */
+/* ................................... */
+
+
+/* ========== CSS Variables ========== */
 :root {
   --primary-font: "Quicksand", sans-serif;
   --secondary-font: "Lato", sans-serif;
-  --primary-color: rgb(27, 54, 70);
-  --secondary-color: rgb(49, 92, 113);
+  --primary-color: rgb(45, 74, 91);
+  --secondary-color: rgb(64, 108, 144);
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
-  --secondary-highlight-color: #fbc037;
+  --secondary-highlight-color: rgb(251, 192, 55);
   --accent-color: #ffd878;
   --neutral-color: #f2f2e7;
   --dark-color: #0b161c;
 }
 
-/* Global Styles */
 body {
   font-family: var(--primary-font);
   color: var(--primary-color);
   background-color: white;
-
 }
 
 h1,
@@ -36,9 +41,13 @@ h3 {
   color: var(--primary-color);
 }
 
-/*--------------------End of global styles-------------------*/
+/* ========== End of global styles ========== */
 
-/* Navbar styles */
+/* ....................................*/
+/* ................................... */
+/* ========== Navbar Styles ========== */
+/* ................................... */
+/* ................................... */
 
 #navbar {
   background-color: var(--secondary-color);
@@ -57,42 +66,37 @@ h3 {
   color: var(--secondary-highlight-color);
 }
 
-/* Navbar Brand */
+/* Navbar Brand logo image */
 .navbar-brand .logo {
   width: 150px;
 }
 
-/* Navbar Brand text */
-.navbar-brand {
-  display: flex;
-    align-items: center;
-}
-
 .brand-text {
-  font-size: 1.1rem; /* Adjust font size as needed */
-  text-align: left; /* Align text to the left */
+  font-size: 1.1rem;
+  text-align: left;
   line-height: 1.2; /* Adjust spacing between lines */
-  color: #f3e2c7;
+  color: white;
   text-transform: uppercase; /* Uppercase all text */
 }
 
 .brand-text span:first-child {
   font-weight: bold; /* Make "Boops & Snoots" bold */
+  transition-duration: 0.3s;
 }
 
 .brand-text span:last-child {
   font-size: 1rem; /* Slightly smaller for "Rescue" */
   text-align: center; /* Center align "Rescue" */
   display: block; /* Make sure "Rescue" is on a new line */
-  font-weight: bold; /* Make "Rescue" bold */
-  color: #f3e2c7;
-  text-transform: uppercase; /* Uppercase all text */
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
 }
 
-/* for brand text */
-.navbar-brand:hover {
+/* hover colour effect for the brand text covering logo area and both span elements */
+.navbar-brand:hover .brand-text span {
   color: var(--secondary-highlight-color);
-  
 }
 
 /* Active page navbar link styling */
@@ -103,18 +107,17 @@ h3 {
 
 /* Customizes the bootstrap smaller screen toggler button */
 .navbar-toggler {
-  border-color: var(--primary-color);
+  border-color: white;
 }
-
 
 /* Customizes the bootstrap smaller screen toggler burger icon inside the button. To change colour, adjust stroke rgba. !important declaration to override the bootstrap default svg */
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(27, 54, 70, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
   transition-duration: 0.3s;
 }
 
 .navbar-toggler-icon:hover {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(228, 129, 11, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(251, 192, 55, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 /* Removes bootstrap border shadow effect on the smaller screens toggler */
@@ -122,10 +125,17 @@ h3 {
   box-shadow: 0 0 0 0;
 }
 
-/* Header and hero Section */
+/* ========== End of navbar styles ========== */
+
+/* ....................................... */
+/* ....................................... */
+/* ========== Header Hero Image ========== */
+/* ....................................... */
+/* ....................................... */
+
 #hero-image {
   background-image: url("../images/freepik__expand__14951.png");
-  
+
   height: 48vh;
   background-size: cover;
   background-position: center;
@@ -139,28 +149,33 @@ header > h1 {
   font-weight: 700;
 }
 
-/* Main section elements styling */
-
+/* ................................... */
+/* ................................... */
+/* ========== Main section =========== */
+/* ................................... */
+/* ................................... */
 
 /* Our impact highlights bulletpoints - image with text overlay */
 #at-a-glance {
-  position: relative; 
+  position: relative;
   background-image: url("../images/closeup-shot-brown-kitten-ground.jpg");
-  padding: 2rem; 
+  padding: 2rem;
   background-size: cover;
   background-position: center;
   color: var(--primary-color);
   min-height: 25vh;
-  z-index: 1; 
-  overflow: hidden; 
+  z-index: 1;
+  overflow: hidden;
   margin-bottom: 0;
   align-items: stretch;
   width: 100%;
   border-radius: 10px;
 }
+
 /* Pseudo-element to create dark overlay on image for better readability of the text */
 #at-a-glance::before {
-  content: ''; /* Required to display the pseudo-element */
+  /* content:"" Required to display the pseudo-element */
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -179,8 +194,7 @@ header > h1 {
   color: white;
 }
 
-/* ................ End of homepage call to action | Our impact bulletpoints section .............*/
-
+/* ................ End of Impact Highlights section .............*/
 
 /* Donate Button */
 .custom-btn {
@@ -201,7 +215,14 @@ header > h1 {
   background-color: var(--secondary-highlight-color);
 }
 
-/* Contact footer section */
+
+
+/* ............................................ */
+/* ............................................ */
+/* ========== Contact Footer Section ========== */
+/* ............................................ */
+/* ............................................ */
+
 footer {
   background-color: var(--secondary-color);
   color: white;
@@ -237,7 +258,14 @@ footer address a {
 footer address a:hover {
   color: var(--secondary-highlight-color);
 }
-/* Media queries */
+
+
+/* ................................... */
+/* ................................... */
+/* ========== Media Queries ========== */
+/* ................................... */
+/* ................................... */
+
 
 /* Medium size devices - Tablets 768px and up  */
 @media (min-width: 768px) and (max-width: 991px) {
