@@ -37,9 +37,12 @@ h3 {
   font-optical-sizing: auto;
 }
 
+
 .sub-heading-color {
   color: var(--primary-color);
 }
+
+
 
 /* ========== End of global styles ========== */
 
@@ -144,6 +147,7 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);
 }
 
 header > h1 {
@@ -158,6 +162,8 @@ header > h1 {
 /* ========== Main section =========== */
 /* ................................... */
 /* ................................... */
+
+
 
 /* Our impact highlights bulletpoints - image with text overlay */
 #at-a-glance {
@@ -174,6 +180,7 @@ header > h1 {
   align-items: stretch;
   width: 100%;
   border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);
 }
 
 /* Pseudo-element to create dark overlay on image for better readability of the text */
@@ -199,6 +206,7 @@ header > h1 {
 }
 
 /* ................ End of Impact Highlights section .............*/
+
 
 
 /* ................................... */
@@ -309,7 +317,7 @@ footer address a:hover {
   }
 
   footer {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   /* Customise scroll bar on tablets and mobile devices */
