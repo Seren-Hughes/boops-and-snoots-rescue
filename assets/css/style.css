@@ -284,8 +284,14 @@ footer address a:hover {
 /* ................................... */
 
 
+
+/* Large size devices - Desktops 992px and up  --- to go here */
+
+
 /* Medium size devices - Tablets 768px and up  */
 @media (min-width: 768px) and (max-width: 991px) {
+
+  
   #hero-image {
     height: 40vh;
   }
@@ -315,7 +321,7 @@ footer address a:hover {
   }
 
   ::-webkit-scrollbar {
-    width: 8px; /* Adjust to your preferred width */
+    width: 8px; /* Adjust to preferred width */
   }
 
   ::-webkit-scrollbar-thumb {
@@ -327,4 +333,61 @@ footer address a:hover {
     background: transparent;
   }
   
+}
+
+/* Small size devices - Phones 320px to 768 - targetting mobile scroll bar  */
+@media (min-width: 320px) and (max-width: 768px) {
+  /* Customise scroll bar on tablets and mobile devices */
+  body {
+    overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer */
+    scrollbar-width: none; /* For Firefox */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; /* Adjust to your preferred width */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent thumb */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+
+  /* Media query for navbar logo and text brand to be smaller on mobile and tablet screens */
+  .navbar-brand .logo {
+    width: 120px;
+  }
+  
+  .brand-text {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .brand-text span:last-child {
+    font-size: 0.7rem; /* Slightly smaller for "Rescue" */
+    text-align: center; /* Center align "Rescue" */
+    display: block; /* Make sure "Rescue" is on a new line */
+  }
+
+  #hero-image {
+    height: 40vh;
+  }
+
+  header > h1 {
+    font-size: 1.5rem;
+  }
+
+  .social-links i {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
 }
