@@ -230,6 +230,7 @@ header > h1 {
 .custom-btn:focus, .custom-btn:active {
   background-color: var(--secondary-highlight-color) !important;
   outline: none;  /* Removes default blue outline on click */
+  color: #1B2C36 !important;
 }
 
 
@@ -304,4 +305,26 @@ footer address a:hover {
   footer {
     font-size: 0.8rem;
   }
+
+  /* Customise scroll bar on tablets and mobile devices */
+  body {
+    overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer */
+    scrollbar-width: none; /* For Firefox */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; /* Adjust to your preferred width */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent thumb */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
 }
