@@ -66,6 +66,10 @@ h3 {
   color: var(--secondary-highlight-color);
 }
 
+#navbar .nav-link:focus {
+  color: var(--secondary-highlight-color);
+}
+
 /* Navbar Brand logo image */
 .navbar-brand .logo {
   width: 150px;
@@ -196,7 +200,13 @@ header > h1 {
 
 /* ................ End of Impact Highlights section .............*/
 
-/* Donate Button */
+
+/* ................................... */
+/* ................................... */
+/* ========== Donate Button ========== */
+/* ................................... */
+/* ................................... */
+
 .custom-btn {
   background-color: var(--primary-highlight-color);
   color: white;
@@ -215,6 +225,11 @@ header > h1 {
   background-color: var(--secondary-highlight-color);
 }
 
+/* Overrides default blue on click */
+.custom-btn:focus, .custom-btn:active {
+  background-color: var(--secondary-highlight-color) !important;
+  outline: none;  /* Removes default blue outline on click */
+}
 
 
 /* ............................................ */
