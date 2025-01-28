@@ -162,7 +162,13 @@ header > h1 {
 
 /* Adoption Page - adopt-info */
 header > .line-break {
-  border-bottom: 4px solid var(--primary-highlight-color);
+  border-bottom: 4px solid var(--secondary-highlight-color);
+  width: 50%;
+  margin: 1% auto;
+}
+
+ .line-break {
+  border-bottom: 1.8px solid var(--secondary-highlight-color);
   width: 50%;
   margin: 1% auto;
 }
@@ -221,9 +227,9 @@ header > .line-break {
 /* Adoption page social media links*/
  div.adopt-social-links i {
   color: var(--primary-color);
-  font-size: 2rem;
-  margin-right: 3rem;
-  padding-top: 0.2rem;
+  font-size: 4rem;
+  margin-left: 2rem;
+  padding-top: 1rem;
   margin-bottom: 0.5rem;
   transition-duration: 0.3s;
 }
