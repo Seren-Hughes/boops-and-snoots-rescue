@@ -278,6 +278,11 @@ footer address a:hover {
   color: var(--secondary-highlight-color);
 }
 
+#disclaimer {
+  font-size: 0.7rem;
+  
+}
+
 /* ========================= End of Footer Section ========================= */
 
 /* ................................... */
