@@ -141,7 +141,7 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);
+  /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);*/
 }
 
 header > h1 {
@@ -162,7 +162,7 @@ header > h1 {
 /* Our impact highlights bulletpoints - image with text overlay */
 #at-a-glance {
   position: relative;
-  background-image: url("../images/closeup-shot-brown-kitten-ground.jpg");
+  background-image: url("../images/closeup-shot-brown-kitten-ground-impact.webp");
   padding: 2rem;
   background-size: cover;
   background-position: center;
@@ -174,7 +174,7 @@ header > h1 {
   align-items: stretch;
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);
+  /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);*/
 }
 
 /* Pseudo-element to create dark overlay on image for better readability of the text */
@@ -220,7 +220,7 @@ header > h1 {
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.397);
 }
 
 .custom-btn:hover {
