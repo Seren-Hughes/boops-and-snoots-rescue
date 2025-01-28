@@ -160,6 +160,10 @@ header > h1 {
   font-weight: 700;
 }
 
+section h3 {
+  color: var(--primary-color);
+}
+
 /* Adoption Page - adopt-info */
 header > .line-break {
   border-bottom: 4px solid var(--secondary-highlight-color);
@@ -227,8 +231,8 @@ header > .line-break {
 /* Adoption page social media links*/
  div.adopt-social-links i {
   color: var(--primary-color);
-  font-size: 4rem;
-  margin-left: 2rem;
+  font-size: 2rem;
+  margin-right: 2rem;
   padding-top: 1rem;
   margin-bottom: 0.5rem;
   transition-duration: 0.3s;
