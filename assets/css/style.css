@@ -44,7 +44,7 @@ h3 {
 
 
 
-/* ========== End of global styles ========== */
+/* ========================= End of global styles ========================== */
 
 /* ....................................*/
 /* ................................... */
@@ -64,14 +64,6 @@ h3 {
   transition-duration: 0.3s;
 }
 
-/* Navbar links hover */
-#navbar .nav-link:hover {
-  color: var(--secondary-highlight-color);
-}
-
-#navbar .nav-link:focus {
-  color: var(--secondary-highlight-color);
-}
 
 /* Navbar Brand logo image */
 .navbar-brand .logo {
@@ -101,16 +93,13 @@ h3 {
   transition-duration: 0.3s;
 }
 
-/* hover colour effect for the brand text covering logo area and both span elements */
-.navbar-brand:hover .brand-text span {
-  color: var(--secondary-highlight-color);
-}
 
 /* Active page navbar link styling */
 #navbar .nav-link.active {
   font-weight: bold;
   text-decoration: underline;
 }
+
 
 /* Customizes the bootstrap smaller screen toggler button */
 .navbar-toggler {
@@ -120,19 +109,24 @@ h3 {
 /* Customizes the bootstrap smaller screen toggler burger icon inside the button. To change colour, adjust stroke rgba. !important declaration to override the bootstrap default svg */
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-  transition-duration: 0.3s;
 }
 
-.navbar-toggler-icon:hover {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(251, 192, 55, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
 
 /* Removes bootstrap border shadow effect on the smaller screens toggler */
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0;
 }
 
-/* ========== End of navbar styles ========== */
+.navbar-brand:hover .brand-text span {
+  color: var(--secondary-highlight-color);
+}
+
+/* Navbar links hover */
+#navbar .nav-link:hover {
+  color: var(--secondary-highlight-color);
+}
+
+/* ========================= End of navbar styles ========================= */
 
 /* ....................................... */
 /* ....................................... */
@@ -205,7 +199,7 @@ header > h1 {
   color: white;
 }
 
-/* ................ End of Impact Highlights section .............*/
+/* ========================= End of Impact Highlights section =========================*/
 
 
 
@@ -236,7 +230,7 @@ header > h1 {
 
 /* Overrides default blue on click */
 .custom-btn:focus, .custom-btn:active {
-  background-color: var(--secondary-highlight-color) !important;
+  background-color: var(--primary-highlight-color) !important;
   outline: none;  /* Removes default blue outline on click */
   color: #1B2C36 !important;
 }
@@ -284,6 +278,7 @@ footer address a:hover {
   color: var(--secondary-highlight-color);
 }
 
+/* ========================= End of Footer Section ========================= */
 
 /* ................................... */
 /* ................................... */
@@ -293,8 +288,14 @@ footer address a:hover {
 
 
 
-/* Large size devices - Desktops 992px and up  --- to go here */
+/* Large size devices - Desktops and laptops 992px and up  --- to go here */
+/* hover colour effect for the brand text covering logo area and both span elements */
 
+@media (min-width: 992px) {
+
+
+
+}
 
 /* Medium size devices - Tablets 768px and up  */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -397,5 +398,32 @@ footer address a:hover {
 
   footer {
     font-size: 0.8rem;
+  }
+}
+
+/* All smaller touchscreen sizes (320px - 991px */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+  .social-links i {
+    color: white; /* Prevent any color change */
+    transition: none; /* Remove hover effect transition */
+  }
+
+  .social-links i:hover,
+  .social-links i:focus,
+  .social-links i:active {
+    color: white; /* Prevent color change clicking links on touch screen devices */
+  }
+
+  footer address a {
+    color: white; /* Prevent any color change */
+    transition: none; /* Remove hover effect transition */
+  }
+
+  footer address a:hover,
+  footer address a:focus,
+  footer address a:active {
+    color: white; /* Prevent color change clicking links on touch screen devices */
   }
 }
