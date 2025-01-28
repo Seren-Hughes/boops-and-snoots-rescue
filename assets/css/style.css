@@ -32,7 +32,6 @@ h2,
 h3 {
   font-family: var(--primary-font);
   color: var(--primary-highlight-color);
-  font-style: semiBold;
   font-weight: 700;
   font-optical-sizing: auto;
 }
@@ -136,9 +135,10 @@ h3 {
 
 
 /* Header Banner Text */
-header h1 #header-text {
+h1, #header-text {
   font-size: 2rem;
   font-weight: 700;
+  color: var(--primary-color);
 }
 
 
@@ -218,6 +218,19 @@ header > .line-break {
 
 /* ========================= End of Impact Highlights section =========================*/
 
+/* Adoption page social media links*/
+ div.adopt-social-links i {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-right: 3rem;
+  padding-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  transition-duration: 0.3s;
+}
+
+div.adopt-social-links i:hover {
+  color: var(--secondary-highlight-color);
+}
 
 
 /* ................................... */
@@ -319,7 +332,7 @@ footer address a:hover {
 
 }
 
-/* Medium size devices - Tablets 768px and up  */
+/* Medium size devices - Tablets 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
 
   
@@ -327,8 +340,8 @@ footer address a:hover {
     height: 40vh;
   }
 
-  header > h1 {
-    font-size: 1rem;
+  h1, #header-text {
+    font-size: 1.8rem;
   }
 
   .social-links i {
@@ -412,6 +425,10 @@ footer address a:hover {
   }
 
   header > h1 {
+    font-size: 1rem;
+  }
+
+  h1, #header-text {
     font-size: 1.5rem;
   }
 
