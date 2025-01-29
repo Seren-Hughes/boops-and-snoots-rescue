@@ -293,8 +293,15 @@ div.adopt-social-links i:hover {
   background-color: var(--neutral-color);
   color: var(--primary-color);
   padding: 2rem;
-  border-radius: 10px;
-  
+  border-radius: 0px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+}
+
+.application-form button.btn {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 2px;
 }
 
 
