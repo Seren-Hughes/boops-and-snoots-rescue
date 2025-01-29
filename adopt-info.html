@@ -193,7 +193,7 @@
                         </p>
                         <p>If you have any additional questions feel free to contact us.</p>
 
-                        <h4 class="mt-4 text-center">- Adoption Application Form - </h4>
+                        <h4 class="mt-4 text-center">- Adoption Application Form -</h4>
                     <div class="application-form container mt-4 mb-4">
                         <div class="row">
                             <form class="row g-3">
@@ -206,28 +206,77 @@
                                   <input type="email" class="form-control" id="email">
                                 </div>
                                 <div class="col-12">
-                                  <label for="inputAddress" class="form-label">Address</label>
+                                  <label for="inputAddress" class="form-label">Address Line 1</label>
                                   <input type="text" class="form-control" id="inputAddress">
                                 </div>
                                 <div class="col-12">
-                                  <label for="inputAddress2" class="form-label">Address 2</label>
+                                  <label for="inputAddress2" class="form-label">Address Line 2</label>
                                   <input type="text" class="form-control" id="inputAddress2">
                                 </div>
                                 <div class="col-md-6">
                                   <label for="inputCounty" class="form-label">County</label>
                                   <input type="text" class="form-control" id="inputCounty">
                                 </div>
-                                <div class="col-md-4">
-                                  <label for="inputState" class="form-label">State</label>
-                                  <select id="inputState" class="form-select">
-                                    <option selected>Choose...</option>
-                                    <option>...</option>
-                                  </select>
-                                </div>
-                                <div class="col-md-2">
+                
+                                <div class="col-md-6">
                                   <label for="inputPostCode" class="form-label">Post Code</label>
                                   <input type="text" class="form-control" id="inputPostCode">
                                 </div>
+                                <div class="mb-3">
+                                    <p class="fw-bold">Are you interested in adopting or fostering?</p>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="adoptOrFoster" id="adopt" value="adopt" required>
+                                      <label class="form-check-label" for="adopt">Adopting</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="adoptOrFoster" id="foster" value="foster" required>
+                                      <label class="form-check-label" for="foster">Fostering</label>
+                                    </div>
+                                  </div>
+                                  <div class="mb-3">
+                                    <p class="fw-bold">Which type of pet would you be most interested in adopting?</p>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" id="dogs" name="preference" value="dogs" required>
+                                      <label class="form-check-label" for="dogs">Dog</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" id="cats" name="preference" value="cats" required>
+                                      <label class="form-check-label" for="cats">Cat</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" id="no-preference" name="preference" value="no-preference" required>
+                                      <label class="form-check-label" for="no-preference">Either</label>
+                                    </div>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="pet-interest" class="form-label fw-bold">
+                                      Optional: Tell us about the pet you're interested in
+                                    </label>
+                                    <p class="text-muted">
+                                      Is there a specific pet you're interested in adopting? If you've seen a dog or cat on our Facebook or Instagram that you'd love to meet, please provide their name and a brief description:
+                                    </p>
+                                    <textarea class="form-control" id="pet-interest" name="pet_interest" rows="3" placeholder="Enter pet's name and any details..."></textarea>
+                                  </div>
+                                  <div class="mb-3">
+                                    <label class="form-label fw-bold">Your Household</label>
+                                  
+                                    <p class="mb-1">Do you currently have other pets?</p>
+                                    
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="other_pets" id="pets-yes" value="yes" required>
+                                      <label class="form-check-label" for="pets-yes">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="other_pets" id="pets-no" value="no" required>
+                                      <label class="form-check-label" for="pets-no">No</label>
+                                    </div>
+                                  
+                                    <div class="mt-3">
+                                      <label for="pet-details" class="form-label">If yes, please tell us a little about them (species, breed, age, personality, etc.):</label>
+                                      <textarea class="form-control" id="pet-details" name="pet_details" rows="2" placeholder="Describe your pets..."></textarea>
+                                    </div>
+                                  </div>
+                                
                                 <div class="col-12">
                                   <div>
                                     <p>Once you've completed and submitted the form, our team will review your details and contact you shortly. 
