@@ -162,6 +162,12 @@ header > h1 {
 
 section h3 {
   color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+#welcome-heading {
+  width: 80%;
+  border-bottom: 3px solid var(--secondary-highlight-color);
 }
 
 /* Adoption Page - adopt-info */
@@ -215,6 +221,10 @@ header > .line-break {
   height: 100%;
   background-color: rgba(68, 51, 27, 0.622); /* Dark transparent overlay for contrast readability */
   z-index: -1; /* Place behind the text and icons */
+}
+
+#at-a-glance h3 {
+  color: var(--primary-highlight-color);
 }
 
 #at-a-glance h4 {
