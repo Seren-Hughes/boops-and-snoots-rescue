@@ -16,7 +16,7 @@
   --secondary-color: #365B78;
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
   --secondary-highlight-color: #fbc037;
-  --accent-color: #ffd978;
+  --accent-color: rgb(255, 217, 120);
   --neutral-color: #f1efe8a5;
   --dark-color: #0b161c;
 }
@@ -283,7 +283,14 @@ img#adopt-image {
   max-height: 30vh;
 }
 
-  
+/* Text links to override default blue and underline */
+.custom-text-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition-duration: 0.3s;
+  border-bottom: 2.5px dashed var(--secondary-highlight-color);
+  font-weight: 600;
+}  
   
 
 /* Adoption page social media links*/
