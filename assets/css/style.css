@@ -12,7 +12,7 @@
 :root {
   --primary-font: "Quicksand", sans-serif;
   --secondary-font: "Lato", sans-serif;
-  --primary-color: #2d4a5b;
+  --primary-color: #2d4a5b; /* Dark blue used on text and headings */
   --secondary-color: #365B78;
   --primary-highlight-color: rgb(228, 129, 11); /* Orange - for calls to action */
   --secondary-highlight-color: #fbc037;
@@ -344,7 +344,7 @@ div.adopt-social-links i:hover {
 }
 
 .form-check-input:focus {
-  box-shadow: 0 0 5px rgb(228, 129, 11, 0.5);
+  box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
 }
 
 .form-control:focus {
