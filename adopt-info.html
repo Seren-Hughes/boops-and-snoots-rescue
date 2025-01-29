@@ -194,12 +194,14 @@
                         <p>If you have any additional questions feel free to contact us.</p>
 
                         <h4 class="mt-4 text-center">- Adoption Application Form -</h4>
+                    
+                    <!-- Application Form -->
                     <div class="application-form container mt-4 mb-4">
                         <div class="row">
-                            <form class="row g-3">
+                            <form  action="https://formdump.codeinstitute.net" method="POST" class="row g-3">
                                 <div class="col-md-6">
                                   <label for="name" class="form-label">Full Name</label>
-                                  <input type="text" class="form-control" id="name">
+                                  <input type="text" class="form-control" id="name" required>
                                 </div>
                                 <div class="col-md-6">
                                   <label for="email" class="form-label">Email</label>
@@ -207,21 +209,25 @@
                                 </div>
                                 <div class="col-12">
                                   <label for="inputAddress" class="form-label">Address Line 1</label>
-                                  <input type="text" class="form-control" id="inputAddress">
+                                  <input type="text" class="form-control" id="inputAddress" required>
                                 </div>
                                 <div class="col-12">
                                   <label for="inputAddress2" class="form-label">Address Line 2</label>
-                                  <input type="text" class="form-control" id="inputAddress2">
+                                  <input type="text" class="form-control" id="inputAddress2" required>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                   <label for="inputCounty" class="form-label">County</label>
-                                  <input type="text" class="form-control" id="inputCounty">
+                                  <input type="text" class="form-control" id="inputCounty" required>
                                 </div>
                 
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                   <label for="inputPostCode" class="form-label">Post Code</label>
-                                  <input type="text" class="form-control" id="inputPostCode">
+                                  <input type="text" class="form-control" id="inputPostCode" required>
                                 </div>
+                                <div class="col-md-4">
+                                    <label for="inputPhoneNumber" class="form-label">Contact Phone Number</label>
+                                    <input type="tel" class="form-control" id="inputPhoneNumber" inputmode="numeric" required>
+                                  </div>
                                 <div class="mb-3">
                                     <p class="fw-bold">Are you interested in adopting or fostering?</p>
                                     <div class="form-check form-check-inline">
@@ -277,6 +283,66 @@
                                     </div>
                                   </div>
                                 
+                                  <div class="mb-3">
+                                    
+                                  
+                                    <p class="mb-1">Do you have children under the age of 14 living in your home?</p>
+                                    
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="children_at_home" id="children-yes" value="yes" required>
+                                      <label class="form-check-label" for="children-yes">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="children_at_home" id="children-no" value="no" required>
+                                      <label class="form-check-label" for="children-no">No</label>
+                                    </div>
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label class="form-label fw-bold">Availability</label>
+                                  
+                                    <p class="mb-2">How much time can you dedicate weekly to your pet?</p>
+                                  
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="pet_time" id="full-time" value="full-time" required>
+                                      <label class="form-check-label" for="full-time">
+                                        Full-time (I'm home most of the day)
+                                      </label>
+                                    </div>
+                                  
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="pet_time" id="part-time" value="part-time" required>
+                                      <label class="form-check-label" for="part-time">
+                                        Part-time (I'm home a few hours daily)
+                                      </label>
+                                    </div>
+                                  
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="radio" name="pet_time" id="limited-time" value="limited-time" required>
+                                      <label class="form-check-label" for="limited-time">
+                                        Limited time (Evenings and weekends only)
+                                      </label>
+                                    </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label class="form-label fw-bold">How would you like to be contacted for a relaxed chat about adoption or fostering?</label>
+                                        <p class="text-muted">You can select more than one.</p>
+                                      
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="contact-phone" name="contact_preference" value="phone">
+                                          <label class="form-check-label" for="contact-phone">Phone</label>
+                                        </div>
+                                      
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="contact-email" name="contact_preference" value="email">
+                                          <label class="form-check-label" for="contact-email">Email</label>
+                                        </div>
+                                      </div>
+
+
+
+
                                 <div class="col-12">
                                   <div>
                                     <p>Once you've completed and submitted the form, our team will review your details and contact you shortly. 
