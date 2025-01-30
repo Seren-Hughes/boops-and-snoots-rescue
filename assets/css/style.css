@@ -362,6 +362,25 @@ img#donate-image {
 }
 
 
+/* PayPal and JustGiving Links - brand images styled to look more like clickable buttons with a box shadow effect */
+.donate-button {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.397);
+  background-color: rgb(247, 247, 247);
+  transition: all 0.3s ease-in-out;
+}
+
+.donate-button:hover {
+  background-color: rgba(234, 234, 234, 0.853);
+  border-color: var(--primary-highlight-color);
+  
+}
+
+
+
 /* ............................................ */
 /* ............................................ */
 /* ========== Contact Footer Section ========== */
