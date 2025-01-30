@@ -31,7 +31,7 @@ h1,
 h2,
 h3 {
   font-family: var(--primary-font);
-  color: var(--primary-highlight-color);
+  color: var(--primary-color);
   font-weight: 700;
   font-optical-sizing: auto;
 }
@@ -353,12 +353,22 @@ div.adopt-social-links i:hover {
 }
 /*  ================== End of Adoption Page Styles ================== */
 
-/* ====== Donations Page =============*/
-/* Adoption page images */
+/* ===================== Donations Page ==============================*/
+
+
+/* Donation page image */
 img#donate-image {
   border-radius: 100%;
   max-width: 100%;
   max-height: 40vh;
+}
+
+#donate-sub-heading {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: none;
 }
 
 
