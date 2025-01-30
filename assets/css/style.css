@@ -353,6 +353,15 @@ div.adopt-social-links i:hover {
 }
 /*  ================== End of Adoption Page Styles ================== */
 
+/* ====== Donations Page =============*/
+/* Adoption page images */
+img#donate-image {
+  border-radius: 100%;
+  max-width: 100%;
+  max-height: 40vh;
+}
+
+
 /* ............................................ */
 /* ............................................ */
 /* ========== Contact Footer Section ========== */
