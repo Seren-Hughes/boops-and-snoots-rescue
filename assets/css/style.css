@@ -303,7 +303,7 @@ div.adopt-social-links i:hover {
   color: var(--secondary-highlight-color);
 }
 
-/* ============ Adoption Application Form ===========*/
+/* ============ Adoption Application Form  ===========*/
 .application-form {
   background-color: var(--neutral-color);
   color: var(--primary-color);
@@ -389,6 +389,49 @@ img#donate-image {
   border-color: var(--primary-highlight-color);
   
 }
+
+
+/* ============ Contact Form  ===========*/
+.contact-form {
+  background-color: var(--neutral-color);
+  color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 0px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+}
+
+.contact-form button.btn {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 2px;
+}
+
+.contact-form button.btn:focus {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 2px;
+}
+
+.contact-form button.btn:hover {
+  background-color: var(--primary-highlight-color);
+  border: none;
+  border-radius: 2px;
+}
+
+select#enquiry.form-select:focus {
+  border-color: var(--primary-highlight-color); 
+  box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
+}
+
+/* Note on custom select styles -
+"Custom <select> menus need only a custom class, .form-select to trigger the custom styles. 
+Custom styles are limited to the <select>’s initial appearance and 
+cannot modify the <option>s due to browser limitations." - Bootstrap */
+
+
+
+/*  ================== End of Contact Page Styles ================== */
 
 
 
