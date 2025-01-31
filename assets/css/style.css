@@ -449,66 +449,12 @@ footer address a:hover {
 
 
 
-/* Large size devices - Desktops and laptops 992px and up  --- to go here */
-/* hover colour effect for the brand text covering logo area and both span elements */
 
-@media (min-width: 992px) {
-
-
-
-}
-
-/* Medium size devices - Tablets 768px to 991px */
-@media (min-width: 768px) and (max-width: 991px) {
-
-  
-  #hero-image {
-    height: 40vh;
-  }
-
-  h1, #header-text {
-    font-size: 1.8rem;
-  }
-
-  .social-links i {
-    font-size: 1.5rem;
-  }
-
-  #navbar .navbar-brand {
-    font-size: 1rem;
-  }
-
-
-  footer {
-    font-size: 1rem;
-  }
-
-  /* Customise scroll bar on tablets and mobile devices */
-  body {
-    overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
-    -ms-overflow-style: none; /* For Internet Explorer */
-    scrollbar-width: none; /* For Firefox */
-    overflow-x: hidden; /* Prevent horizontal scroll */
-  }
-
-  ::-webkit-scrollbar {
-    width: 8px; /* Adjust to preferred width */
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2); /* Transparent thumb */
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-}
-
-/* Small size devices - Phones 320px to 768 - targetting mobile scroll bar  */
+/* Small size devices - Phones and small tablets 320px to 768 */
 @media (min-width: 320px) and (max-width: 768px) {
-  /* Customise scroll bar on tablets and mobile devices */
+  
+  
+  /* Remove scroll bar gap on tablets and mobile devices adapted from https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp and https://www.w3schools.com/css/css_overflow.asp */
   body {
     overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
     -ms-overflow-style: none; /* For Internet Explorer */
@@ -517,11 +463,11 @@ footer address a:hover {
   }
 
   ::-webkit-scrollbar {
-    width: 8px; /* Adjust to your preferred width */
+    width: 8px; 
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2); /* Transparent thumb */
+    background-color: rgba(0, 0, 0, 0.2); /* Make thumb transparent */
     border-radius: 10px;
   }
 
@@ -555,24 +501,20 @@ footer address a:hover {
   }
 
   h1, #header-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
-  .social-links i {
-    font-size: 1.5rem;
+  h2,
+  h3,
+  h4,
+  h5,
+  #donate-sub-heading {
+    font-size: 1.1rem;
   }
 
-
-  footer {
-    font-size: 0.8rem;
-  }
-}
-
-/* All smaller touchscreen sizes (320px - 991px */
-
-@media (min-width: 320px) and (max-width: 768px) {
   
   .social-links i {
+    font-size: 1.5rem;
     color: white; /* Prevent any color change */
     transition: none; /* Remove hover effect transition */
   }
@@ -582,6 +524,11 @@ footer address a:hover {
   .social-links i:active {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
 
   footer address a {
     color: white; /* Prevent any color change */
@@ -593,4 +540,116 @@ footer address a:hover {
   footer address a:active {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
+}
+
+
+/* Medium and Large mobile phone sizes 375px to 767px*/
+@media (min-width: 375px) and (max-width: 767px) {
+
+  #hero-image {
+    height: 40vh;
+  }
+
+  h1, #header-text {
+    font-size: 1.5rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5
+  #donate-sub-heading {
+    font-size: 1.2rem;
+  }
+
+  .social-links i {
+    font-size: 1.5rem;
+  }
+
+  #navbar .navbar-brand {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  /* Customise scroll bar on tablets and mobile devices adapted from https://www.w3schools.com/css/css_overflow.asp and https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
+  body {
+    overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer */
+    scrollbar-width: none; /* For Firefox */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; /* Adjust to preferred width */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent thumb */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+}
+
+
+/* Medium size devices - Tablets 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
+  #hero-image {
+    height: 40vh;
+  }
+
+  h1, #header-text {
+    font-size: 2rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  #donate-sub-heading {
+    font-size: 1.5rem;
+  }
+
+  .social-links i {
+    font-size: 1.5rem;
+  }
+
+  #navbar .navbar-brand {
+    font-size: 1rem;
+  }
+
+
+  footer {
+    font-size: 1rem;
+  }
+
+  /* Customise scroll bar on tablets and mobile devices - adapted from https://www.w3schools.com/css/css_overflow.asp and https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
+  body {
+    overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer */
+    scrollbar-width: none; /* For Firefox */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent thumb */
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
 }
