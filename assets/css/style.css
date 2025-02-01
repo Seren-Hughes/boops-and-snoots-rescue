@@ -434,6 +434,8 @@ cannot modify the <option>s due to browser limitations." - Bootstrap */
 /*  ================== End of Contact Page Styles ================== */
 
 
+
+/* Confirmation form success page*/
 #confirm-thank-you {
   font-size: 2rem;
 }
@@ -441,6 +443,12 @@ cannot modify the <option>s due to browser limitations." - Bootstrap */
 #confirm-thank-you h1 {
   font-size: 2rem;
 }
+
+/* 404 error page */
+h1#four-zero-four.text-end {
+  font-size: 5rem;
+}
+
 
 
 /* ............................................ */
