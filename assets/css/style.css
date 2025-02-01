@@ -444,11 +444,48 @@ cannot modify the <option>s due to browser limitations." - Bootstrap */
   font-size: 2rem;
 }
 
-/* 404 error page */
-h1#four-zero-four.text-end {
-  font-size: 5rem;
+
+/* 404 Page */
+.col-md-4.position-relative {
+  position: relative; /* Ensures absolute positioning inside */
 }
 
+.error-404 {
+  position: absolute;
+  top: 180px; /* Moves 404 below the cat image */
+  left: 65%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+  transform: rotate(45deg); /* rotates text adapted from https://www.geeksforgeeks.org/how-to-rotate-text-in-css/ */
+}
+
+h1#four-zero-four {
+  font-size: 5rem;
+  white-space: nowrap;
+}
+
+.error-message {
+  margin-top: 130px; /* Pushes paragraph text down */
+  font-size: 1.5rem;
+}
+
+/* Home button - reverse colour and hover colour of the donate button to be different but consistent */
+.home-button {
+  background-color: var(--secondary-highlight-color);
+  color: #1B2C36;
+  border: none;
+  padding: 1rem 1rem;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.397);
+}
+
+.home-button:hover {
+  background-color: var(--primary-highlight-color);
+  color: #1B2C36;
+}
 
 
 /* ............................................ */
