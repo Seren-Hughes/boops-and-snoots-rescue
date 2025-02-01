@@ -453,7 +453,7 @@ cannot modify the <option>s due to browser limitations." - Bootstrap */
 .error-404 {
   position: absolute;
   top: 180px; /* Moves 404 below the cat image */
-  left: 65%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+  left: 70%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
   transform: rotate(45deg); /* rotates text adapted from https://www.geeksforgeeks.org/how-to-rotate-text-in-css/ */
 }
 
@@ -463,7 +463,7 @@ h1#four-zero-four {
 }
 
 .error-message {
-  margin-top: 130px; /* Pushes paragraph text down */
+  margin-top: 140px; /* Pushes paragraph text down */
   font-size: 1.5rem;
 }
 
