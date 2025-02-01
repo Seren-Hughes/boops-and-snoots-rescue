@@ -621,6 +621,12 @@ footer address a:hover {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
 
+
+/* 404 page media queries for smaller mobile devices */
+
+
+
+
   footer {
     font-size: 0.8rem;
   }
