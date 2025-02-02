@@ -1,4 +1,4 @@
-/* Google Fonts Import - Quicksand for bold headings and Lato for bodies of text */
+/* Google Fonts Import - Quicksand for bold headings and Lato for slightly more formal bodies of text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap");
 
 /* ................................... */
@@ -9,15 +9,14 @@
 
 /* ========== CSS Variables ========== */
 :root {
-  --primary-font: "Quicksand", sans-serif;
-  --secondary-font: "Lato", sans-serif;
+  --primary-font: "Quicksand", sans-serif; 
+  --secondary-font: "Lato", sans-serif; 
   --primary-color: #2d4a5b; /* Dark blue used on text and headings */
-  --secondary-color: #365B78;
-  --primary-highlight-color: rgb(228, 129, 11); /* Orange - for calls to action */
-  --secondary-highlight-color: #fbc037;
-  --accent-color: rgb(255, 217, 120);
-  --neutral-color: #f1efe8a5;
-  --dark-color: #0b161c;
+  --secondary-color: #365B78; /* Light blue used on navbar */
+  --primary-highlight-color: #e4810b; /* Orange - for calls to action */
+  --secondary-highlight-color: #fbc037; /* Yellow - for hover effects, lines */
+  --accent-color: #ffd978; /* Light yellow - for decorative elements */
+  --neutral-color: #f1efe8a5; /* Light grey - for backgrounds */
 }
 
 body {
@@ -134,7 +133,6 @@ h1, #header-text {
 
 #hero-image {
   background-image: url("../images/hero-banner-puppy.webp");
-
   height: 48vh;
   background-size: cover;
   background-position: center;
@@ -201,7 +199,7 @@ header > .line-break {
 #at-a-glance::before {
   /* content:"" Required to display the pseudo-element */
   content: "";
-  position: absolute;
+  position: absolute; /* Position relative to the parent element */
   top: 0;
   left: 0;
   width: 100%;
@@ -229,8 +227,8 @@ header > .line-break {
 
 /* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
 .large-pointer {
-  cursor: url('../images/hand-pointer.png') 22 22, pointer;
-  transition: transform 0.2s ease-in-out;
+  cursor: url('../images/hand-pointer.png') 22 22, pointer; 
+  transition: transform 0.2s ease-in-out; 
 }
 
 /* hover effect nose/snoot expands slightly - adapted from Sara Cope tutorial at https://css-tricks.com/almanac/properties/t/transform/*/
@@ -267,7 +265,7 @@ header > .line-break {
 .custom-btn:focus, .custom-btn:active {
   background-color: var(--primary-highlight-color) !important;
   outline: none;  /* Removes default blue outline on click */
-  color: #1B2C36 !important;
+  color: #1B2C36 !important; 
 }
 
 /* ========================= End of Donate Button ========================= */
@@ -702,7 +700,6 @@ h1#four-zero-four {
   
 }
 
-
 /* Medium size devices - Tablets 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -731,7 +728,7 @@ h1#four-zero-four {
     font-size: 1rem;
   }
 
-/* ==== 404 page media queries for tablet medium devices == */
+/* ==== 404 page media queries for tablet/medium devices 768 - 991px == */
 
 .four-zero-four img {
   width: 200px;
@@ -782,7 +779,6 @@ h1#four-zero-four {
   }
   
 }
-
 
 /* Large size devices - Desktops 992px to 1200px */
 
