@@ -33,24 +33,25 @@
         <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets\images\boops-and-snoots-logo-simple-version-no-text.webp" alt="Boops & Snoots Rescue Logo"
-                        class="logo">
-                        <div class="brand-text">
-                            <span class="d-block">Boops & Snoots</span>
-                            <span class="d-block mb-2">Rescue</span>
-                        </div>
+                    <img src="assets\images\boops-and-snoots-logo-simple-version-no-text.webp"
+                        alt="Boops & Snoots Rescue Logo" class="logo">
+                    <div class="brand-text">
+                        <span class="d-block">Boops & Snoots</span>
+                        <span class="d-block mb-2">Rescue</span>
+                    </div>
                 </a>
-                <button class="navbar-toggler position-absolute top-0 end-0 mt-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler position-absolute top-0 end-0 mt-3 me-3" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto text-end">
                         <li class="nav-item">
-                            <a class="nav-link"  href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="adopt-info.html">Adopt</a>
+                            <a class="nav-link" href="adopt-info.html">Adopt</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="donations.html">Donate</a>
@@ -67,151 +68,158 @@
     <!-- Header for Contact Form -->
     <header>
         <section class="container mt-4 mb-4 text-center">
-        <h1 id="header-text"><i class="fa-solid fa-paw"></i> Contact <i class="fa-solid fa-paw"></i></h1>
+            <h1 id="header-text"><i class="fa-solid fa-paw"></i> Contact <i class="fa-solid fa-paw"></i></h1>
         </section>
         <div class="line-break">
         </div>
     </header>
 
-     <!-- Main section for contact form -->
-     <main>
+    <!-- Main section for contact form -->
+    <main>
         <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-8 mx-auto mt-5">
+                        <h2 class="text-center">Have a question? We're happy to help!</h2>
+                        <p class="text-center">
+                            Whether you're interested in adopting, volunteering, donating, or just want to learn more
+                            about Boops & Snoots Rescue, feel free to reach out. Fill in the form below, and we'll get
+                            back to you as soon as possible!
+
+                            <br>Prefer to chat? You can reach us by phone at <a href="tel:01234567890"
+                                class="custom-text-link">01234 567 890</a>. We're also on Facebook and Instagram or feel
+                            free to visit us in person. Our address, opening hours and social media links can be found
+                            <a href="#shelter-location" class="custom-text-link">here</a>.
+                        </p>
+                    </div>
+        </section>
+        <!-- Contact Form -->
+        <section class="container px-4">
+            <div class="row">
+                <div class="contact-form col-12 mt-4 mb-5">
+                    <h2>Contact Us</h2>
+                    <form action="form-confirmation.html" class="row g-3">
+                        <div class="col-12 col-md-6">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="inputPhoneNumber" class="form-label">Phone Number:</label>
+                            <input type="tel" class="form-control" id="inputPhoneNumber" required>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="enquiry" class="form-label">Your Enquiry</label>
+                            <select class="form-select" id="enquiry" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="general">General</option>
+                                <option value="adoptions">Adoptions</option>
+                                <option value="volunteering">Volunteering</option>
+                                <option value="events">Events</option>
+                                <option value="donations">Donations</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4"
+                                placeholder="Write your message here..."></textarea>
+                        </div>
+                        <fieldset class="col-12 mb-3">
+                            <legend class="form-label">How would you like to be contacted?</legend>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="emailContact"
+                                    value="email" checked>
+                                <label class="form-check-label" for="emailContact">Email</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="phoneContact"
+                                    value="phone">
+                                <label class="form-check-label" for="phoneContact">Phone</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="contactMethod" id="textContact"
+                                    value="text">
+                                <label class="form-check-label" for="textContact">Text message</label>
+                            </div>
+                        </fieldset>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer and Contact Section -->
+    <!-- mt-auto class to push footer to the bottom -->
+    <footer class="mt-auto">
+
+        <!-- Contact Section -->
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-lg-8 mx-auto mt-5">
-                    <h2 class="text-center">Have a question? We're happy to help!</h2>
-                    <p class="text-center">
-                        Whether you're interested in adopting, volunteering, donating, or just want to learn more about Boops & Snoots Rescue, feel free to reach out. Fill in the form below, and we'll get back to you as soon as possible! 
-                        
-                        <br>Prefer to chat? You can reach us by phone at <a href="tel:01234567890" class="custom-text-link">01234 567 890</a>. We're also on Facebook and Instagram or feel free to visit us in person. Our address, opening hours and social media links can be found <a href="#shelter-location" class="custom-text-link">here</a>.
-                    </p>
-                </div>
-            </section>
-
-            <section class="container px-4">             
-                <div class="row">
-                    <div class="contact-form col-12 mt-4 mb-5">
-                        <h2>Contact Us</h2>
-                        <form action="form-confirmation.html" class="row g-3">
-                            <div class="col-12 col-md-6">
-                                <label for="name" class="form-label">Name:</label>
-                                <input type="text" class="form-control" id="name" required>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="email" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            
-                            <div class="col-12 col-md-6">
-                                <label for="inputPhoneNumber" class="form-label">Phone Number:</label>
-                                <input type="tel" class="form-control" id="inputPhoneNumber" required>
-                            </div>
-            
-                            <div class="col-12 col-md-6">
-                                <label for="enquiry" class="form-label">Your Enquiry</label>
-                                <select class="form-select" id="enquiry" required>
-                                    <option value="" disabled selected>Select an option</option>
-                                    <option value="general">General</option>
-                                    <option value="adoptions">Adoptions</option>
-                                    <option value="volunteering">Volunteering</option>
-                                    <option value="events">Events</option>
-                                    <option value="donations">Donations</option>
-                                    <option value="other">Other</option>
-                                </select>
-                            </div>
-            
-                            <div class="col-12">
-                                <label for="message" class="form-label">Your Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
-                            </div>
-            
-                            <fieldset class="col-12 mb-3">
-                                <legend class="form-label">How would you like to be contacted?</legend>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="contactMethod" id="emailContact" value="email" checked>
-                                    <label class="form-check-label" for="emailContact">Email</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="contactMethod" id="phoneContact" value="phone">
-                                    <label class="form-check-label" for="phoneContact">Phone</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="contactMethod" id="textContact" value="text">
-                                    <label class="form-check-label" for="textContact">Text message</label>
-                                </div>
-                            </fieldset>
-                           
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Send Message</button>
-                            </div>
-                        </form>
+                <div class="col-12 col-md-8 col-xl-8 mt-4">
+                    <address id="shelter-location">
+                        <h4><strong>Boops & Snoots Rescue</strong></h4>
+                        <p><a href="https://www.google.com/maps"
+                                aria-label="Here is our address (opens google maps in a new tab)" target="_blank"
+                                rel="noopener">7 Cath Ci Road
+                                <br>Betws-y-Coed
+                                <br>Conwy
+                                <br>North Wales</a></p>
+                        <p><i class="fa-solid fa-phone"></i> <a href="tel:01234567890">01234 567890</a>
+                            <br><i class="fa-solid fa-at"></i> <a
+                                href="mailto:boops&snootsrescue@boop.com">boops&snootsrescue@boop.com</a>
+                        </p>
+                    </address>
+                    <!--Social Media Links-->
+                    <div class="social-links ">
+                        <a href="https://www.instagram.com" target="_blank"
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"
+                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.tiktok.com" target="_blank"
+                            aria-label="Visit our Tik Tok (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.threads.com" target="_blank"
+                            aria-label="Visit our threads feed (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-threads"></i></a>
                     </div>
                 </div>
-            </section>
-    </main>
- 
- 
-     <!-- Footer and Contact Section -->
-     <!-- mt-auto class to push footer to the bottom -->
-     <footer class="mt-auto">
- 
-         <!-- Contact Section -->
-         <div class="container">
-             <div class="row">
-                 <div class="col-12 col-md-8 col-xl-8 mt-4">
-                     <address id="shelter-location">
-                         <h4><strong>Boops & Snoots Rescue</strong></h4>
-                         <p><a href="https://www.google.com/maps"
-                                 aria-label="Here is our address (opens google maps in a new tab)" target="_blank"
-                                 rel="noopener">7 Cath Ci Road
-                                 <br>Betws-y-Coed
-                                 <br>Conwy
-                                 <br>North Wales</a></p>
-                         <p><i class="fa-solid fa-phone"></i> <a href="tel:01234567890">01234 567890</a>
-                             <br><i class="fa-solid fa-at"></i> <a href="mailto:boops&snootsrescue@boop.com">boops&snootsrescue@boop.com</a>
-                         </p>
-                     </address>
-                     <!--Social Media Links-->
-                     <div class="social-links ">
-                         <a href="https://www.instagram.com" target="_blank"
-                             aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                                 class="fa-brands fa-instagram"></i></a>
-                         <a href="https://www.facebook.com" target="_blank"
-                             aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                                 class="fa-brands fa-square-facebook"></i></a>
-                         <a href="https://www.tiktok.com" target="_blank"
-                             aria-label="Visit our Tik Tok (opens in a new tab)" rel="noopener"><i
-                                 class="fa-brands fa-tiktok"></i></a>
-                         <a href="https://www.threads.com" target="_blank"
-                             aria-label="Visit our threads feed (opens in a new tab)" rel="noopener"><i
-                                 class="fa-brands fa-threads"></i></a>
-                     </div>
-                 </div>
- 
-                 <!-- Opening Hours -->
-                 <div class="col-12 col-md-4 col-xl-4 mt-4">
-                     <p><strong>Opening Hours</strong>
-                         <br>Monday - Friday: 10:00 AM - 6:00 PM
-                         <br>Saturday: 10:00 AM - 4:00 PM
-                         <br>Sunday: Closed
-                     </p>
-                     <p><em>* Adoptions - appointment only</em></p>
-                     <br>
-                     <p id="disclaimer">** Disclaimer - This website is a fictional project created for educational and portfolio purposes only. All content, including contact information, is part of a mock-up and not associated with any real organisation.
-                        </p>
-                 </div>
-                 <div id="copyright" class="col-12 mt-4">
-                     <p>© 2025 Boops & Snoots Rescue. All rights reserved.</p>
-                 </div>
-     </footer>
- 
-     <!-- Bootstrap 5 JS -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-         crossorigin="anonymous"></script>
- 
-     <!-- Font Awesome Kit -->
-     <script src="https://kit.fontawesome.com/6455293cfc.js" crossorigin="anonymous"></script>
- </body>
- 
- </html>
+
+                <!-- Opening Hours -->
+                <div class="col-12 col-md-4 col-xl-4 mt-4">
+                    <p><strong>Opening Hours</strong>
+                        <br>Monday - Friday: 10:00 AM - 6:00 PM
+                        <br>Saturday: 10:00 AM - 4:00 PM
+                        <br>Sunday: Closed
+                    </p>
+                    <p><em>* Adoptions - appointment only</em></p>
+                    <br>
+                    <p id="disclaimer">** Disclaimer - This website is a fictional project created for educational and
+                        portfolio purposes only. All content, including contact information, is part of a mock-up and
+                        not associated with any real organisation.
+                    </p>
+                </div>
+                <div id="copyright" class="col-12 mt-4">
+                    <p>© 2025 Boops & Snoots Rescue. All rights reserved.</p>
+                </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/6455293cfc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
