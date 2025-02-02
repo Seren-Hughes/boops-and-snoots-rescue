@@ -246,10 +246,10 @@ header > .line-break {
   background-color: var(--primary-highlight-color);
   color: #1B2C36;
   border: none;
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.8rem;
   font-family: var(--primary-font);
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
