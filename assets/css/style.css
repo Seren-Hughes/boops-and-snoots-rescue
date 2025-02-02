@@ -7,7 +7,6 @@
 /* ................................... */
 /* ................................... */
 
-
 /* ========== CSS Variables ========== */
 :root {
   --primary-font: "Quicksand", sans-serif;
@@ -36,11 +35,9 @@ h3 {
   font-optical-sizing: auto;
 }
 
-
 .sub-heading-color {
   color: var(--primary-color);
 }
-
 
 /* ========================= End of global styles ========================== */
 
@@ -61,7 +58,6 @@ h3 {
   color: white;
   transition-duration: 0.3s;
 }
-
 
 /* Navbar Brand logo image */
 .navbar-brand .logo {
@@ -91,13 +87,11 @@ h3 {
   transition-duration: 0.3s;
 }
 
-
 /* Active page navbar link styling */
 #navbar .nav-link.active {
   font-weight: bold;
   text-decoration: underline;
 }
-
 
 /* Customizes the bootstrap smaller screen toggler button */
 .navbar-toggler {
@@ -108,7 +102,6 @@ h3 {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
-
 
 /* Removes bootstrap border shadow effect on the smaller screens toggler */
 .navbar-toggler:focus {
@@ -131,7 +124,6 @@ h3 {
 /* ========== Header Sections ============ */
 /* ....................................... */
 /* ....................................... */
-
 
 /* Header Banner Text */
 h1, #header-text {
@@ -173,7 +165,6 @@ header > .line-break {
   width: 50%;
   margin: 1% auto;
 }
-
 
 /* ................................... */
 /* ................................... */
@@ -234,17 +225,24 @@ header > .line-break {
 
 /* ========================= End of Impact Highlights section =========================*/
 
+/* ========== Nose/Snoot Img Link and custom pointer ========== */
+
+/* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
+.large-pointer {
+  cursor: url('../images/hand-pointer.png') 22 22, pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* hover effect nose/snoot expands slightly - adapted from Sara Cope tutorial at https://css-tricks.com/almanac/properties/t/transform/*/
+.large-pointer:hover img {
+  transform: scale(1.1); /* Scale the image by 10% when hovering */
+}
 
 /* ................................... */
 /* ................................... */
 /* ========== Donate Button ========== */
 /* ................................... */
 /* ................................... */
-
-/* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
-.large-pointer {
-  cursor: url('../images/hand-pointer.png') 22 22, pointer;
-}
 
 .custom-btn {
   background-color: var(--primary-highlight-color);
@@ -274,7 +272,6 @@ header > .line-break {
 
 /* ========================= End of Donate Button ========================= */
 
-
 /* ==================Adoption Page Styles================ */
 
 /* Adoption page images */
@@ -293,7 +290,6 @@ img#adopt-image {
   font-weight: 600;
 }  
   
-
 /* Adoption page social media links*/
 div.adopt-social-links i {
   color: var(--primary-color);
@@ -336,7 +332,6 @@ div.adopt-social-links i:hover {
   border-radius: 2px;
 }
 
-
 /* Adoption form radio and checkbox styles override default blue form entry styles */
 .form-check-input[type="radio"]:checked {
   background-color:var(--primary-highlight-color); 
@@ -360,8 +355,6 @@ div.adopt-social-links i:hover {
 
 /* ===================== Donations Page ==============================*/
 
-
-
 /* Donation page image */
 img#donate-image {
   border-radius: 100%;
@@ -376,7 +369,6 @@ img#donate-image {
   font-size: 1.5rem;
   text-transform: none;
 }
-
 
 /* PayPal and JustGiving Links - brand images styled to look more like clickable buttons with a box shadow effect */
 .donate-button {
@@ -394,7 +386,6 @@ img#donate-image {
   border-color: var(--primary-highlight-color);
   
 }
-
 
 /* ============ Contact Form  ===========*/
 .contact-form {
@@ -429,16 +420,7 @@ select#enquiry.form-select:focus {
   box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
 }
 
-/* Note on custom select styles -
-"Custom <select> menus need only a custom class, .form-select to trigger the custom styles. 
-Custom styles are limited to the <select>’s initial appearance and 
-cannot modify the <option>s due to browser limitations." - Bootstrap */
-
-
-
 /*  ================== End of Contact Page Styles ================== */
-
-
 
 /* Confirmation form success page*/
 #confirm-thank-you {
@@ -448,7 +430,6 @@ cannot modify the <option>s due to browser limitations." - Bootstrap */
 #confirm-thank-you h1 {
   font-size: 2rem;
 }
-
 
 /* 404 Page */
 .col-md-4.position-relative {
@@ -491,7 +472,6 @@ h1#four-zero-four {
   background-color: var(--primary-highlight-color);
   color: #1B2C36;
 }
-
 
 /* ............................................ */
 /* ............................................ */
@@ -548,12 +528,8 @@ footer address a:hover {
 /* ................................... */
 /* ................................... */
 
-
-
-
 /* Small size devices - Phones and small tablets 320px to 768 */
 @media (min-width: 320px) and (max-width: 768px) {
-  
   
   /* Remove scroll bar gap on tablets and mobile devices adapted from https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp and https://www.w3schools.com/css/css_overflow.asp */
   body {
@@ -575,7 +551,6 @@ footer address a:hover {
   ::-webkit-scrollbar-track {
     background: transparent;
   }
-
 
   /* Media query for navbar logo and text brand to be smaller on mobile and tablet screens */
   .navbar-brand .logo {
@@ -613,7 +588,6 @@ footer address a:hover {
     font-size: 1.1rem;
   }
 
-  
   .social-links i {
     font-size: 1.5rem;
     color: white; /* Prevent any color change */
@@ -626,11 +600,35 @@ footer address a:hover {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
 
+/* =========== 404 page media queries for smaller mobile devices ========= */
+.four-zero-four img {
+  width: 200px;
+}
 
-/* 404 page media queries for smaller mobile devices */
+.error-404 {
+  top: 150px; /* Moves 404 below the cat image */
+  left: 60%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+}
 
+h1#four-zero-four {
+  font-size: 3rem;
+  white-space: nowrap;
+}
 
+.error-message {
+  margin-top: 140px; /* Pushes paragraph text down */
+  font-size: 1.1rem;
+}
 
+.home-button {
+  font-size: 1.5rem;
+}
+
+/* Form Success Confirmation Page*/
+
+#confirm-thank-you {
+  font-size: 1.5rem;
+}
 
   footer {
     font-size: 0.8rem;
@@ -708,7 +706,7 @@ footer address a:hover {
 /* Medium size devices - Tablets 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
 
-  
+  /* Media query for navbar logo and text brand to be smaller on mobile and tablet screens */
   #hero-image {
     height: 40vh;
   }
@@ -733,6 +731,30 @@ footer address a:hover {
     font-size: 1rem;
   }
 
+/* ==== 404 page media queries for tablet medium devices == */
+
+.four-zero-four img {
+  width: 200px;
+}
+
+.error-404 {
+  top: 150px; /* Moves 404 below the cat image */
+  left: 60%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+}
+
+h1#four-zero-four {
+  font-size: 3rem;
+  white-space: nowrap;
+}
+
+.error-message {
+  margin-top: 140px; /* Pushes paragraph text down */
+  font-size: 1.1rem;
+}
+
+.home-button {
+  font-size: 1.1rem;
+}
 
   footer {
     font-size: 1rem;
@@ -759,4 +781,15 @@ footer address a:hover {
     background: transparent;
   }
   
+}
+
+
+/* Large size devices - Desktops 992px to 1200px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .home-button {
+    font-size: 1.5rem;
+  }
+
 }
