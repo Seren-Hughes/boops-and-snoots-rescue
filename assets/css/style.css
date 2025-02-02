@@ -241,7 +241,10 @@ header > .line-break {
 /* ................................... */
 /* ................................... */
 
-/* Nose / Snoot Pointer */
+/* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
+.large-pointer {
+  cursor: url('../images/hand-pointer.png') 22 22, pointer;
+}
 
 .custom-btn {
   background-color: var(--primary-highlight-color);
