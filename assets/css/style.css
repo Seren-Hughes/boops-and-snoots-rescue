@@ -195,7 +195,7 @@ header > .line-break {
   /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);*/
 }
 
-/* Pseudo-element to create dark overlay on image for better readability of the text */
+/* This pseudo-element adds an overlay to improve text readability by creating a dark overlay on image */
 #at-a-glance::before {
   /* content:"" Required to display the pseudo-element */
   content: "";
@@ -314,6 +314,7 @@ div.adopt-social-links i:hover {
   font-weight: 500;
 }
 
+/* Smaller buttons for forms */
 .application-form button.btn {
   background-color: var(--primary-color);
   border: none;
@@ -397,6 +398,7 @@ img#donate-image {
   font-weight: 500;
 }
 
+/* Small button for contact form */
 .contact-form button.btn {
   background-color: var(--primary-color);
   border: none;
@@ -528,9 +530,11 @@ footer address a:hover {
 /* ................................... */
 /* ................................... */
 
+/* ===========================================================*/
 /* Small size devices - Phones and small tablets 320px to 768 */
+/* ===========================================================*/
 @media (min-width: 320px) and (max-width: 768px) {
-  
+  /* Webkit hides scroll bar gap on mobile devices */
   /* Remove scroll bar gap on tablets and mobile devices adapted from https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp and https://www.w3schools.com/css/css_overflow.asp */
   body {
     overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
@@ -600,7 +604,7 @@ footer address a:hover {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
 
-/* =========== 404 page media queries for smaller mobile devices ========= */
+/* ===== 404 page media queries for smaller mobile devices ===== */
 .four-zero-four img {
   width: 200px;
 }
@@ -648,8 +652,9 @@ h1#four-zero-four {
   }
 }
 
-
-/* Medium and Large mobile phone sizes 375px to 767px*/
+/* ==========================================================*/
+/* === Medium and Large mobile phone sizes 375px to 767px ===*/
+/* ==========================================================*/
 @media (min-width: 375px) and (max-width: 767px) {
 
   #hero-image {
@@ -680,6 +685,7 @@ h1#four-zero-four {
     font-size: 0.8rem;
   }
 
+  /* Webkit hides scroll bar gap on mobile devices */
   /* Customise scroll bar on tablets and mobile devices adapted from https://www.w3schools.com/css/css_overflow.asp and https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
   body {
     overflow-y: scroll; /* Keeps vertical scrolling but hides the scrollbar */
@@ -703,7 +709,9 @@ h1#four-zero-four {
   
 }
 
-/* Medium size devices - Tablets 768px to 991px */
+/* ======================================================================= */
+/* ============ Medium size devices - Tablets 768px to 991px ============= */
+/* ======================================================================= */
 @media (min-width: 768px) and (max-width: 991px) {
 
   /* Media query for navbar logo and text brand to be smaller on mobile and tablet screens */
@@ -784,8 +792,9 @@ h1#four-zero-four {
   
 }
 
-/* Large size devices - Desktops 992px to 1200px */
-
+/* =============================================================================== */
+/* =============== Large size devices - Desktops 992px to 1200px ================= */
+/* =============================================================================== */
 @media (min-width: 992px) and (max-width: 1200px) {
 
 /* Return home button for desktop/laptop screen sizes */
@@ -794,3 +803,4 @@ h1#four-zero-four {
   }
 
 }
+
