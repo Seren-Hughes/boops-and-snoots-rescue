@@ -223,7 +223,9 @@ header > .line-break {
 
 /* ========================= End of Impact Highlights section =========================*/
 
+/* ============================================================ */
 /* ========== Nose/Snoot Img Link and custom pointer ========== */
+/* ============================================================ */
 
 /* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
 .large-pointer {
@@ -436,7 +438,7 @@ select#enquiry.form-select:focus {
 
 .error-404 {
   position: absolute;
-  top: 180px; /* Moves 404 below the cat image */
+  top: 11rem; /* Moves 404 below the cat image */
   left: 70%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
   transform: rotate(45deg); /* rotates text adapted from https://www.geeksforgeeks.org/how-to-rotate-text-in-css/ */
 }
@@ -447,26 +449,26 @@ h1#four-zero-four {
 }
 
 .error-message {
-  margin-top: 140px; /* Pushes paragraph text down */
+  margin-top: 12rem; /* Pushes paragraph text down */
   font-size: 1.5rem;
 }
 
 /* Home button - reverse colour and hover colour of the donate button to be different but consistent */
-.home-button {
+.custom-btn.home-button {
   background-color: var(--secondary-highlight-color);
   color: #1B2C36;
   border: none;
-  padding: 1rem 1rem;
+  padding: 1rem;
   font-family: var(--primary-font);
   font-weight: 600;
   font-size: 2rem;
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.397);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.397);
 }
 
-.home-button:hover {
+.custom-btn.home-button:hover {
   background-color: var(--primary-highlight-color);
   color: #1B2C36;
 }
@@ -604,7 +606,7 @@ footer address a:hover {
 }
 
 .error-404 {
-  top: 150px; /* Moves 404 below the cat image */
+  top: 10rem; /* Moves 404 below the cat image */
   left: 60%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
 }
 
@@ -614,11 +616,12 @@ h1#four-zero-four {
 }
 
 .error-message {
-  margin-top: 140px; /* Pushes paragraph text down */
+  margin-top: 10rem; /* Pushes paragraph text down */
   font-size: 1.1rem;
 }
 
-.home-button {
+/* return home button for smaller size screens */
+.custom-btn.home-button {
   font-size: 1.5rem;
 }
 
@@ -735,21 +738,22 @@ h1#four-zero-four {
 }
 
 .error-404 {
-  top: 150px; /* Moves 404 below the cat image */
-  left: 60%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+  top: 10rem; /* Moves 404 below the cat image */
+  left: 65%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
 }
 
 h1#four-zero-four {
-  font-size: 3rem;
+  font-size: 4rem;
   white-space: nowrap;
 }
 
 .error-message {
-  margin-top: 140px; /* Pushes paragraph text down */
-  font-size: 1.1rem;
+  margin-top: 11rem; /* Pushes paragraph text down */
+  font-size: 1.2rem;
 }
 
-.home-button {
+/* return home button for tablet size screens */
+.custom-btn.home-button {
   font-size: 1.1rem;
 }
 
@@ -784,7 +788,8 @@ h1#four-zero-four {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
-  .home-button {
+/* Return home button for desktop/laptop screen sizes */
+  .custom-btn.home-button {
     font-size: 1.5rem;
   }
 
