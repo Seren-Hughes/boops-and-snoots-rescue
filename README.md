@@ -125,17 +125,17 @@ Both fonts were selected to ensure a balance between a friendly, approachable fe
 ## Colour Scheme
 The website’s colour scheme was carefully selected using [Coolors](https://coolors.co/) to create a welcoming, engaging, and user-friendly experience. A combination of calm blues, warm highlights, and a clean neutral background aligns with *Boops & Snoots Rescue’s* branding, reinforcing trust, positivity, and approachability.
 
-- Primary Colour – Dark Blue (#2D4A5B): Used for text and headings, this deep blue conveys trust and stability.
-- Secondary Colour – Light Blue (#365B78): Featured in the navigation bar and logo, ensuring brand consistency.
-- Primary Highlight – Orange (#E4810B): A bold, warm color used for call-to-action elements, drawing attention and encouraging interaction.
-- Secondary Highlight – Yellow (#FBC037): Used for hover effects and subtle separators, adding energy and vibrancy.
-- Accent Colour – Light Yellow (#FFD978): Enhances decorative elements, softening the design while keeping it cheerful.
-- Neutral Background – Light Grey (#F1EFE8A5): Applied to the application and contact forms, providing a subtle contrast while maintaining readability.
+- **Primary Colour – Dark Blue (#2D4A5B):** Used for text and headings, this deep blue conveys trust and stability.
+- **Secondary Colour – Light Blue (#365B78):** Featured in the navigation bar and logo, ensuring brand consistency.
+- **Primary Highlight – Orange (#E4810B):** A bold, warm and energetic colour used for call-to-action elements, drawing attention and encouraging interaction.
+- **Secondary Highlight – Yellow (#FBC037):** A cheerful, uplifting color used for hover effects and subtle separators.
+- **Accent Colour – Light Yellow (#FFD978):** Enhances decorative elements, softening the design while keeping it cheerful.
+- **Neutral Background – Light Grey (#F1EFE8A5):** Applied to the application and contact forms, ensuring readability while maintaining a light, friendly feel.
 
 Additionally, white space (#FFFFFF) plays a key role in the design, keeping the interface clean, modern, and easy to navigate. The balance of blues, warm tones, and neutral shades creates a professional yet friendly aesthetic that reflects the mission of Boops & Snoots Rescue.
 
 ### Accessibility Considerations
-Ensuring strong color contrast for readability was a priority. Before development, the color choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
+Ensuring strong colour contrast for readability was a priority. Before development, the colour choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
 
 ![Colour Pallette](assets/media/colour-pallette.png)
 
@@ -198,6 +198,19 @@ The site was deployed to Github Pages using the following method:
 - Navigate to the 'settings' tab.
 - Using the 'select branch' dropdown menu, choose 'main'.
 - Click 'save'.
+
+## Future Enhancements
+Since this is a static site, potential future updates could include:
+-	A CMS for easier content management
+-	User accounts for personalized experiences
+-	API integration for real-time updates on adoptable animals and events
+-	Search and filter features for adoptable animals (e.g., age, breed, child-friendliness, ability to live with other pets)
+-	Online donation processing via integrated payment platforms
+-	Enhanced interactivity with features like regular blog updates
+-	Newsletter signup for updates, events and adoption stories
+- Merchandise store to sell branded items like t-shirts and mugs to raise funds and increase brand visibility
+
+As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding to new locations, and increasing its reach — the demand for these enhancements would naturally increase. These future updates would make it easier to adopt pets, and provide a fun way for supporters to contribute while spreading the word about the organization.
 
 ## Credits
 List of used resources for your website (text, images, snippets of code, projects....)
