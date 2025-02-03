@@ -48,7 +48,7 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 #### 
 
-### User Stories
+## User Stories
 #### Home Page:
 - "As someone visiting the website, I want to easily understand what the organization is about, find information about available animals, learn about the adoption process (including fees) how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
 
@@ -70,33 +70,59 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 - "As someone looking to adopt or foster an animal, I want an online application form so that I can easily provide my details and speed up the process of being matched with a suitable pet."
 
 
-### Wireframes
-#### Index / Home Page:
-<details><summary>Click to see wireframe preview</summary>
+## Wireframes
+### Index / Home Page:
+<details><summary>Click to see Home page wireframes</summary>
 
 ![Index Home Page Design](assets/media/home-page.png) 
 
 </details>
 
-#### Adopt Page:
-<details><summary>Click to see wireframe preview</summary>
+### Adopt Page:
+<details><summary>Click to see Adopt page wireframes</summary>
 
 ![Adopt Page Design](assets/media/adopt-page.png)
+
+</details>
+
+### Donate Page: 
+<details><summary>Click to see Donate page wireframes</summary>
+
+![Donate Page Design](assets/media/donations-page.png)
+
+</details>
+
+### Contact Page: 
+<details><summary>Click to see Contact page wireframes</summary>
+
+![Contact Us Page Design](assets/media/contact-form-page.png)
+
+</details>
+
+### Form Submission Success Page:
+<details><summary>Click to see Form Success page wireframes</summary>
+
+![Form Success Page Design](assets/media/form-success-page.png)
+
+</details>
+
+### 404 Error Page:
+<details><summary>Click to see 404 Error page wireframes</summary>
+
+![404 Error Page Design](assets/media/404-error-page.png)
 
 </details>
 
 
 
 
-
-
-### Typography
+## Typography
 For this project, Google Fonts was used to create a cohesive and accessible typography style:
 - **Quicksand:** Used for the majority of the site’s content, including headings and body text. This font has a rounded, modern design that brings a fun, approachable, and positive vibe to the site, reflecting the welcoming nature of Boops & Snoots Rescue. It balances personality with professionalism, ensuring the site feels inviting yet trustworthy.
 - **Lato:** Chosen for form inputs and areas where a more formal tone was needed. Lato is a clean, sans-serif font with excellent legibility, making it ideal for areas requiring a professional feel, such as forms and informational sections. It pairs seamlessly with Quicksand, ensuring a cohesive and accessible design.
 Both fonts were selected to ensure a balance between a friendly, approachable feel and professionalism, enhancing the overall user experience across the site.
 
-### Colour Scheme
+## Colour Scheme
 Screenshoot of the colour scheme for your project
 
 ## Features:
