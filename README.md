@@ -71,10 +71,25 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 
 ### Wireframes
-#### Home Page:
+#### Index / Home Page:
+<details><summary>Click to see wireframe preview</summary>
+
+![Index Home Page Design](assets/media/home-page.png) 
+
+</details>
+
+#### Adopt Page:
+<details><summary>Click to see wireframe preview</summary>
+
+![Adopt Page Design](assets/media/adopt-page.png)
+
+</details>
 
 
-Attach wireframes in this section
+
+
+
+
 ### Typography
 For this project, Google Fonts was used to create a cohesive and accessible typography style:
 - **Quicksand:** Used for the majority of the site’s content, including headings and body text. This font has a rounded, modern design that brings a fun, approachable, and positive vibe to the site, reflecting the welcoming nature of Boops & Snoots Rescue. It balances personality with professionalism, ensuring the site feels inviting yet trustworthy.
