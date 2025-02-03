@@ -76,7 +76,11 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 Attach wireframes in this section
 ### Typography
-Explain font you've used for your project
+For this project, Google Fonts was used to create a cohesive and accessible typography style:
+- **Quicksand:** Used for the majority of the site’s content, including headings and body text. This font has a rounded, modern design that brings a fun, approachable, and positive vibe to the site, reflecting the welcoming nature of Boops & Snoots Rescue. It balances personality with professionalism, ensuring the site feels inviting yet trustworthy.
+- **Lato:** Chosen for form inputs and areas where a more formal tone was needed. Lato is a clean, sans-serif font with excellent legibility, making it ideal for areas requiring a professional feel, such as forms and informational sections. It pairs seamlessly with Quicksand, ensuring a cohesive and accessible design.
+Both fonts were selected to ensure a balance between a friendly, approachable feel and professionalism, enhancing the overall user experience across the site.
+
 ### Colour Scheme
 Screenshoot of the colour scheme for your project
 
