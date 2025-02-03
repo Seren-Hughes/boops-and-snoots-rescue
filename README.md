@@ -71,48 +71,49 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 
 ## Wireframes
-### Index / Home Page:
-<details><summary><em>Click to expand wireframes</em></summary>
+In designing the layout for the Boops & Snoots Rescue website, I followed a mobile-first approach, ensuring the site is fully responsive across different device sizes. This method prioritises mobile design to provide a seamless user experience on smartphones, before adapting for tablet and desktop views. The wireframes were created using [Balsamiq](https://balsamiq.com/), and below are the visual representations of the site’s structure and key elements across mobile, tablet, and desktop formats.
 
-![Index Home Page Design](assets/media/home-page.png) 
+1. ### Index / Home Page:
+      <details><summary><em>Click to expand wireframes</em></summary>
 
-</details>
+      ![Index Home Page Design](assets/media/home-page.png) 
 
-### Adopt Page:
-<details><summary><em>Click to expand wireframes</em></summary>
+      </details>
 
-![Adopt Page Design](assets/media/adopt-page.png)
+2. ### Adopt Page:
+      <details><summary><em>Click to expand wireframes</em></summary>
 
-</details>
+      ![Adopt Page Design](assets/media/adopt-page.png)
 
-### Donate Page: 
-<details><summary><em>Click to expand wireframes</em></summary>
+      </details>
 
-![Donate Page Design](assets/media/donations-page.png)
+3. ### Donate Page: 
+      <details><summary><em>Click to expand wireframes</em></summary>
 
-</details>
+      ![Donate Page Design](assets/media/donations-page.png)
 
-### Contact Page: 
-<details><summary><em>Click to expand wireframes</em></summary>
+      </details>
 
-![Contact Us Page Design](assets/media/contact-form-page.png)
+4. ### Contact Page: 
+      <details><summary><em>Click to expand wireframes</em></summary>
 
-</details>
+      ![Contact Us Page Design](assets/media/contact-form-page.png)
 
-### Form Submission Success Page:
-<details><summary><em>Click to expand wireframes</em></summary>
+      </details>
 
-![Form Success Page Design](assets/media/form-success-page.png)
+5. ### Form Submission Success Page:
+      <details><summary><em>Click to expand wireframes</em></summary>
 
-</details>
+      ![Form Success Page Design](assets/media/form-success-page.png)
 
-### 404 Error Page:
-<details><summary><em>Click to expand wireframes</em></summary>
+      </details>
 
-![404 Error Page Design](assets/media/404-error-page.png)
+6. ### 404 Error Page:
+      <details><summary><em>Click to expand wireframes</em></summary>
 
-</details>
+      ![404 Error Page Design](assets/media/404-error-page.png)
 
+      </details>
 
 
 
@@ -121,6 +122,7 @@ For this project, Google Fonts was used to create a cohesive and accessible typo
 - **Quicksand:** Used for the majority of the site’s content, including headings and body text. This font has a rounded, modern design that brings a fun, approachable, and positive vibe to the site, reflecting the welcoming nature of Boops & Snoots Rescue. It balances personality with professionalism, ensuring the site feels inviting yet trustworthy.
 - **Lato:** Chosen for form inputs and areas where a more formal tone was needed. Lato is a clean, sans-serif font with excellent legibility, making it ideal for areas requiring a professional feel, such as forms and informational sections. It pairs seamlessly with Quicksand, ensuring a cohesive and accessible design.
 Both fonts were selected to ensure a balance between a friendly, approachable feel and professionalism, enhancing the overall user experience across the site.
+
 
 ## Colour Scheme
 The website’s colour scheme was carefully selected using [Coolors](https://coolors.co/) to create a welcoming, engaging, and user-friendly experience. A combination of calm blues, warm highlights, and a clean neutral background aligns with *Boops & Snoots Rescue’s* branding, reinforcing trust, positivity, and approachability.
