@@ -1,6 +1,7 @@
-# Boops & Snoots Rescue – Static Front-End Website
-  **** Image here***
-Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static website is designed to raise awareness of the organization, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organization’s strong brand identity, ensuring that visitors feel welcomed and informed.
+# Boops & Snoots Rescue 
+![Boops & Snoots Rescue website shown on different devices](assets/media/boops-and-snoots-design-dark-background.PNG)
+#### About:
+Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organization, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organization’s strong brand identity, ensuring that visitors feel welcomed and informed.
 
 #### Design & Brand Identity
 Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant colors and playful typography to reflect the joyful nature of animal adoption. The site’s branding emphasizes the theme that "pets are family members," with a tone that’s warm and supportive. By using images of happy animals, the site aims to highlight the positive impact of adoption and create an emotional connection with visitors.
@@ -36,9 +37,9 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 ### Objectives
 #### Main Objective:
-- Create an engaging, user-friendly platform that inspires adoptions, encourages donations, and promotes volunteering opportunities.
+- Create an engaging, user-friendly platform that inspires adoptions and encourages donations.
 #### Supporting Objectives:
-- Increase awareness of the Boops & Snoots Rescue organisation.
+- Increase awareness of the Boops & Snoots Rescue organisation and brand identity.
 - Highlight the organisation’s story, mission, and team to foster trust and connection.
 - Showcase the organisation’s positive impact to encourage trust and support for adoptions and donations.
 - Provide assurance that all animals available for adoption have been thoroughly assessed for health and behaviour, ensuring they are ready for their new homes—especially important for families with children.
