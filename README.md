@@ -1,3 +1,16 @@
+# Boops & Snoots Rescue – Static Front-End Website
+  **** Image here***
+Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static website is designed to raise awareness of the organization, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organization’s strong brand identity, ensuring that visitors feel welcomed and informed.
+
+#### Design & Brand Identity
+Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant colors and playful typography to reflect the joyful nature of animal adoption. The site’s branding emphasizes the theme that "pets are family members," with a tone that’s warm and supportive. By using images of happy animals, the site aims to highlight the positive impact of adoption and create an emotional connection with visitors.
+
+#### Key Features
+- **Home Page:** Information about Boops & Snoots Rescue, its mission, and core values.
+- **Adopt Page:** Information on the adoption process, adoption fees, and reasons to adopt a pet, as well as an application form to start the adoption process.
+- **Donate Page:** Clear donation options, including links to PayPal, Just Giving and instructions for donating food, bedding, and toys to the rescue.
+- **Contact Page:** A contact form and fictional contact details (address, phone number and shelter opening hours) 
+
 ## Table Of Contents:
 1. [Design & Planning](#design-&-planning)
     * [Objectives](#objectives)
@@ -27,21 +40,16 @@
 #### Supporting Objectives:
 - Increase awareness of the Boops & Snoots Rescue organisation.
 - Highlight the organisation’s story, mission, and team to foster trust and connection.
-- Showcase the organisation’s positive impact through success stories, event highlights, and community engagement to encourage trust and support, including donations.
+- Showcase the organisation’s positive impact to encourage trust and support for adoptions and donations.
 - Provide assurance that all animals available for adoption have been thoroughly assessed for health and behaviour, ensuring they are ready for their new homes—especially important for families with children.
-- Provide clear and accessible information about volunteering, with a focus on roles and community involvement.
-- Celebrate past events with photos and details to inspire participation and direct users to social media for updates on future activities.
 - Provide clear ways for users to contact the organisation, including location, phone number, social media links, and an enquiry form.
 - Maintain a positive, welcoming tone to build enthusiasm and support for the organisation.
 
-### User Stories
+#### 
 
+### User Stories
 #### Home Page:
 - "As someone visiting the website, I want to easily understand what the organization is about, find information about available animals, learn about the adoption process (including fees) how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
-#### About Us:
-- "As a visitor to the site, I want to learn about the team behind the organisation so I can feel connected and trust the people involved."
-- "As a potential supporter or adopter, I want to know the organisation's mission and goals to understand its values and vision."
-- "I follow Boops & Snoots Rescue on Facebook and wanted to find out more about the people behind the lovely photos and stories I see on their page.”
 
 #### Contact:
 - "As a visitor to the website, I want to easily find contact information so that I can quickly get in touch with the organization for general inquiries."
@@ -59,17 +67,7 @@
 - "As someone adopting a pet, I want to know where the shelter is located and its opening hours so I can plan my visit."
 - "As someone adopting a pet, I want to feel confident that the animal I adopt has been assessed for health and behaviour, ensuring it is ready for a safe and happy transition into my home—especially if I have children."
 - "As someone looking to adopt or foster an animal, I want an online application form so that I can easily provide my details and speed up the process of being matched with a suitable pet."
-#### Volunteering:
-- "As someone seeking work experience, I want to know what volunteer roles are available and how volunteering could benefit my CV and employability."
-- "As someone looking to join a community, I want to know about volunteering opportunities that allow me to meet new people and connect with animal lovers."
-- "As an animal lover unable to adopt, I want to volunteer to spend time with animals and support their care."
-- "As a parent, I want to know about family-friendly volunteer opportunities where my children and I can work together to help animals, such as socialising animals, participating in events, or helping with simple tasks like cleaning, while also fulfilling requirements for programmes like The Duke of Edinburgh’s Award."
 
-#### Events:
-- "As someone who attended a past event, I want to view photos and details of previous events and learn more about the organisation and what other fun events they hold."
-- "As a visitor, I want to find out about upcoming events so I can participate and support the organisation."
-#### Success Stories:
-- "As a donor, volunteer or adopter, I want to see how my contributions have made and will make a difference by viewing success stories with photos of adopted animals in their new homes and stories of their journeys." 
 
 ### Wireframes
 #### Home Page:
@@ -82,16 +80,32 @@ Explain font you've used for your project
 Screenshoot of the colour scheme for your project
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms.....)
+- ### Homepage
+  - Introduction to the organisation's mission, goals and brand
+- ### Adoption Page
+  - Overview of adoption processes, fees, links to social media for available animals and an application form
+- ### Donation Page 
+  - Options for monetary and item donations
+- ### Contact Us Page
+  - Enquiry form with dropdown for enquiry type selection
+- ### Success Page
+  - Confirmation page for submitted forms
+- ### 404 Page
+  - Redirect button to homepage
 ### Navigation
 ### Footer
 ### Other features
 ## Technologies Used
-List of technologies used for your project...
+### Languages:
 HTML
 CSS
 Bootstrap
 Github
+### Tools and Software
+- Todoist (personal task management)
+- Microsoft OneNote and Word (content organisation)
+- Grammerly (proofreading)
+- Adobe Photoshop and Illustrator (image editing)
 ## Testing
 Important part of your README!!!
 ### Google's Lighthouse Performance
