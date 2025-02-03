@@ -72,42 +72,42 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 ## Wireframes
 ### Index / Home Page:
-<details><summary>Click to see Home page wireframes</summary>
+<details><summary><em>Click to expand wireframes</em></summary>
 
 ![Index Home Page Design](assets/media/home-page.png) 
 
 </details>
 
 ### Adopt Page:
-<details><summary>Click to see Adopt page wireframes</summary>
+<details><summary><em>Click to expand wireframes</em></summary>
 
 ![Adopt Page Design](assets/media/adopt-page.png)
 
 </details>
 
 ### Donate Page: 
-<details><summary>Click to see Donate page wireframes</summary>
+<details><summary><em>Click to expand wireframes</em></summary>
 
 ![Donate Page Design](assets/media/donations-page.png)
 
 </details>
 
 ### Contact Page: 
-<details><summary>Click to see Contact page wireframes</summary>
+<details><summary><em>Click to expand wireframes</em></summary>
 
 ![Contact Us Page Design](assets/media/contact-form-page.png)
 
 </details>
 
 ### Form Submission Success Page:
-<details><summary>Click to see Form Success page wireframes</summary>
+<details><summary><em>Click to expand wireframes</em></summary>
 
 ![Form Success Page Design](assets/media/form-success-page.png)
 
 </details>
 
 ### 404 Error Page:
-<details><summary>Click to see 404 Error page wireframes</summary>
+<details><summary><em>Click to expand wireframes</em></summary>
 
 ![404 Error Page Design](assets/media/404-error-page.png)
 
@@ -123,7 +123,21 @@ For this project, Google Fonts was used to create a cohesive and accessible typo
 Both fonts were selected to ensure a balance between a friendly, approachable feel and professionalism, enhancing the overall user experience across the site.
 
 ## Colour Scheme
-Screenshoot of the colour scheme for your project
+The website’s colour scheme was carefully selected using [Coolors](https://coolors.co/) to create a welcoming, engaging, and user-friendly experience. A combination of calm blues, warm highlights, and a clean neutral background aligns with *Boops & Snoots Rescue’s* branding, reinforcing trust, positivity, and approachability.
+
+- Primary Colour – Dark Blue (#2D4A5B): Used for text and headings, this deep blue conveys trust and stability.
+- Secondary Colour – Light Blue (#365B78): Featured in the navigation bar and logo, ensuring brand consistency.
+- Primary Highlight – Orange (#E4810B): A bold, warm color used for call-to-action elements, drawing attention and encouraging interaction.
+- Secondary Highlight – Yellow (#FBC037): Used for hover effects and subtle separators, adding energy and vibrancy.
+- Accent Colour – Light Yellow (#FFD978): Enhances decorative elements, softening the design while keeping it cheerful.
+- Neutral Background – Light Grey (#F1EFE8A5): Applied to the application and contact forms, providing a subtle contrast while maintaining readability.
+
+Additionally, white space (#FFFFFF) plays a key role in the design, keeping the interface clean, modern, and easy to navigate. The balance of blues, warm tones, and neutral shades creates a professional yet friendly aesthetic that reflects the mission of Boops & Snoots Rescue.
+
+### Accessibility Considerations
+Ensuring strong color contrast for readability was a priority. Before development, the color choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
+
+![Colour Pallette](assets/media/colour-pallette.png)
 
 ## Features:
 - ### Homepage
