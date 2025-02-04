@@ -253,6 +253,14 @@ Whenever updates are made, they can be pushed using:
   or to branch origin:
   `git push origin main`
 
+### The site was deployed to **GitHub Pages** using the following steps:
+
+1. Go to the **GitHub repository**.
+2. Click on the **Settings** tab.
+3. Scroll down to the **"Pages"** section in the left sidebar.
+4. Under **"Branch"**, select `main` (or the branch you want to deploy).
+5. Click **Save**.
+6. After a few moments, GitHub Pages will generate a link to your live site.
 
 ## Future Enhancements
 Since this is a static site, potential future updates could include:
