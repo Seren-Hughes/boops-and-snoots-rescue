@@ -122,9 +122,18 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body text-center">
+                                    <video width="100%" controls>
+                                        <!--Video by ROMAN ODINTSOV: https://www.pexels.com/video/a-person-petting-a-cat-5668810/-->
+                                        <source src="assets/videos/orange-cat-nose-fuss.mp4" type="video/mp4">
+                                        <!-- Fallback message if video does not load -->
+                                        Your browser does not support the video tag... but imagine a soft little kitty
+                                        nose fuss instead! <i class="fa-solid fa-cat"></i>
+                                    </video>
                                     <h4><i class="fa-solid fa-heart"></i> Boop! <i class="fa-solid fa-heart"></i></h4>
                                     <h5>Will You Donate to Help Our Animals?</h5>
-                                    <p>Your donation will make a difference. Click below to support Boops and Snoots
+                                    <p>Your donation will make a difference. With your support, we can provide every
+                                        animal with the loving homes and gentle snoot fusses they all deserve. Click
+                                        below to support Boops and Snoots
                                         Rescue!</p>
                                     <a href="donations.html" class="btn btn-success custom-btn">Donate Now</a>
                                 </div>
@@ -226,6 +235,17 @@
                 keyboard: true // Allows closing with Esc key (better for accessibility) 
             });
             donateModal.show(); // Show the modal
+        });
+
+        // Pause video when modal closes
+        document.addEventListener("DOMContentLoaded", function () {
+            let video = document.getElementById("boopVideo");
+            let modal = document.getElementById("donateModal");
+
+            modal.addEventListener("hidden.bs.modal", function () {
+                video.pause();
+                video.currentTime = 0; // Reset video to the start
+            });
         });
     </script>
 
