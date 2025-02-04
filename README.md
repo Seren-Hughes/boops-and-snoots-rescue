@@ -346,9 +346,34 @@ Since this is a static site, potential future updates could include:
 As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding to new locations, and increasing its reach — the demand for these enhancements would naturally increase. These future updates would make it easier to adopt pets, and provide a fun way for supporters to contribute while spreading the word about the organization.
 
 ## Credits
-List of used resources for your website (text, images, snippets of code, projects....)
-  - Code & Text Content
-  - Read.me outline https://github.com/tmarkec/README-MS1
+### Code & Text Content  
+- **README Outline:** [tmarkec/README-MS1](https://github.com/tmarkec/README-MS1) (Used as a reference for structuring the README file) 
+- **Kera Cudmore's README Guide:** Referenced Kera Cudmore’s fantastic guide for structuring the README file, which I found on [GitHub](https://github.com/kera-cudmore/readme-examples). This was shared by a fellow student during a weekly Code Institute class standup call. 
+- **Code Institute Tutorials & Walkthrough Projects:** Referenced approaches and steps from Code Institute’s *Love Running* and *Boardwalk Games* projects as guidance for structuring and building the website.  
+- **Bootstrap Documentation:** Extensively referenced for layout, gutters, forms, and general styling.  
+- **Bootstrap Navbar Styling Tips:** [Noble Desktop](https://www.nobledesktop.com/learn/front-end-web-development/styling-a-navbar-with-bootstrap-tips-and-tricks)  
+- **Bootstrap Cursor Pointer Customization:** [Scaler](https://www.scaler.com/topics/cursor-pointer-bootstrap/)  
+- **Increasing Cursor Size:** [Stack Overflow](https://stackoverflow.com/questions/27351916/increase-cursor-size-in-html-body#:~:text=You%20can't%20increase%20the,Javascript%2FjQuery%20hack%20for%20this.)  
+- **noopener vs noreferrer Explanation:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener)  
+- **Custom Box Shadows:**  
+  - Inspiration & techniques: [Josh W. Comeau](https://www.joshwcomeau.com/css/designing-shadows/)  
+  - Professional CSS techniques: [Nick Haralampopoulos](https://nick-haralampopoulos.medium.com/how-to-write-css-like-a-professional-best-techniques-to-get-from-idea-to-polished-result-b1c8066d3303)  
+  - **Box Shadow Effect:** [LogRocket Blog](https://blog.logrocket.com/styling-css-box-shadow-property/) – Used as a reference and adapted for the **Donate and Home Buttons**.  
+- **Image Overlay with Color:**  
+  - [Stack Overflow](https://stackoverflow.com/questions/18815157/how-to-overlay-image-with-color-in-css)  
+  - [HubSpot Community](https://community.hubspot.com/t5/CMS-Development/Adding-a-colour-overlay-to-an-image/m-p/780238)  
+- **Hover Effect Speed Adjustment:** [TutorialsPoint](https://www.tutorialspoint.com/set-the-speed-of-the-hover-effect-with-css#:~:text=To%20set%20the%20speed%20of%20the%20hover%20effect%2C%20we%20have,initial%20appearence%20of%20the%20button.)  
+- **Scrollbar Styling for Mobile & Tablet:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) for pseudo-classes and implementation.  
+- **Image Conversion:** Used [FreeConvert.com](https://www.freeconvert.com/) to convert images to WebP format for better performance and optimization.  
+- **Google Fonts:** Used [Google Fonts](https://fonts.google.com/selection/embed) to import custom fonts for the website's design.
+- **Favicon.io:** Used [Favicon.io](https://favicon.io/favicon-converter/#google_vignette) to create and add a favicon to the website by copying and pasting the code into the header.
+- **Responsive Banner Image:** Referenced solutions from [Stack Overflow](https://stackoverflow.com/questions/39968620/responsive-banner-image-for-all-resolutions) and [Stack Overflow](https://stackoverflow.com/questions/40847247/trying-to-make-banner-image-responsive) for making the banner image responsive across all screen sizes.
+- **Horizontal Line in CSS:** Referenced a solution from [Stack Overflow](https://stackoverflow.com/questions/35036185/adding-horizontal-line-below-the-text-like-in-the-image) for adding a horizontal line below text.  
+- **Phone Number Link (Tel Link):** Used the approach from [Stack Overflow](https://stackoverflow.com/questions/1608548/how-to-trigger-a-phone-call-when-clicking-a-link-in-a-web-page-on-mobile-phone) to create a clickable phone number link for mobile devices.  
+- **Code Institute Mentor – Daniel Hamilton:** Gained valuable insights from reviewing two of their projects, [*Bomb Catcher*](https://github.com/dlhamilton/Bomb-Catcher) and [*LPSB-Learn-GCSE-CS*](https://github.com/dlhamilton/LPSB-Learn-GCSE-CS). They shared a helpful CSS commenting method that involves clear sectioning using box-like comments, which I adapted for my own project. Additionally, I followed their professional approach to Git commits, using structured prefixes like `add:`, `fix:`, `docs:` etc.
+
+### Read.me 
+- outline https://github.com/tmarkec/README-MS1
 
 ## Media
 ### **Images**
@@ -358,8 +383,9 @@ List of used resources for your website (text, images, snippets of code, project
 - **Freepik**
   - Brown kitten image on [Home page - Impact Highlights Section] by wirestock from Freepik
  [Link to the image](https://www.freepik.com/free-photo/closeup-shot-brown-kitten-ground_17087909.htm)
-  - Shelter dogs image on [Donate Page] by @freepik 
+  - Shelter dogs image on [Donate Page] by Freepik 
  [Link to the image](https://www.freepik.com/free-photo/woman-playing-with-cure-rescue-dogs-shelter_10295908.htm)
+  - Custom pointer design used on [Home page] by Freepik [Link to the image](https://www.freepik.com/free-vector/flat-design-mouse-cursor-set_84412414.htm#fromView=search&page=1&position=13&uuid=c2678186-d41b-48d5-be7f-c50503851190&query=Hand+Cursor+)
 
  - **Pixabay**
     - Puppy running on country lane on [Home / Index page hero banner] by zoegammon from Pixabay [Link to the image](https://pixabay.com/photos/puppy-yorkie-dog-pet-canine-4608266/)
