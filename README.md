@@ -172,9 +172,9 @@ Here’s a brief overview of the features:
 
 Below are screenshots showing these features in action:
 
-![Custom Pointer](assets\media\custom-pointer-screenshot.png)
+![Custom Pointer](assets/media/custom-pointer-screenshot.png)
 
-![Modal Video Message Donate Button](assets\media\modal-button-video.screenshot.png)
+![Modal Video Message Donate Button](assets/media/modal-button-video.screenshot.png)
 
 ## Technologies Used
 ### Languages:
