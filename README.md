@@ -175,7 +175,27 @@ Below are screenshots showing the full navbar (for larger screens) and the small
 
 ![Toggle Navbar](assets/media/toggle-navbar.PNG)
 
-### Footer
+### Footer - Customised Bootstrap Layout with Interactive Links
+For the footer on the Boops & Snoots Rescue website, I designed a layout utilizing Bootstrap's responsive container and grid system that adapts to both large and small screens. While the structure is based on Bootstrap, I’ve custom-styled various elements to better align with the site’s branding and user experience. The footer contains essential information such as contact details, social media links, and a disclaimer, ensuring that users can easily access the information they need, regardless of the device they are using.
+
+Key features include:
+
+- **Interactive Contact Links:** I’ve linked the made-up address to Google Maps, so when users click on it, it opens the location in a new tab. The phone number is also linked, so clicking on it will open Skype (or whatever the default calling app is on the user's device), while the email address is linked to open the default email client, allowing users to easily contact the rescue.
+- **Social Media Links:** Custom icons for the rescue’s social media profiles are included, making it easy for users to stay connected for updates.
+- **Stylish Text Links:** For visual appeal, I added custom dashed dot links under the text, which is also part of the overall branding style.
+- **Hover Effects:** All links in the footer have a colour change hover effect, ensuring they are easily identifiable as interactive elements.
+- **Override of Default Link Colours:** I’ve overridden the default blue hyperlinks (typically used for text links) to better align with the site’s colour scheme and branding. This gives the website a cohesive look and ensures that all interactive links are styled consistently.
+- **Opening Hours:** The footer includes the made-up opening hours for the rescue centre, providing users with important operational details.
+- **Disclaimer:** At the bottom of the footer, I’ve added a disclaimer to clarify that the website is fictional and for educational or portfolio purposes only.
+
+These features ensure that the footer not only provides essential information but also offers an intuitive, user-friendly experience. Whether users are navigating the site on a desktop or mobile device, the footer remains accessible and functional.
+
+Below are screenshots showing the full footer layout (for larger screens) and the small-screen footer (for mobile view), demonstrating how the layout adjusts to ensure a seamless user experience.
+
+![Large Footer Screenshot](assets/media/large-footer-screenshot.PNG)
+
+![Small Footer Screenshot](assets/media/Small-footer-screenshot.PNG)
+
 ## Other features
 ### *"...Because Every Snoot Deserves a Boop"* - Custom Pointer and Modal for Donations
 To add a bit of playfulness to the site, I’ve included a subtle "Easter egg" feature: the snoot/nose image, linked to a donation Modal, is paired with the phrase "Because Every Snoot Deserves a Boop" and an arrow pointing down. It's a light-hearted touch designed to make the site more engaging, and while I hope users will notice it, I’ve also made sure the donation button underneath is easy to find in case they miss this feature.
