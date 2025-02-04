@@ -249,7 +249,7 @@ Below are screenshots showing these features in action:
 - **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
 - **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real-time.
 
-## Additional Tools
+### Additional Tools
 These tools were used for planning, content writing, design, and proofreading:
 - **Todoist** – For managing personal tasks and tracking project progress.
 - **Microsoft OneNote & Word** – Used to organise content, draft text, and structure ideas.
@@ -351,9 +351,51 @@ List of used resources for your website (text, images, snippets of code, project
   - Read.me outline https://github.com/tmarkec/README-MS1
 
 ### Media
-- **Adobe Stock (Free Trial)** – Image of the snoot vector and the cat on the 404 page were sourced from Adobe Stock’s free trial. Both images were edited and customized using Adobe Photoshop and Illustrator.
+**Images**
+- **Adobe Stock** (Free Trial - standard license)
+  - Nose vector (customized in Illustrator)
+  - Cat image on the 404 page (edited in Photoshop)
+- **Freepik**
+  - Brown kitten image on [Home page - Impact Highlights Section] by wirestock from Freepik
+ [Link to the image](https://www.freepik.com/free-photo/closeup-shot-brown-kitten-ground_17087909.htm)
+  - Shelter dogs image on [Donate Page] by @freepik 
+ [Link to the image](https://www.freepik.com/free-photo/woman-playing-with-cure-rescue-dogs-shelter_10295908.htm)
+
+ - **Pixabay**
+    - Puppy running on country lane on [Home / Index page hero banner] by zoegammon from Pixabay [Link to the image](https://pixabay.com/photos/puppy-yorkie-dog-pet-canine-4608266/)
+
+    - PayPal logo vector used on [Donate page] by CopyrightFreePictures from Pixabay [Link to the image](https://pixabay.com/vectors/paypal-logo-brand-pay-payment-784404/) 
+
+- **Pexels**
+    - Black and brown dog in arms on [Adopt page] by Kaboompics.com from Pexels [Link to the image](https://www.pexels.com/photo/girl-caressing-her-black-and-brown-dog-7693565/)
+
+    - Close up of orange tabby kitten on [Adopt page] by Hiang Kanjinna from Pexels [Link to the image](https://www.pexels.com/photo/close-up-photo-of-orange-tabby-cat-1629062/)
+
+    - Kittens in crate on [Adopt page] by Carolina Almeida from Pexels [Link to the image](https://www.pexels.com/photo/kittens-inside-the-cage-12474327/)
+
+- **Unsplash** 
+    - Close up of puppy on [Adopt page] by Nathaniel Bowman from Unsplash [Link to the image](https://unsplash.com/photos/short-coated-black-dog-DCOH4VDnEQU)
+
+- **JustGiving**
+    - JustGiving brand logo used on [Donate page] by JustGiving from Media Assets [Link to the image](https://www.justgiving.com/media-centre/media-assets)
+
+- **Spreadshirt UK** 
+    - T-shirt Mock-up created using the Spreadshirt mock-up generator. [Link to Spreadshirt Uk](https://www.spreadshirt.co.uk/create-your-own?productType=812&productTypeCategory=CG01)
+
+
+
+**Video**
+- **Pexels**
+    - Video of person petting orange cat on [Index page - modal] by ROMAN ODINTSOV from Pexels [Link to the video](https://www.pexels.com/video/a-person-petting-a-cat-5668810/) 
+
+- FontAwesome – Used for icons across the site.
+
+- Favicon Generator – Used to create the website’s favicon.
+
+- Google Fonts – [Font name] used for typography.
+
 - GIMP – A great free alternative for image editing, perfect for users who don’t have access to Adobe products.
 
   
-  - Acknowledgment
-    - acknowledgment to mentors, peers, tutors, friends, family, facilitator (who ever contributed and helped with the project)
+## Acknowledgments
+- acknowledgment to mentors, peers, tutors, friends, family, facilitator (who ever contributed and helped with the project)
