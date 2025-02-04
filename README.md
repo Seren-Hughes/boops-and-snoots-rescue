@@ -155,15 +155,38 @@ Ensuring strong colour contrast for readability was a priority. Before developme
 - ### 404 Page
   - Custom 404 page with redirect button to homepage
   ![404 Screenshot](assets/media/404-screenshot.PNG)
-### Navigation
+### Navigation - Customised Boostrap Navbar
+For the navigation bar on the Boops & Snoots Rescue website, I’ve used Bootstrap's responsive navbar component, which I customised to suit the branding and style of the site. The navbar is fully responsive, automatically adjusting its layout for smaller screens, and includes a toggle feature that allows users to easily access the navigation links on mobile devices.
+
+I’ve customised the navbar with my own brand logo and text, ensuring that it reflects the playful and friendly vibe of the website. This customisation maintains the overall structure provided by Bootstrap, while enhancing the user experience by aligning it with the branding.
+
+In addition to the custom logo and text, I’ve applied a hover effect to the navbar links, which changes their colour when users hover over them. This small but effective touch adds an interactive element to the navigation, making it more engaging while ensuring that the links are easy to identify and access.
+
+#### Key Features:
+
+- Responsive Layout: The navbar automatically adjusts for smaller screens and includes a toggle feature for easier - navigation on mobile devices.
+- Custom Branding: Added a custom brand logo and text to match the site’s playful tone.
+- Hover Effects on Links: Links have colour-changing hover effects, making them visually interactive and easy to navigate.
+- These customisations enhance the user experience by offering a sleek, responsive navigation system that allows users to quickly access key pages while maintaining the site’s branding and playful style.
+
+Below are screenshots showing the full navbar (for larger screens) and the small-screen toggle navbar (for mobile and tablet view), highlighting how the layout adjusts to ensure a seamless user experience across all devices.
+
+![Full Navbar](assets/media/full-navbar.PNG)
+
+![Toggle Navbar](assets/media/toggle-navbar.PNG)
+
 ### Footer
 ## Other features
-### Custom Pointer and Modal for Donations
-As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer to highlight the snoot (nose) image on the page. This visual cue encourages users to interact with the donation link, adding a playful touch to the site and guiding users toward the call to action to donate. The design ensures that users can easily initiate actions, such as triggering the pop-up modal and playing the video, giving them full control over the interaction.
+### *"...Because Every Snoot Deserves a Boop"* - Custom Pointer and Modal for Donations
+To add a bit of playfulness to the site, I’ve included a subtle "Easter egg" feature: the snoot/nose image, linked to a donation Modal, is paired with the phrase "Because Every Snoot Deserves a Boop" and an arrow pointing down. It's a light-hearted touch designed to make the site more engaging, and while I hope users will notice it, I’ve also made sure the donation button underneath is easy to find in case they miss this feature.
 
-In addition to the custom pointer, the nose/snoot image itself has a hover effect. When users hover over the image, it scales up by 10%. This effect adds a subtle yet fun and dynamic touch, making the snoot/nose image feel more interactive and engaging.
+This feature is intentional and part of the fun branding, offering an unexpected way for users to interact with the site. It also showcases the interactive modal and video functionality I’ve implemented, encouraging donations in a playful and engaging manner, while still providing a clear and accessible path to support the rescue.
 
-Additionally, I added a modal that pops up when the user clicks on the snoot image. The modal contains a short video of a cat enjoying a gentle snoot fuss, accompanied by a call to action encouraging visitors to donate to support the rescue efforts. The modal is designed to be user-friendly, allowing users to easily close the pop-up and return to the main page. It also features a prominent donation button that redirects users to the donation page, ensuring a smooth user experience.
+As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer that highlights the snoot (nose) image. This visual cue guides users toward the donation link, adding a playful touch and clearly indicating that it’s interactive. By changing the cursor to a finger pointer when hovering over the snoot image, users can easily identify the area where they can initiate an action, such as triggering the pop-up modal and playing the video.
+
+The hover effect further enhances this interaction: when users hover over the snoot image, it scales up by 10%, making it feel more dynamic and inviting. This ensures that users can clearly engage with the image and are encouraged to click.
+
+When users click on the snoot image, a modal pops up containing a short video of a cat enjoying a gentle snoot fuss, along with a clear call to action encouraging users to donate to support the rescue. The modal is designed to be user-friendly, providing easy access to a donation button that redirects users to the donation page. This ensures a seamless, controlled interaction where users can initiate actions, close the modal, and navigate back to the main content without frustration.
 
 Here’s a brief overview of the features:
 
