@@ -192,9 +192,17 @@ These features ensure that the footer not only provides essential information bu
 
 Below are screenshots showing the full footer layout (for larger screens) and the small-screen footer (for mobile view), demonstrating how the layout adjusts to ensure a seamless user experience.
 
+<details><summary><em>Click to expand large footer layout</em></summary>
+
 ![Large Footer Screenshot](assets/media/large-footer-screenshot.PNG)
 
+</details>
+
+<details><summary><em>Click to expand small footer layout</em></summary>
+
 ![Small Footer Screenshot](assets/media/Small-footer-screenshot.PNG)
+
+</details>
 
 ## Other features
 ### *"...Because Every Snoot Deserves a Boop"* - Custom Pointer and Modal for Donations
@@ -223,16 +231,32 @@ Below are screenshots showing these features in action:
 ![Modal Video Message Donate Button](assets/media/modal-button-video-screenshot.png)
 
 ## Technologies Used
-### Languages:
-HTML
-CSS
-Bootstrap
-Github
+### Languages & Frameworks:
+- **HTML** – Provides the structure and content of the website.
+- **CSS** – Used for styling, including custom hover effects, animations, and branding elements.
+- **Bootstrap** – Utilised for a responsive, mobile-friendly layout, with custom styling applied to elements such as the navbar, buttons, and modals.
+
 ### Tools and Software
-- Todoist (personal task management)
-- Microsoft OneNote and Word (content organisation)
-- Grammerly (proofreading)
-- Adobe Photoshop and Illustrator (image editing)
+- **GitHub** – Used for version control, tracking changes, and hosting the project repository.
+- **Visual Studio Code** – The primary code editor for developing the site.
+- **Google Fonts** – Used to enhance the site's typography with custom fonts.
+- **Font Awesome** – Provides scalable icons used for social media links and other design elements.
+- **Favicon Generator** – An online tool used to create and implement a custom favicon for the site.
+- **Balsamiq Wireframes** – Used for planning and sketching the website layout.
+- **WebAIM Contrast Checker** – Ensured accessible color contrast for readability.
+- **Coolors** – Helped generate and refine the site’s color palette.
+- **Eye Dropper (Chrome Extension)** – Used to extract and match colors from images.
+- **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
+- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real-time.
+
+## Additional Tools
+These tools were used for planning, content writing, design, and proofreading:
+- **Todoist** – For managing personal tasks and tracking project progress.
+- **Microsoft OneNote & Word** – Used to organise content, draft text, and structure ideas.
+- **Grammarly** – Assisted with proofreading and refining written content.
+- **Adobe Photoshop & Illustrator** – Used for image editing and creating branding elements.
+- **DALL·E** (AI Image Generation) – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customized in Adobe Photoshop and Illustrator.
+- **ChatGPT** – Used as a writing aid to help refine and structure text.
 ## Testing
 Important part of your README!!!
 ### Google's Lighthouse Performance
@@ -325,7 +349,11 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 List of used resources for your website (text, images, snippets of code, projects....)
   - Code & Text Content
   - Read.me outline https://github.com/tmarkec/README-MS1
-  - Media
+
+### Media
+- **Adobe Stock (Free Trial)** – Image of the snoot vector and the cat on the 404 page were sourced from Adobe Stock’s free trial. Both images were edited and customized using Adobe Photoshop and Illustrator.
+- GIMP – A great free alternative for image editing, perfect for users who don’t have access to Adobe products.
+
   
   - Acknowledgment
     - acknowledgment to mentors, peers, tutors, friends, family, facilitator (who ever contributed and helped with the project)
