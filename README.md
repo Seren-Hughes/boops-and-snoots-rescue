@@ -174,7 +174,7 @@ Below are screenshots showing these features in action:
 
 ![Custom Pointer](assets/media/custom-pointer-screenshot.PNG)
 
-![Modal Video Message Donate Button](assets/media/modal-button-video-screenshot.PNG)
+![Modal Video Message Donate Button](assets/media/modal-button-video-screenshot.png)
 
 ## Technologies Used
 ### Languages:
@@ -209,16 +209,50 @@ List of bugs and how did you fix them
 
 ## Deployment
 
-#### Creating Repository on GitHub
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
-#### Deloying on Github
-The site was deployed to Github Pages using the following method:
-- Go to the Github repository.
-- Navigate to the 'settings' tab.
-- Using the 'select branch' dropdown menu, choose 'main'.
-- Click 'save'.
+### Creating The Repository on GitHub
+1. First, make sure you are signed into GitHub.
+2. Go to the Code Institute template, which can be found [here](https://github.com/Code-Institute-Org/ci-full-template).
+3. Click on Use this template and select **Create a new repository** from the drop-down.
+4. Enter a name for your repository and click **Create repository from template**.
+5. Open VS Code and connect your GitHub account:
+- Click on the Accounts icon in the bottom-left corner of VS Code.
+- Sign in to GitHub and authorize VS Code.
+- Open the repository in VS Code using Remote Repositories:
+- Click on the Source Control tab (or press Ctrl + Shift + G).
+- Click "**Clone Repository**" and select GitHub.
+- Find your repository and select it.
+- Choose a location on your machine where you want to store the project.
+- Click Open in VS Code once cloning is complete.
+### Alternative: Manual Deployment via Terminal
+For those who prefer the git bash terminal, the following commands can be used:  
+1. Initialize a Git repository (if not already initialized)
+`git init`
+
+2. Add all files to the staging area
+`git add .`
+
+3. Commit the changes with a descriptive message
+`git commit -m "Initial commit"`
+
+4. Connect the local repository to GitHub (only needed if not already linked) Replace YOUR-USERNAME/YOUR-REPO eg. https://github.com/Seren-Hughes/boops-and-snoots-rescue.git
+`git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git` 
+
+5. Push the changes to the main branch
+`git push -u origin main`
+
+Whenever updates are made, they can be pushed using:
+
+- Add the changes:
+  `git add .`
+
+- Commit with a message:
+  `git commit -m "Update features and bug fixes"`
+
+- Push to GitHub:
+  `git push`
+  or to branch origin:
+  `git push origin main`
+
 
 ## Future Enhancements
 Since this is a static site, potential future updates could include:
