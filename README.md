@@ -350,11 +350,11 @@ List of used resources for your website (text, images, snippets of code, project
   - Code & Text Content
   - Read.me outline https://github.com/tmarkec/README-MS1
 
-### Media
-**Images**
-- **Adobe Stock** (Free Trial - standard license)
-  - Nose vector (customized in Illustrator)
-  - Cat image on the 404 page (edited in Photoshop)
+## Media
+### **Images**
+- **Adobe Stock** (standard license)
+  - Nose vector used on [Home page] By Siarhei [Link to the image](https://stock.adobe.com/uk/images/pet-face-with-smile-and-heart-simple-minimal-vector-drawing/1112221323?prev_url=detail)
+  - Cat vector image used on [404 page] by sudowoodo [Link to the image](https://stock.adobe.com/uk/images/cat-knocking-plant-off-table/467715156?prev_url=detail)
 - **Freepik**
   - Brown kitten image on [Home page - Impact Highlights Section] by wirestock from Freepik
  [Link to the image](https://www.freepik.com/free-photo/closeup-shot-brown-kitten-ground_17087909.htm)
@@ -380,22 +380,22 @@ List of used resources for your website (text, images, snippets of code, project
     - JustGiving brand logo used on [Donate page] by JustGiving from Media Assets [Link to the image](https://www.justgiving.com/media-centre/media-assets)
 
 - **Spreadshirt UK** 
-    - T-shirt Mock-up created using the Spreadshirt mock-up generator. [Link to Spreadshirt Uk](https://www.spreadshirt.co.uk/create-your-own?productType=812&productTypeCategory=CG01)
+    - T-shirt Mock-up used on [Donate page] created using the Spreadshirt mock-up generator. [Link to Spreadshirt Uk](https://www.spreadshirt.co.uk/create-your-own?productType=812&productTypeCategory=CG01)
 
 
-
-**Video**
+### **Video**
 - **Pexels**
     - Video of person petting orange cat on [Index page - modal] by ROMAN ODINTSOV from Pexels [Link to the video](https://www.pexels.com/video/a-person-petting-a-cat-5668810/) 
+
+### **Icons and Fonts**    
 
 - FontAwesome – Used for icons across the site.
 
 - Favicon Generator – Used to create the website’s favicon.
 
-- Google Fonts – [Font name] used for typography.
-
-- GIMP – A great free alternative for image editing, perfect for users who don’t have access to Adobe products.
-
+- Google Fonts:
+    - Quicksand Designed by Andrew Paglinawan used for typography.
+    - Lato Designed by Łukasz Dziedzic used for typography.
   
 ## Acknowledgments
 - acknowledgment to mentors, peers, tutors, friends, family, facilitator (who ever contributed and helped with the project)
