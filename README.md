@@ -156,7 +156,26 @@ Ensuring strong colour contrast for readability was a priority. Before developme
   - Redirect button to homepage
 ### Navigation
 ### Footer
-### Other features
+## Other features
+### Custom Pointer and Modal for Donations
+As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer to highlight the snoot (nose) image on the page. This visual cue encourages users to interact with the donation link, creating a playful and engaging experience.
+
+In addition to the custom pointer, the nose/snoot image itself has a hover effect. When users hover over the image, it scales up by 10%. This effect adds a subtle yet fun and dynamic touch, making the snoot/nose image feel more interactive and engaging.
+
+Additionally, I added a modal that pops up when the user clicks on the snoot image. The modal contains a short video of a cat enjoying a gentle snoot fuss, accompanied by a call to action encouraging visitors to donate to support the rescue efforts. The modal is designed to be user-friendly, with easy access to a donation button that redirects users to the donation page.
+
+Here’s a brief overview of the features:
+
+- **Custom Large Pointer:** Changes the cursor to a custom finger pointer when hovering over the snoot image to look like a boop action, inviting users to click.
+- **Hover Effect:** Scales the snoot image by 10% when hovered over, making it more interactive.
+- **Modal with Video:** Displays a sweet video of a cat's snoot being gently fussed, alongside a heartfelt message asking users to support the rescue.
+
+Below are screenshots showing these features in action:
+
+![Custom Pointer](assets\media\custom-pointer-screenshot.PNG)
+
+![Modal Video Message Donate Button](assets\media\modal-button-video.screenshot.PNG)
+
 ## Technologies Used
 ### Languages:
 HTML
