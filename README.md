@@ -153,22 +153,25 @@ Ensuring strong colour contrast for readability was a priority. Before developme
 - ### Success Page
   - Confirmation page for submitted forms
 - ### 404 Page
-  - Redirect button to homepage
+  - Custom 404 page with redirect button to homepage
+  ![404 Screenshot](assets/media/404-screenshot.PNG)
 ### Navigation
 ### Footer
 ## Other features
 ### Custom Pointer and Modal for Donations
-As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer to highlight the snoot (nose) image on the page. This visual cue encourages users to interact with the donation link, creating a playful and engaging experience.
+As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer to highlight the snoot (nose) image on the page. This visual cue encourages users to interact with the donation link, adding a playful touch to the site and guiding users toward the call to action to donate. The design ensures that users can easily initiate actions, such as triggering the pop-up modal and playing the video, giving them full control over the interaction.
 
 In addition to the custom pointer, the nose/snoot image itself has a hover effect. When users hover over the image, it scales up by 10%. This effect adds a subtle yet fun and dynamic touch, making the snoot/nose image feel more interactive and engaging.
 
-Additionally, I added a modal that pops up when the user clicks on the snoot image. The modal contains a short video of a cat enjoying a gentle snoot fuss, accompanied by a call to action encouraging visitors to donate to support the rescue efforts. The modal is designed to be user-friendly, with easy access to a donation button that redirects users to the donation page.
+Additionally, I added a modal that pops up when the user clicks on the snoot image. The modal contains a short video of a cat enjoying a gentle snoot fuss, accompanied by a call to action encouraging visitors to donate to support the rescue efforts. The modal is designed to be user-friendly, allowing users to easily close the pop-up and return to the main page. It also features a prominent donation button that redirects users to the donation page, ensuring a smooth user experience.
 
 Here’s a brief overview of the features:
 
 - **Custom Large Pointer:** Changes the cursor to a custom finger pointer when hovering over the snoot image to look like a boop action, inviting users to click.
 - **Hover Effect:** Scales the snoot image by 10% when hovered over, making it more interactive.
 - **Modal with Video:** Displays a sweet video of a cat's snoot being gently fussed, alongside a heartfelt message asking users to support the rescue.
+
+These features are designed to give users full control over their interaction with the site, allowing them to play the video, close the modal, and navigate to the donation page at their own pace.
 
 Below are screenshots showing these features in action:
 
@@ -212,7 +215,7 @@ List of bugs and how did you fix them
 ### Creating The Repository on GitHub
 1. First, make sure you are signed into GitHub.
 2. Go to the Code Institute template, which can be found [here](https://github.com/Code-Institute-Org/ci-full-template).
-3. Click on Use this template and select **Create a new repository** from the drop-down.
+3. Click on **Use this template** and select **Create a new repository** from the drop-down.
 4. Enter a name for your repository and click **Create repository from template**.
 5. Open VS Code and connect your GitHub account:
 - Click on the Accounts icon in the bottom-left corner of VS Code.
