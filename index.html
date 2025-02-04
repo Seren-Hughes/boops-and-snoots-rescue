@@ -97,20 +97,47 @@
                         mission to create a better world for animals and their humans, one
                         snoot at a time!
                     </p>
-                    <p><strong>...because every snoot deserves a boop!</em></strong>
-
-                        <!-- Nose / Snoot image link to donations -->
+                    <h4><strong>...because every snoot deserves a boop!</strong> <i class="fa-solid fa-down-long"></i>
+                    </h4>
+                    <!-- Nose / Snoot image - Modal link to donations -->
+                    <!-- Image with custom pointer -->
                     <div class="d-flex justify-content-center mt-3">
-                        <a href="donations.html" class="large-pointer"
-                            aria-label="Support Boops and Snoots Rescue with a donation. This link takes you to our donation page"><img
-                                src="assets\images\navy-heart-nose.png" alt="Graphic of animal nose with heart"
-                                height="300" width="300" class="img-fluid large-pointer"></a>
+                        <a href="#" id="donateBtn" class="large-pointer"
+                            aria-label="Support Boops and Snoots Rescue with a donation. This link triggers a donation prompt.">
+                            <img src="assets/images/navy-heart-nose.png" alt="Graphic of animal nose with heart"
+                                height="300" width="300" class="img-fluid large-pointer">
+                        </a>
                     </div>
-                    <!-- Donate button -->
+
+
+
+                    <!-- Modal for donation prompt -->
+                    <!-- Reference: Bootstrap 5 Modal Documentation - https://getbootstrap.com/docs/5.3/components/modal/ -->
+                    <!-- Reference: W3S https://www.w3schools.com/bootstrap5/bootstrap_modal.php -->
+                    <div id="donateModal" class="modal fade" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <h4><i class="fa-solid fa-heart"></i> Boop! <i class="fa-solid fa-heart"></i></h4>
+                                    <h5>Will You Donate to Help Our Animals?</h5>
+                                    <p>Your donation will make a difference. Click below to support Boops and Snoots
+                                        Rescue!</p>
+                                    <a href="donations.html" class="btn btn-success custom-btn">Donate Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Donate Button -->
                     <div class="text-center">
                         <a type="button" href="donations.html" role="button" aria-labelledby="Donate Now Button"
                             class="btn btn-primary custom-btn mb-2">Donate Now</a>
                     </div>
+
                 </div>
                 <!-- At a glance highlights with positive cute image -->
                 <div class="col-12 col-md-6 p-4 d-flex align-items-center mt-2 mb-3">
@@ -189,6 +216,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script>
+        // Show the donation modal when the nose image/button is clicked (prevent default link behavior) 
+        document.getElementById("donateBtn").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default link behavior
+            var donateModal = new bootstrap.Modal(document.getElementById('donateModal'), {
+                backdrop: 'static', // Keeps modal open until user clicks close
+                keyboard: true // Allows closing with Esc key (better for accessibility) 
+            });
+            donateModal.show(); // Show the modal
+        });
+    </script>
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/6455293cfc.js" crossorigin="anonymous"></script>
