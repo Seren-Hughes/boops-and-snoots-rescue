@@ -268,11 +268,6 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ### Code Validation
 Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
 ### Manual Testing user stories or/and features
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
 
 ## Bugs
 List of bugs and how did you fix them
@@ -363,6 +358,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
   - [Stack Overflow](https://stackoverflow.com/questions/18815157/how-to-overlay-image-with-color-in-css)  
   - [HubSpot Community](https://community.hubspot.com/t5/CMS-Development/Adding-a-colour-overlay-to-an-image/m-p/780238)  
 - **Hover Effect Speed Adjustment:** [TutorialsPoint](https://www.tutorialspoint.com/set-the-speed-of-the-hover-effect-with-css#:~:text=To%20set%20the%20speed%20of%20the%20hover%20effect%2C%20we%20have,initial%20appearence%20of%20the%20button.)  
+- **Hover Effect Zoom:** [W3Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
 - **Scrollbar Styling for Mobile & Tablet:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) for pseudo-classes and implementation.  
 - **Image Conversion:** Used [FreeConvert.com](https://www.freeconvert.com/) to convert images to WebP format for better performance and optimization.  
 - **Google Fonts:** Used [Google Fonts](https://fonts.google.com/selection/embed) to import custom fonts for the website's design.
@@ -371,9 +367,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 - **Horizontal Line in CSS:** Referenced a solution from [Stack Overflow](https://stackoverflow.com/questions/35036185/adding-horizontal-line-below-the-text-like-in-the-image) for adding a horizontal line below text.  
 - **Phone Number Link (Tel Link):** Used the approach from [Stack Overflow](https://stackoverflow.com/questions/1608548/how-to-trigger-a-phone-call-when-clicking-a-link-in-a-web-page-on-mobile-phone) to create a clickable phone number link for mobile devices.  
 - **Code Institute Mentor – Daniel Hamilton:** Gained valuable insights from reviewing two of their projects, [*Bomb Catcher*](https://github.com/dlhamilton/Bomb-Catcher) and [*LPSB-Learn-GCSE-CS*](https://github.com/dlhamilton/LPSB-Learn-GCSE-CS). They shared a helpful CSS commenting method that involves clear sectioning using box-like comments, which I adapted for my own project. Additionally, I followed their professional approach to Git commits, using structured prefixes like `add:`, `fix:`, `docs:` etc.
-
-### Read.me 
-- outline https://github.com/tmarkec/README-MS1
+- **Code Institute Slack Channel:** Found valuable resources and support through the **Code Institute Slack channel**, where fellow students shared helpful links, insights, and guidance.
 
 ## Media
 ### **Images**

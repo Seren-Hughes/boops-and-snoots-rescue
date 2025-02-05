@@ -16,7 +16,7 @@
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
   --secondary-highlight-color: #fbc037; /* Yellow - for hover effects, lines */
   --accent-color: #ffd978; /* Light yellow - for decorative elements */
-  --neutral-color: #f1efe8a5; /* Light grey - for backgrounds */
+  --neutral-color: #f1efe8a5; /* Light grey - for form backgrounds */
 }
 
 body {
@@ -94,7 +94,7 @@ h3 {
 
 /* Customizes the bootstrap smaller screen toggler button */
 .navbar-toggler {
-  border-color: white;
+  border-color: #ffffff;
 }
 
 /* Customizes the bootstrap smaller screen toggler burger icon inside the button. To change colour, adjust stroke rgba. !important declaration to override the bootstrap default svg */
@@ -804,3 +804,12 @@ h1#four-zero-four {
 
 }
 
+
+/* =============================================================================== */
+/* =============== Extra Large size devices - Desktops 1440px and above ========== */
+/* =============================================================================== */
+@media (min-width: 1440px) {
+
+ 
+
+}
