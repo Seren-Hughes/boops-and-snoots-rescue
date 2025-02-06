@@ -66,7 +66,9 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 
 #### User Stories:
 > "As a pet owner, I want to donate items like unused pet food to help the shelter and avoid waste."  
+
 > "As a visitor to the site, I want to know what items the shelter needs so I can contribute effectively."  
+
 > "As someone who wants to support the organization financially, I want clear information on how to donate money, so I can contribute easily and confidently."  
 
 #### Test Cases:
@@ -101,9 +103,11 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 ### Adoptions User Stories
 
 #### User Stories:
-> "As someone looking to adopt, I want to find out how I can find a pet, understand the adoption process (including costs and requirements), and easily find contact information to speak to someone about adoptions or ask questions."  
+> "As someone looking to adopt, I want to find out how I can find a pet, understand the adoption process (including costs and requirements), and easily find contact information to speak to someone about adoptions or ask questions." 
+
 > "As someone adopting a pet, I want to know where the shelter is located and its opening hours so I can plan my visit."  
 > "As someone adopting a pet, I want to feel confident that the animal I adopt has been assessed for health and behaviour, ensuring it is ready for a safe and happy transition into my home—especially if I have children."  
+
 > "As someone looking to adopt or foster an animal, I want an online application form so that I can easily provide my details and speed up the process of being matched with a suitable pet."  
 
 #### Test Cases:
@@ -122,6 +126,23 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 
 #### Screenshots:
 
+<details><summary>Adopting information. Click to see screenshots</summary>
+
+![Home Page Footer Location Screenshot](assets/media/adoption-page-info.PNG)
+
+</details>
+
+<details><summary>Confidence and trust in shelters adoption process. Click to see screenshots</summary>
+
+![Home Page Footer Location Screenshot](assets/media/adoption-page-confidence.PNG)
+
+</details>
+
+<details><summary>Adopt application form. Click to see screenshots</summary>
+
+![Home Page Footer Location Screenshot](assets/media/adopt-page-application-form.PNG)
+
+</details>
 ---
 
 ### Contact User Stories:
@@ -150,6 +171,12 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 | Users understand the website is fictional.       | A disclaimer is placed in the footer, stating that the website is for educational and portfolio purposes only.  | ✅ |
 
 #### Screenshots:
+
+<details><summary>Contact form. Click to see screenshot</summary>
+
+![Home Page Footer Location Screenshot](assets/media/contact-form.PNG)
+
+</details>
 
 ---
 
