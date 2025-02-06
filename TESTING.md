@@ -83,6 +83,19 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 
 
 #### Screenshots:
+
+<details><summary>Monetary and item list donations. Click to see screenshots</summary>
+
+![Home Page Footer Location Screenshot](assets/media/donate-page-info.PNG)
+
+</details>
+
+<details><summary>Encouraging support calls to action. Click to see screenshots</summary>
+
+![Home Page Footer Location Screenshot](assets/media/donate-encouragement.PNG)
+
+</details>
+
 --- 
 
 ### Adoptions User Stories
