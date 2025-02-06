@@ -29,7 +29,7 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)
-6. [Bugs](#bugs-🐛)
+6. [Bugs](#bugs)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
 
@@ -260,8 +260,8 @@ These tools were used for planning, content writing, design, and proofreading:
 ## Testing
 For detailed information on testing, including user story validation and test cases, please refer to the [TESTING.md](TESTING.md) file.  
 
-## Bugs 🐛
-A list of identified bugs and their fixes can be found in the [TESTING.md](TESTING.md) file.  
+## Bugs
+🐛 A list of identified bugs and their fixes can be found in the [TESTING.md](TESTING.md) file.  
 
 ## Deployment
 

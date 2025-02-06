@@ -8,7 +8,7 @@
 5. [Manual Testing](#manual-testing)
     * [User Stories](#user-stories)
     * [Other Features](#manual-testing-other-features)
-6. [Bugs](#bugs-🐞)
+6. [Bugs](#bugs)
 
 
 ### Google's Lighthouse Performance
@@ -43,6 +43,23 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 
 
 #### Screenshots:
+<details><summary>Navigation to key sections including adoption. Click to see screenshots</summary>
+
+![Home Page Navigation Screenshot](assets/media/home-page-navigation.PNG)
+
+</details>
+
+<details><summary>Purpose of the organisation. Donation link. Click to see screenshots</summary>
+
+![Home Page Information Screenshot](assets/media/home-page-information.PNG)
+
+</details>
+
+<details><summary>Contact details, location, and opening hours. Click to see screenshots</summary>
+
+![Home Page Footer Location Screenshot](assets/media/home-page-footer-location.PNG)
+
+</details>
 --- 
 
 ### Donations User Stories
@@ -125,5 +142,6 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 
 ### Manual Testing Other Features:
 
-## Bugs 🐞
-List of bugs and how did you fix them
+---
+## Bugs
+🐞 
