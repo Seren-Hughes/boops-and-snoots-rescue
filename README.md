@@ -29,7 +29,7 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)
-6. [Bugs](#bugs)
+6. [Bugs](#bugs-🐛)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
 
@@ -258,19 +258,10 @@ These tools were used for planning, content writing, design, and proofreading:
 - **DALL·E** (AI Image Generation) – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customized in Adobe Photoshop and Illustrator.
 - **ChatGPT** – Used as a writing aid to help refine and structure text.
 ## Testing
-Important part of your README!!!
-### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
-### Browser Compatibility
-Check compatability with different browsers
-### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
-### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
-### Manual Testing user stories or/and features
+For detailed information on testing, including user story validation and test cases, please refer to the [TESTING.md](TESTING.md) file.  
 
-## Bugs
-List of bugs and how did you fix them
+## Bugs 🐛
+A list of identified bugs and their fixes can be found in the [TESTING.md](TESTING.md) file.  
 
 ## Deployment
 
