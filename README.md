@@ -40,7 +40,7 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 - Create an engaging, user-friendly platform that inspires adoptions and encourages donations.
 #### Supporting Objectives:
 - Increase awareness of the Boops & Snoots Rescue organisation and brand identity.
-- Highlight the organisation’s story, mission, and team to foster trust and connection.
+- Highlight the organisation’s mission to foster trust and connection.
 - Showcase the organisation’s positive impact to encourage trust and support for adoptions and donations.
 - Provide assurance that all animals available for adoption have been thoroughly assessed for health and behaviour, ensuring they are ready for their new homes—especially important for families with children.
 - Provide clear ways for users to contact the organisation, including location, phone number, social media links, and an enquiry form.
