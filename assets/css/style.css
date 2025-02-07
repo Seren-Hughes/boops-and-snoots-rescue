@@ -350,6 +350,21 @@ div.adopt-social-links i:hover {
   border-color: var(--primary-highlight-color); 
   box-shadow: 0 0 5px rgba(228, 129, 11, 0.5); 
 }
+
+/* Legend text for screen readers */ 
+/* attribution = https://webaim.org/techniques/css/invisiblecontent/ and Cezary Tomczyk on https://www.sitelint.com/blog/hiding-a-text-but-making-it-accessible-to-a-screen-reader */
+/* https://css-tricks.com/inclusively-hidden/ */
+legend {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    clip-path: inset(50%);
+    white-space: nowrap; /* Prevents line breaks */
+}
 /*  ================== End of Adoption Page Styles ================== */
 
 /* ===================== Donations Page ==============================*/
