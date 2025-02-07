@@ -3,6 +3,8 @@
 #### About:
 Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organization, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organization’s strong brand identity, ensuring that visitors feel welcomed and informed.
 
+[View Live Site.](https://seren-hughes.github.io/boops-and-snoots-rescue/) Hosted on GitHub Pages.
+
 #### Design & Brand Identity
 Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant colors and playful typography to reflect the joyful nature of animal adoption. The site’s branding emphasizes the theme that "pets are family members," with a tone that’s warm and supportive. By using images of happy animals, the site aims to highlight the positive impact of adoption and create an emotional connection with visitors.
 
