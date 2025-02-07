@@ -137,7 +137,6 @@ h1, #header-text {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);*/
 }
 
 header > h1 {
@@ -192,7 +191,6 @@ header > .line-break {
   align-items: stretch;
   width: 100%;
   border-radius: 10px;
-  /*box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.397);*/
 }
 
 /* This pseudo-element adds an overlay to improve text readability by creating a dark overlay on image */
