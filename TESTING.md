@@ -192,13 +192,31 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 **Expected Outcome:** The video should show a preview image before playback.
 
 **Fix Implemented:**
-Added the poster attribute to the <video> element to specify a preview image.
+Added the poster attribute to the video element to specify a preview image.
 
 **Result:** The thumbnail now appears correctly on all devices.
 
-#### **Screenshots:**
-[Before](assets/media/issue-modal-video-before.PNG)
+#### **iPhone Screenshots:**
+<details><summary>Before</summary>
 
-[Fixed Chrome](assets/media/fix-modal-video-thumbnail-chrome.PNG)
+![Before](assets/media/issue-modal-video-before.PNG)
 
-[Fixed Safari](assets/media/fix-modal-video-thumbnail-safari.PNG)
+</details>
+
+<details><summary>Fix on Chrome iPhone</summary>
+
+![Fixed Chrome](assets/media/fix-modal-video-thumbnail-chrome.PNG)
+
+</details>
+
+<details><summary>Fix on Safari iPhone</summary>
+
+![Fixed Safari](assets/media/fix-modal-video-thumbnail-safari.PNG)
+
+</details>
+
+<details><summary>Fix on Safari iPad</summary>
+
+![Fixed iPad Safari](assets/media/modal-video-ipad-screenshot.PNG)
+
+</details>
