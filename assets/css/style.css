@@ -273,7 +273,7 @@ header > .line-break {
 /* ==================Adoption Page Styles================ */
 
 /* Adoption page images */
-img#adopt-image {
+img.adopt-image {
   border-radius: 100%;
   max-width: 100%;
   max-height: 30vh;
@@ -354,7 +354,7 @@ div.adopt-social-links i:hover {
 /* Legend text for screen readers */ 
 /* attribution = https://webaim.org/techniques/css/invisiblecontent/ and Cezary Tomczyk on https://www.sitelint.com/blog/hiding-a-text-but-making-it-accessible-to-a-screen-reader */
 /* https://css-tricks.com/inclusively-hidden/ */
-legend {
+.visibly-hidden {
     position: absolute;
     width: 1px;
     height: 1px;

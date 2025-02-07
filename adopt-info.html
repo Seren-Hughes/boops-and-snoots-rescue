@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-  
+
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
@@ -23,6 +23,7 @@
 </head>
 
 <!-- Flex classes to keep footer at the bottom of the page added to footer -->
+
 <body class="d-flex flex-column min-vh-100">
 
   <!--Navigation navbar -->
@@ -30,7 +31,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="assets\images\boops-and-snoots-logo-simple-version-no-text.webp" alt="Boops & Snoots Rescue Logo"
+          <img src="assets/images/boops-and-snoots-logo-simple-version-no-text.webp" alt="Boops & Snoots Rescue Logo"
             class="logo">
           <div class="brand-text">
             <span class="d-block">Boops & Snoots</span>
@@ -104,13 +105,13 @@
             ready, <a href="#adoption-application" class="custom-text-link">fill in our application form</a> to start
             your journey!</p>
 
-          <img src="assets\images\adopt-kitten-square.webp" alt="Dog and Cat" class="img-fluid d-block mx-auto"
-            id="adopt-image">
+          <img src="assets/images/adopt-kitten-square.webp" alt="Dog and Cat"
+            class="img-fluid d-block mx-auto adopt-image">
         </div>
         <div class="col col-12 col-md-6 mt-5 align-content-center mb-1">
 
-          <img src="assets\images\adopt-puppy-square.webp" alt="Dog and Cat" class="img-fluid d-block mx-auto mb-4"
-            id="adopt-image">
+          <img src="assets/images/adopt-puppy-square.webp" alt="Dog and Cat"
+            class="img-fluid d-block mx-auto mb-4 adopt-image">
           <h3 class="text-center">Plan Your Visit</h3>
           <p>If you'd like to meet some of our pets in person, we're happy to arrange a visit. Not all animals are
             housed in the kennels or cattery at all times, so it's best to get in touch beforehand. Our friendly team
@@ -126,16 +127,17 @@
           <p>This fee not only ensures your pet is ready for their new home but also helps us continue our mission of
             rescuing and caring for animals in need.</p>
         </div>
+      </div>
     </section>
 
     <!-- Reasons Why To Adopt Section -->
-    <!-- Decorative Line break to separate sections --> 
+    <!-- Decorative Line break to separate sections -->
     <section class="container">
       <div class="row">
         <div class="col-12 line-break"></div>
       </div>
     </section>
-    
+
     <section class="container">
       <div class="row">
         <div class="col-12 col-md-6">
@@ -183,8 +185,8 @@
               </ul>
             </li>
           </ul>
-          <img src="assets\images\adopt-dog-in-arms.webp" alt="Dog and Cat" class="img-fluid d-block mx-auto mb-4"
-            id="adopt-image">
+          <img src="assets/images/adopt-dog-in-arms.webp" alt="Dog and Cat"
+            class="img-fluid d-block mx-auto mb-4 adopt-image">
           <ul>
             <li>
               <h5>Find a Perfect Match</h5>
@@ -251,117 +253,135 @@
                 </div>
                 <div class="col-md-4">
                   <label for="inputPhoneNumber" class="form-label">Contact Phone Number</label>
-                  <input type="tel" class="form-control" id="inputPhoneNumber" inputmode="numeric" autocomplete="tel-area-code" required>
+                  <input type="tel" class="form-control" id="inputPhoneNumber" inputmode="tel"
+                    autocomplete="tel-area-code" required>
                 </div>
-                
-                <fieldset class="mb-3">
-                  <legend class="h5">Adoption Preferences</legend>
-                  <label class="fw-bold">Are you interested in adopting or fostering?</label>
-                  <div class="form-check">
-                      <input class="form-check-input" type="radio" name="adoptOrFoster" id="adopt" value="adopt" required>
+
+                <!-- adoption preferences -->
+
+                <fieldset>
+                  <legend class="visibly-hidden">Adoption Preferences</legend>
+                  <div class="mb-3">
+                    <p class="fw-bold">Are you interested in adopting or fostering?</p>
+                    <div class="form-check form-check-inline">
                       <label class="form-check-label" for="adopt">Adopting</label>
-                  </div>
-                  <div class="form-check">
-                      <input class="form-check-input" type="radio" name="adoptOrFoster" id="foster" value="foster" required>
+                      <input class="form-check-input" type="radio" name="adoptOrFoster" id="adopt" value="adopt"
+                        required>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="adoptOrFoster" id="foster" value="foster"
+                        required>
                       <label class="form-check-label" for="foster">Fostering</label>
+                    </div>
                   </div>
-              </fieldset>
-                <div class="mb-3">
-                  <p class="fw-bold">Which type of pet would you be most interested in adopting?</p>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="dogs" name="preference" value="dogs" required>
-                    <label class="form-check-label" for="dogs">Dog</label>
+                  <div class="mb-3">
+                    <p class="fw-bold">Which type of pet would you be most interested in adopting?</p>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" id="dogs" name="preference" value="dogs" required>
+                      <label class="form-check-label" for="dogs">Dog</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" id="cats" name="preference" value="cats" required>
+                      <label class="form-check-label" for="cats">Cat</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" id="no-preference" name="preference"
+                        value="no-preference" required>
+                      <label class="form-check-label" for="no-preference">Either</label>
+                    </div>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="cats" name="preference" value="cats" required>
-                    <label class="form-check-label" for="cats">Cat</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" id="no-preference" name="preference"
-                      value="no-preference" required>
-                    <label class="form-check-label" for="no-preference">Either</label>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="pet-interest" class="form-label fw-bold">
-                    Optional: Tell us about the pet you're interested in
-                  </label>
-                  <p class="text-muted">
-                    Is there a specific pet you're interested in adopting? If you've seen a dog or cat on our Facebook
-                    or Instagram that you'd love to meet, please provide their name and a brief description:
-                  </p>
-                  <textarea class="form-control" id="pet-interest" name="pet_interest" rows="3"
-                    placeholder="Enter pet's name and any details..."></textarea>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label fw-bold">Your Household</label>
-                  <p class="mb-1">Do you currently have other pets?</p>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="other_pets" id="pets-yes" value="yes" required>
-                    <label class="form-check-label" for="pets-yes">Yes</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="other_pets" id="pets-no" value="no" required>
-                    <label class="form-check-label" for="pets-no">No</label>
-                  </div>
-                  <div class="mt-3">
-                    <label for="pet-details" class="form-label">If yes, please tell us a little about them (species,
-                      breed, age, personality, etc.):</label>
-                    <textarea class="form-control" id="pet-details" name="pet_details" rows="2"
-                      placeholder="Describe your pets..."></textarea>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <p class="mb-1">Do you have children under the age of 14 living in your home?</p>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="children_at_home" id="children-yes" value="yes"
-                      required>
-                    <label class="form-check-label" for="children-yes">Yes</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="children_at_home" id="children-no" value="no"
-                      required>
-                    <label class="form-check-label" for="children-no">No</label>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label class="form-label fw-bold">Availability</label>
-                  <p class="mb-2">How much time can you dedicate weekly to your pet?</p>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="pet_time" id="full-time" value="full-time"
-                      required>
-                    <label class="form-check-label" for="full-time">
-                      Full-time (I'm home most of the day)
+                  <div class="mb-3">
+                    <label for="pet-interest" class="form-label fw-bold">
+                      Optional: Tell us about the pet you're interested in
                     </label>
+                    <p class="text-muted">
+                      Is there a specific pet you're interested in adopting? If you've seen a dog or cat on our Facebook
+                      or Instagram that you'd love to meet, please provide their name and a brief description:
+                    </p>
+                    <textarea class="form-control" id="pet-interest" name="pet_interest" rows="3"
+                      placeholder="Enter pet's name and any details..."></textarea>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="pet_time" id="part-time" value="part-time"
-                      required>
-                    <label class="form-check-label" for="part-time">
-                      Part-time (I'm home a few hours daily)
-                    </label>
+                </fieldset>
+                <!-- Household Details-->
+                <fieldset>
+                  <legend class="form-label fw-bold h6">Your Household</legend>
+                  <div class="mb-3">
+                    <p class="mb-1">Do you currently have other pets?</p>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="other_pets" id="pets-yes" value="yes" required>
+                      <label class="form-check-label" for="pets-yes">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="other_pets" id="pets-no" value="no" required>
+                      <label class="form-check-label" for="pets-no">No</label>
+                    </div>
+                    <div class="mt-3">
+                      <label for="pet-details" class="form-label">If yes, please tell us a little about them (species,
+                        breed, age, personality, etc.):</label>
+                      <textarea class="form-control" id="pet-details" name="pet_details" rows="2"
+                        placeholder="Describe your pets..."></textarea>
+                    </div>
                   </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="pet_time" id="limited-time" value="limited-time"
-                      required>
-                    <label class="form-check-label" for="limited-time">
-                      Limited time (Evenings and weekends only)
-                    </label>
+                  <div class="mb-3">
+                    <p class="mb-1">Do you have children under the age of 14 living in your home?</p>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="children_at_home" id="children-yes" value="yes"
+                        required>
+                      <label class="form-check-label" for="children-yes">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="children_at_home" id="children-no" value="no"
+                        required>
+                      <label class="form-check-label" for="children-no">No</label>
+                    </div>
                   </div>
-                </div>
+                </fieldset>
+                <!-- Availability Details -->
                 <div class="mb-3">
-                  <label class="form-label fw-bold">How would you prefer to be contacted for a relaxed chat about adoption or fostering?</label>
-                  <p class="text-muted">Optional - select one or more contact methods. If left blank, we'll follow up using the details you provide.</p>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="contact-phone" name="contact_preference"
-                      value="phone">
-                    <label class="form-check-label" for="contact-phone">Phone</label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="contact-email" name="contact_preference"
-                      value="email">
-                    <label class="form-check-label" for="contact-email">Email</label>
-                  </div>
+                  <fieldset>
+                    <legend class="form-label fw-bold h6">Availability</legend>
+                    <p class="mb-2">How much time can you dedicate weekly to your pet?</p>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="pet_time" id="full-time" value="full-time"
+                        required>
+                      <label class="form-check-label" for="full-time">
+                        Full-time (I'm home most of the day)
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="pet_time" id="part-time" value="part-time"
+                        required>
+                      <label class="form-check-label" for="part-time">
+                        Part-time (I'm home a few hours daily)
+                      </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="pet_time" id="limited-time"
+                        value="limited-time" required>
+                      <label class="form-check-label" for="limited-time">
+                        Limited time (Evenings and weekends only)
+                      </label>
+                    </div>
+                  </fieldset>
+                </div>
+                <!-- Contact Preferences -->
+                <div class="mb-3">
+                  <fieldset>
+                    <legend class="form-label fw-bold h6">How would you prefer to be contacted for a relaxed chat about
+                      adoption or fostering?</legend>
+                    <p class="text-muted">Optional - select one or more contact methods. If left blank, we'll follow up
+                      using the details you provide.</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="contact-phone" name="contact_preference"
+                        value="phone">
+                      <label class="form-check-label" for="contact-phone">Phone</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="contact-email" name="contact_preference"
+                        value="email">
+                      <label class="form-check-label" for="contact-email">Email</label>
+                    </div>
+                  </fieldset>
                 </div>
                 <!-- Submit message and Button -->
                 <div class="col-12">
