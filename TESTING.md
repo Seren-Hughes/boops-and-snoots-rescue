@@ -185,3 +185,20 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 ---
 ## Bugs
 🐞 
+
+#### Video Thumbnail on Mobile
+**Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
+
+**Expected Outcome:** The video should show a preview image before playback.
+
+**Fix Implemented:**
+Added the poster attribute to the <video> element to specify a preview image.
+
+**Result:** The thumbnail now appears correctly on all devices.
+
+#### **Screenshots:**
+[Before](assets/media/issue-modal-video-before.PNG)
+
+[Fixed Chrome](assets/media/fix-modal-video-thumbnail-chrome.PNG)
+
+[Fixed Safari](assets/media/fix-modal-video-thumbnail-safari.PNG)
