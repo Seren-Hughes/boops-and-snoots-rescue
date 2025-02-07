@@ -143,6 +143,7 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 ![Home Page Footer Location Screenshot](assets/media/adopt-page-application-form.PNG)
 
 </details>
+
 ---
 
 ### Contact User Stories:
@@ -183,6 +184,7 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 ### Manual Testing Other Features:
 
 ---
+
 ## Bugs
 🐞 
 
@@ -220,3 +222,6 @@ Added the poster attribute to the video element to specify a preview image.
 ![Fixed iPad Safari](assets/media/modal-video-ipad-screenshot.PNG)
 
 </details>
+
+--- 
+

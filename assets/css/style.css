@@ -227,7 +227,7 @@ header > .line-break {
 
 /* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
 .large-pointer {
-  cursor: url('../images/hand-pointer.png') 22 22, pointer; 
+  cursor: url('../images/hand-pointer.webp') 22 22, pointer; 
   transition: transform 0.2s ease-in-out; 
 }
 
