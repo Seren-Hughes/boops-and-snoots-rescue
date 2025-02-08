@@ -17,8 +17,13 @@ Screenshots of certain pages and scores (mobile and desktop)
 Check compatability with different browsers
 ### Responsiveness
 Screenshots of the responsivness, pick few devices (from 320px top 1200px)
-### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+
+---
+
+## **Code Validation**
+### HTML W3C Validation
+
+- [**adopt-info:** Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fadopt-info.html)  
 
 
 ## **Manual Testing**
@@ -187,6 +192,15 @@ Validate your code HTML, CSS (all pages/files need to be validated!!!), display 
 
 ## Bugs
 🐞 
+
+**Adopt Page HTML**
+
+Incorrectly nested and unclosed div and section elements 
+
+- **Issue:** W3C HTML Validator flagged errors due to unclosed div and section tags, and the use of section elements where no heading was needed.
+- **Fix:** Closed all open tags correctly and replaced unnecessary section elements with div to ensure proper document structure.
+- **Result:** The page now passes W3C validation without errors.
+
 
 #### Video Thumbnail on Mobile
 **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
