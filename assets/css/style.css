@@ -716,6 +716,17 @@ footer address a:hover {
   footer address a:active {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
+
+  .contact-info a {
+    display: inline-block; /* Keeps links inline while allowing margin */
+    margin-bottom: 10px; /* Adds space below the link without affecting the border */
+    font-size: 1rem; /* Ensures readability */
+    border-bottom: 0.5px dashed white; /* Keeps existing styling */
+}
+
+  .contact-info p {
+    line-height: 1.8; /* Increases spacing between lines */
+  }
 }
 
 /* ==========================================================*/

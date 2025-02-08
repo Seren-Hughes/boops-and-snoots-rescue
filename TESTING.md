@@ -83,6 +83,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ![Home Page Footer Location Screenshot](assets/media/home-page-footer-location.PNG)
 
 </details>
+
 --- 
 
 ### Donations User Stories
@@ -365,6 +366,8 @@ Accessibility & Usability Improvements
 - **Fix:** Added a descriptive alt attribute to the image to ensure accessibility for screen readers.
 - **Result:** Improved accessibility by making the image understandable for visually impaired users.
 
+---
+
 #### Video Thumbnail on Mobile
 **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
 
@@ -377,7 +380,7 @@ Added the poster attribute to the video element to specify a preview image.
 
 ---
 
-#### **iPhone Screenshots:**
+**iPhone Screenshots:**
 <details><summary>Issue Screenshot</summary>
 
 ![Before](assets/media/issue-modal-video-before.PNG)
@@ -403,4 +406,12 @@ Added the poster attribute to the video element to specify a preview image.
 </details>
 
 --- 
+
+Touch Target Spacing on Contact Links.
+
+- **Issue:** Google Lighthouse flagged the phone number and email links in the footer as too close together on mobile, making them difficult for some users to tap.
+- **Fix:** Increased spacing between links using margin-bottom instead of padding to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
+- **Result:** Improved mobile accessibility and passed Lighthouse's touch target spacing test while maintaining visual styling.
+
+![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
 
