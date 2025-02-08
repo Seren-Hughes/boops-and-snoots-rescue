@@ -14,9 +14,9 @@
 ## Google's Lighthouse Performance
 
 ### Index Page:
+
 ![Index Page](assets/media/lighthouse-index-page.PNG)
 
-Screenshots of certain pages and scores (mobile and desktop)
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
@@ -195,9 +195,9 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ---
 
 ## Bugs
-🐞 
+ 
 
-**Adopt Page**
+🐞 **Adopt Page** 🐛
 
 Incorrectly nested and unclosed div and section elements 
 

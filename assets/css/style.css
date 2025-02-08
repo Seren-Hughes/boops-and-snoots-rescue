@@ -236,6 +236,11 @@ header > .line-break {
   transform: scale(1.1); /* Scale the image by 10% when hovering */
 }
 
+/* Modal video*/
+video {
+  width: 100%;
+}
+
 /* ................................... */
 /* ................................... */
 /* ========== Donate Button ========== */
