@@ -463,6 +463,10 @@ select#enquiry.form-select:focus {
   transform: rotate(45deg); /* rotates text adapted from https://www.geeksforgeeks.org/how-to-rotate-text-in-css/ */
 }
 
+img.mb-0.bad-cat {
+  width: 18rem;
+}
+
 h1#four-zero-four {
   font-size: 5rem;
   white-space: nowrap;
@@ -623,8 +627,8 @@ footer address a:hover {
   }
 
 /* ===== 404 page media queries for smaller mobile devices ===== */
-.four-zero-four img {
-  width: 200px;
+img.mb-0.bad-cat {
+  width: 13rem;
 }
 
 .error-404 {
@@ -759,8 +763,8 @@ h1#four-zero-four {
 
 /* ==== 404 page media queries for tablet/medium devices 768 - 991px == */
 
-.four-zero-four img {
-  width: 200px;
+img.mb-0.bad-cat {
+  width: 15rem;
 }
 
 .error-404 {

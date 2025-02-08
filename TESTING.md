@@ -332,7 +332,7 @@ Added the poster attribute to the video element to specify a preview image.
 **Result:** The thumbnail now appears correctly on all devices.
 
 #### **iPhone Screenshots:**
-<details><summary>Before</summary>
+<details><summary>Issue Screenshot</summary>
 
 ![Before](assets/media/issue-modal-video-before.PNG)
 
