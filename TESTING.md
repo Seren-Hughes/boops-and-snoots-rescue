@@ -11,7 +11,11 @@
 6. [Bugs](#bugs)
 
 
-### Google's Lighthouse Performance
+## Google's Lighthouse Performance
+
+### Index Page:
+![Index Page](assets/media/lighthouse-index-page.PNG)
+
 Screenshots of certain pages and scores (mobile and desktop)
 ### Browser Compatibility
 Check compatability with different browsers
@@ -23,7 +27,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ## **Code Validation**
 ### HTML W3C Validation
 
-- [**adopt-info:** Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fadopt-info.html)  
+- **Adopt Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fadopt-info.html)  
 
 
 ## **Manual Testing**
@@ -193,13 +197,26 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ## Bugs
 🐞 
 
-**Adopt Page HTML**
+**Adopt Page**
 
 Incorrectly nested and unclosed div and section elements 
 
 - **Issue:** W3C HTML Validator flagged errors due to unclosed div and section tags, and the use of section elements where no heading was needed.
 - **Fix:** Closed all open tags correctly and replaced unnecessary section elements with div to ensure proper document structure.
 - **Result:** The page now passes W3C validation without errors.
+
+Accessibility & Usability Improvements:
+
+- **Issue:** Missing autocomplete attributes in forms. Lighthouse flagged the absence of autocomplete attributes on some form fields, which can improve user experience by enabling browser suggestions.
+- **Fix:** Added appropriate autocomplete values (e.g., "name", "email", "address") to form fields.
+- **Result:** Improved form usability and accessibility.
+
+Improved screen reader compatibility for forms
+
+- **Issue:** Lighthouse flagged accessibility concerns related to form structure, specifically missing context for screen readers.
+- **Fix:** Added fieldset and legend elements to group related form fields logically.
+Used CSS (from 'Inclusively Hidden' by Scott O'Hara) to visually hide a legend while keeping it accessible to screen readers.
+- **Result:** The form is now better structured for assistive technologies without altering the visual layout.
 
 
 #### Video Thumbnail on Mobile
