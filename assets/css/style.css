@@ -9,10 +9,10 @@
 
 /* ========== CSS Variables ========== */
 :root {
-  --primary-font: "Quicksand", sans-serif; 
-  --secondary-font: "Lato", sans-serif; 
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "Lato", sans-serif;
   --primary-color: #2d4a5b; /* Dark blue used on text and headings */
-  --secondary-color: #365B78; /* Light blue used on navbar */
+  --secondary-color: #365b78; /* Light blue used on navbar */
   --primary-highlight-color: #e4810b; /* Orange - for calls to action */
   --secondary-highlight-color: #fbc037; /* Yellow - for hover effects, lines */
   --accent-color: #ffd978; /* Light yellow - for decorative elements */
@@ -31,7 +31,6 @@ h3 {
   font-family: var(--primary-font);
   color: var(--primary-color);
   font-weight: 700;
-  font-optical-sizing: auto;
 }
 
 .sub-heading-color {
@@ -52,9 +51,11 @@ h3 {
   padding: 0;
 }
 
-/* Navbar Links */
+/* Navbar Links with prefixes added from https://autoprefixer.github.io/ */
 #navbar .nav-link {
   color: white;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -73,6 +74,8 @@ h3 {
 
 .brand-text span:first-child {
   font-weight: bold; /* Make "Boops & Snoots" bold */
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -83,6 +86,8 @@ h3 {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -104,6 +109,7 @@ h3 {
 
 /* Removes bootstrap border shadow effect on the smaller screens toggler */
 .navbar-toggler:focus {
+  -webkit-box-shadow: 0 0 0 0;
   box-shadow: 0 0 0 0;
 }
 
@@ -125,7 +131,8 @@ h3 {
 /* ....................................... */
 
 /* Header Banner Text */
-h1, #header-text {
+h1,
+#header-text {
   font-size: 2rem;
   font-weight: 700;
   color: var(--primary-color);
@@ -188,6 +195,8 @@ header > .line-break {
   z-index: 1;
   overflow: hidden;
   margin-bottom: 0;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
   width: 100%;
   border-radius: 10px;
@@ -202,7 +211,12 @@ header > .line-break {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(68, 51, 27, 0.622); /* Dark transparent overlay for contrast readability */
+  background-color: rgba(
+    68,
+    51,
+    27,
+    0.622
+  ); /* Dark transparent overlay for contrast readability */
   z-index: -1; /* Place behind the text and icons */
 }
 
@@ -227,12 +241,18 @@ header > .line-break {
 
 /* Nose / Snoot Pointer adapted from https://blog.logrocket.com/creating-custom-mouse-cursor-css/ and https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
 .large-pointer {
-  cursor: url('../images/hand-pointer.webp') 22 22, pointer; 
-  transition: transform 0.2s ease-in-out; 
+  cursor: url("../images/hand-pointer.webp") 22 22, pointer;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 /* hover effect nose/snoot expands slightly - adapted from Sara Cope tutorial at https://css-tricks.com/almanac/properties/t/transform/*/
 .large-pointer:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1); /* Scale the image by 10% when hovering */
 }
 
@@ -249,7 +269,7 @@ video {
 
 .text-center .custom-btn {
   background-color: var(--primary-highlight-color);
-  color: #1B2C36;
+  color: #1b2c36;
   border: none;
   padding: 0.5rem 0.8rem;
   font-family: var(--primary-font);
@@ -258,19 +278,21 @@ video {
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.397);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.397);
 }
 
 .text-center .custom-btn:hover {
   background-color: var(--secondary-highlight-color);
-  color: #1B2C36;
+  color: #1b2c36;
 }
 
 /* Overrides default blue on click */
-.text-center .custom-btn:focus, .text-center .custom-btn:active {
+.text-center .custom-btn:focus,
+.text-center .custom-btn:active {
   background-color: var(--primary-highlight-color);
-  outline: none;  /* Removes default blue outline on click */
-  color: #1B2C36; 
+  outline: none; /* Removes default blue outline on click */
+  color: #1b2c36;
 }
 
 /* ========================= End of Donate Button ========================= */
@@ -288,11 +310,13 @@ img.adopt-image {
 .custom-text-link {
   color: var(--primary-color);
   text-decoration: none;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
   border-bottom: 2.5px dashed var(--secondary-highlight-color);
   font-weight: 600;
-}  
-  
+}
+
 /* Adoption page social media links*/
 div.adopt-social-links i {
   color: var(--primary-color);
@@ -300,6 +324,8 @@ div.adopt-social-links i {
   margin-right: 2rem;
   padding-top: 1rem;
   margin-bottom: 0.5rem;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -338,37 +364,40 @@ div.adopt-social-links i:hover {
 
 /* Adoption form radio and checkbox styles override default blue form entry styles */
 .form-check-input[type="radio"]:checked {
-  background-color:var(--primary-highlight-color); 
-  border-color: var(--primary-highlight-color); 
+  background-color: var(--primary-highlight-color);
+  border-color: var(--primary-highlight-color);
 }
 
 .form-check-input[type="checkbox"]:checked {
   background-color: var(--primary-highlight-color);
-  border-color: var(--primary-highlight-color) ;
+  border-color: var(--primary-highlight-color);
 }
 
 .form-check-input:focus {
+  -webkit-box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
   box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
 }
 
 .form-control:focus {
-  border-color: var(--primary-highlight-color); 
-  box-shadow: 0 0 5px rgba(228, 129, 11, 0.5); 
+  border-color: var(--primary-highlight-color);
+  -webkit-box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
+  box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
 }
 
-/* Legend text for screen readers */ 
+/* Legend text for screen readers */
 /* attribution = https://webaim.org/techniques/css/invisiblecontent/ and Cezary Tomczyk on https://www.sitelint.com/blog/hiding-a-text-but-making-it-accessible-to-a-screen-reader */
 /* https://css-tricks.com/inclusively-hidden/ */
 .visibly-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    border: 0;
-    clip-path: inset(50%);
-    white-space: nowrap; /* Prevents line breaks */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  white-space: nowrap; /* Prevents line breaks */
 }
 /*  ================== End of Adoption Page Styles ================== */
 
@@ -395,15 +424,17 @@ img.donate-image {
   padding: 10px;
   border: 2px solid #ddd;
   border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.397);
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.397);
   background-color: rgb(247, 247, 247);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .donate-button:hover {
   background-color: rgba(234, 234, 234, 0.853);
   border-color: var(--primary-highlight-color);
-  
 }
 
 /* ============ Contact Form  ===========*/
@@ -436,7 +467,8 @@ img.donate-image {
 }
 
 select#enquiry.form-select:focus {
-  border-color: var(--primary-highlight-color); 
+  border-color: var(--primary-highlight-color);
+  -webkit-box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
   box-shadow: 0 0 5px rgba(228, 129, 11, 0.5);
 }
 
@@ -460,7 +492,11 @@ select#enquiry.form-select:focus {
   position: absolute;
   top: 11rem; /* Moves 404 below the cat image */
   left: 70%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
-  transform: rotate(45deg); /* rotates text adapted from https://www.geeksforgeeks.org/how-to-rotate-text-in-css/ */
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(
+    45deg
+  ); /* rotates text adapted from https://www.geeksforgeeks.org/how-to-rotate-text-in-css/ */
 }
 
 img.mb-0.bad-cat {
@@ -480,7 +516,7 @@ h1#four-zero-four {
 /* Home button - reverse colour and hover colour of the donate button to be different but consistent */
 .custom-btn.home-button {
   background-color: var(--secondary-highlight-color);
-  color: #1B2C36;
+  color: #1b2c36;
   border: none;
   padding: 1rem;
   font-family: var(--primary-font);
@@ -489,12 +525,13 @@ h1#four-zero-four {
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.397);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.397);
 }
 
 .custom-btn.home-button:hover {
   background-color: var(--primary-highlight-color);
-  color: #1B2C36;
+  color: #1b2c36;
 }
 
 /* ............................................ */
@@ -515,6 +552,8 @@ footer {
   margin-right: 1.3rem;
   padding-top: 2rem;
   margin-bottom: 0.5rem;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -532,6 +571,8 @@ footer address a {
   color: white;
   text-decoration: none;
   border-bottom: 0.5px dashed white;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -541,7 +582,6 @@ footer address a:hover {
 
 #disclaimer {
   font-size: 0.7rem;
-  
 }
 
 /* ========================= End of Footer Section ========================= */
@@ -566,7 +606,7 @@ footer address a:hover {
   }
 
   ::-webkit-scrollbar {
-    width: 8px; 
+    width: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -582,12 +622,12 @@ footer address a:hover {
   .navbar-brand .logo {
     width: 120px;
   }
-  
+
   .brand-text {
     font-size: 0.8rem;
     text-align: center;
   }
-  
+
   .brand-text span:last-child {
     font-size: 0.7rem; /* Slightly smaller for "Rescue" */
     text-align: center; /* Center align "Rescue" */
@@ -602,7 +642,8 @@ footer address a:hover {
     font-size: 1rem;
   }
 
-  h1, #header-text {
+  h1,
+  #header-text {
     font-size: 1.2rem;
   }
 
@@ -617,6 +658,8 @@ footer address a:hover {
   .social-links i {
     font-size: 1.5rem;
     color: white; /* Prevent any color change */
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none; /* Remove hover effect transition */
   }
 
@@ -626,44 +669,45 @@ footer address a:hover {
     color: white; /* Prevent color change clicking links on touch screen devices */
   }
 
-/* ===== 404 page media queries for smaller mobile devices ===== */
-img.mb-0.bad-cat {
-  width: 13rem;
-}
+  /* ===== 404 page media queries for smaller mobile devices ===== */
+  img.mb-0.bad-cat {
+    width: 13rem;
+  }
 
-.error-404 {
-  top: 10rem; /* Moves 404 below the cat image */
-  left: 60%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
-}
+  .error-404 {
+    top: 10rem; /* Moves 404 below the cat image */
+    left: 60%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+  }
 
-h1#four-zero-four {
-  font-size: 3rem;
-  white-space: nowrap;
-}
+  h1#four-zero-four {
+    font-size: 3rem;
+    white-space: nowrap;
+  }
 
-.error-message {
-  margin-top: 10rem; /* Pushes paragraph text down */
-  font-size: 1.1rem;
-}
+  .error-message {
+    margin-top: 10rem; /* Pushes paragraph text down */
+    font-size: 1.1rem;
+  }
 
-/* return home button for smaller size screens */
-.custom-btn.home-button {
-  font-size: 1.5rem;
-}
+  /* return home button for smaller size screens */
+  .custom-btn.home-button {
+    font-size: 1.5rem;
+  }
 
-/* Form Success Confirmation Page*/
+  /* Form Success Confirmation Page*/
 
-.confirm-thank-you {
-  font-size: 1.5rem;
-}
+  .confirm-thank-you {
+    font-size: 1.5rem;
+  }
 
   footer {
     font-size: 0.8rem;
   }
 
-
   footer address a {
     color: white; /* Prevent any color change */
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none; /* Remove hover effect transition */
   }
 
@@ -678,20 +722,19 @@ h1#four-zero-four {
 /* === Medium and Large mobile phone sizes 375px to 767px ===*/
 /* ==========================================================*/
 @media (min-width: 375px) and (max-width: 767px) {
-
   #hero-image {
     height: 40vh;
   }
 
-  h1, #header-text {
+  h1,
+  #header-text {
     font-size: 1.5rem;
   }
 
   h2,
   h3,
   h4,
-  h5
-  .donate-sub-heading {
+  h5 .donate-sub-heading {
     font-size: 1.2rem;
   }
 
@@ -728,20 +771,19 @@ h1#four-zero-four {
   ::-webkit-scrollbar-track {
     background: transparent;
   }
-  
 }
 
 /* ======================================================================= */
 /* ============ Medium size devices - Tablets 768px to 991px ============= */
 /* ======================================================================= */
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* Media query for navbar logo and text brand to be smaller on mobile and tablet screens */
   #hero-image {
     height: 40vh;
   }
 
-  h1, #header-text {
+  h1,
+  #header-text {
     font-size: 2rem;
   }
 
@@ -761,31 +803,31 @@ h1#four-zero-four {
     font-size: 1rem;
   }
 
-/* ==== 404 page media queries for tablet/medium devices 768 - 991px == */
+  /* ==== 404 page media queries for tablet/medium devices 768 - 991px == */
 
-img.mb-0.bad-cat {
-  width: 15rem;
-}
+  img.mb-0.bad-cat {
+    width: 15rem;
+  }
 
-.error-404 {
-  top: 10rem; /* Moves 404 below the cat image */
-  left: 65%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
-}
+  .error-404 {
+    top: 10rem; /* Moves 404 below the cat image */
+    left: 65%; /* Adjusts horizontal position - pushes right to align 404 underneath the cat's paw in the image */
+  }
 
-h1#four-zero-four {
-  font-size: 4rem;
-  white-space: nowrap;
-}
+  h1#four-zero-four {
+    font-size: 4rem;
+    white-space: nowrap;
+  }
 
-.error-message {
-  margin-top: 11rem; /* Pushes paragraph text down */
-  font-size: 1.2rem;
-}
+  .error-message {
+    margin-top: 11rem; /* Pushes paragraph text down */
+    font-size: 1.2rem;
+  }
 
-/* return home button for tablet size screens */
-.custom-btn.home-button {
-  font-size: 1.1rem;
-}
+  /* return home button for tablet size screens */
+  .custom-btn.home-button {
+    font-size: 1.1rem;
+  }
 
   footer {
     font-size: 1rem;
@@ -800,7 +842,7 @@ h1#four-zero-four {
   }
 
   ::-webkit-scrollbar {
-    width: 8px; 
+    width: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -811,18 +853,14 @@ h1#four-zero-four {
   ::-webkit-scrollbar-track {
     background: transparent;
   }
-  
 }
 
 /* =============================================================================================== */
 /* =============== Large size devices - large tablets & Desktops 992px to 1200px ================= */
 /* =============================================================================================== */
 @media (min-width: 992px) and (max-width: 1200px) {
-
-/* Return home button for desktop/laptop screen sizes */
+  /* Return home button for desktop/laptop screen sizes */
   .custom-btn.home-button {
     font-size: 1.5rem;
   }
-
 }
-

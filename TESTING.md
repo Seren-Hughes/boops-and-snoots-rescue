@@ -40,6 +40,10 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 - **404 Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2F404.html)
 
 
+### CSS W3C Validation
+
+![CSS Validation Screenshot](assets/media/css-validation-no-errors.PNG)
+
 ## **Manual Testing**
 ### User Stories:
 
@@ -370,6 +374,8 @@ Accessibility & Usability Improvements
 Added the poster attribute to the video element to specify a preview image.
 
 **Result:** The thumbnail now appears correctly on all devices.
+
+---
 
 #### **iPhone Screenshots:**
 <details><summary>Issue Screenshot</summary>
