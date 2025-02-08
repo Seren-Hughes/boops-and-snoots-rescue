@@ -443,11 +443,11 @@ select#enquiry.form-select:focus {
 /*  ================== End of Contact Page Styles ================== */
 
 /* Confirmation form success page*/
-#confirm-thank-you {
+.confirm-thank-you {
   font-size: 2rem;
 }
 
-#confirm-thank-you h1 {
+.confirm-thank-you h1 {
   font-size: 2rem;
 }
 
@@ -649,7 +649,7 @@ h1#four-zero-four {
 
 /* Form Success Confirmation Page*/
 
-#confirm-thank-you {
+.confirm-thank-you {
   font-size: 1.5rem;
 }
 
