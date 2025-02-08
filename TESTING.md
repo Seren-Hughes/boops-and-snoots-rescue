@@ -11,7 +11,7 @@
 6. [Bugs](#bugs)
 
 
-## Google's Lighthouse Performance
+## Google Lighthouse Results
 
 ### Index Page:
 
@@ -37,17 +37,43 @@
 
 ![404 Page](assets/media/404-lighthouse.PNG)
 
-### Google Lighthouse Performance On Mobile
+### Google Lighthouse Results On Mobile
 
-<details><Summary>[Index Page Mobile](assets/media/mobile-index-lighthouse.PNG)</summary>
+<details><Summary>Index Page</summary>
+
+![Index Page Mobile](assets/media/mobile-index-lighthouse.PNG)
 
 </details>
 
-[Adopt Page Mobile](assets/media/mobile-adopt-lighthouse.PNG)
+<details><Summary>Adopt Page</summary>
 
-[Donate Page Mobile](assets/media/mobile-donate-lighthouse.PNG)
+![Adopt Page Mobile](assets/media/mobile-adopt-lighthouse.PNG)
 
-[Contact Page Mobile](assets/media/mobile-contact-lighthouse.PNG)
+</details>
+
+<details><Summary>Donate Page</summary>
+
+![Donate Page Mobile](assets/media/mobile-donate-lighthouse.PNG)
+
+</details>
+
+<details><Summary>Contact Page</summary>
+
+![Contact Page Mobile](assets/media/mobile-contact-lighthouse.PNG)
+
+</details>
+
+<details><Summary>Form Confirmation Page</summary>
+
+![Form Confirmation Page Mobile](assets/media/mobile-form-confirmation-lighthouse.PNG)
+
+</details>
+
+<details><Summary>404 Page</summary>
+
+![404 Page Mobile](assets/media/mobile-404-lighthouse.PNG)
+
+</details>
 
 
 ### Browser Compatibility

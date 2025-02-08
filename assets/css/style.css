@@ -592,9 +592,23 @@ footer address a:hover {
 /* ................................... */
 /* ................................... */
 
+/* ==================================*/
+/* Smallest size devices up to 480px */
+/* ==================================*/
+
+/* text size on smallest devices at minimum size for Google Lighthouse legibility testing. footer and the 'rescue' last child in navbar brand */
+@media (max-width: 480px) {
+  #disclaimer,
+  #copyright,
+  .brand-text span:last-child {
+      font-size: 0.75rem; 
+  }
+}
+
 /* ===========================================================*/
 /* Small size devices - Phones and small tablets 320px to 768 */
 /* ===========================================================*/
+
 @media (min-width: 320px) and (max-width: 768px) {
   /* Webkit hides scroll bar gap on mobile devices */
   /* Remove scroll bar gap on tablets and mobile devices adapted from https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp and https://www.w3schools.com/css/css_overflow.asp */
@@ -701,7 +715,7 @@ footer address a:hover {
   }
 
   footer {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   footer address a {
@@ -758,7 +772,7 @@ footer address a:hover {
   }
 
   footer {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   /* Webkit hides scroll bar gap on mobile devices */
