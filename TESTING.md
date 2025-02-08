@@ -29,6 +29,16 @@
 
 ![Contact Page](assets/media/contact-lighthouse.PNG)
 
+### Form Confirmation Page
+
+![Form confirmation Page](assets/media/thank-you-lighthouse.PNG)
+
+### 404 Error Page
+
+![404 Page](assets/media/404-lighthouse.PNG)
+
+
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
@@ -380,19 +390,12 @@ Accessibility & Usability Improvements
 
 ---
 
-#### Video Thumbnail on Mobile
-**Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
+Video Thumbnail on Mobile Devices
 
-**Expected Outcome:** The video should show a preview image before playback.
+- **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome). The video should show a preview image before playback.
+- **Fix:** Added the poster attribute to the video element to specify a preview image.
+- **Result:** The thumbnail now appears correctly on all devices.
 
-**Fix Implemented:**
-Added the poster attribute to the video element to specify a preview image.
-
-**Result:** The thumbnail now appears correctly on all devices.
-
----
-
-**iPhone Screenshots:**
 <details><summary>Issue Screenshot</summary>
 
 ![Before](assets/media/issue-modal-video-before.PNG)
@@ -419,7 +422,7 @@ Added the poster attribute to the video element to specify a preview image.
 
 --- 
 
-Touch Target Spacing on Contact Links.
+Touch Target Spacing on Contact Links 
 
 - **Issue:** Google Lighthouse flagged the phone number and email links in the footer as too close together on mobile, making them difficult for some users to tap.
 - **Fix:** Increased spacing between links using margin-bottom to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
@@ -427,3 +430,10 @@ Touch Target Spacing on Contact Links.
 
 ![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
 
+Footer Heading Order Accessibility Fix
+
+- **Issue:** Google Lighthouse flagged footer headings on the 404 page and form confirmation page for not being in sequentially descending order, affecting accessibility.
+- **Fix:** Updated the HTML structure to follow correct heading hierarchy. This change initially affected styling, so I applied class="h4" inline to maintain consistent footer styles across all pages.
+- **Result:** Improved accessibility by ensuring proper heading structure while preserving the original visual styling.
+
+![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.PNG)
