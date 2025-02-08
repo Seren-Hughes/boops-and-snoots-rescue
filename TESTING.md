@@ -25,6 +25,10 @@
 
 ![Donate Page](assets/media/donate-page-lighthouse.PNG)
 
+### Contact Page
+
+![Contact Page](assets/media/contact-lighthouse.PNG)
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
