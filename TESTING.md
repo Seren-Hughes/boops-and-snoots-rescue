@@ -17,6 +17,14 @@
 
 ![Index Page](assets/media/lighthouse-index-page.PNG)
 
+### Adopt Info Page:
+
+![Adopt Page](assets/media/adopt-page-lighthouse.PNG)
+
+### Donate Page:
+
+![Donate Page](assets/media/donate-page-lighthouse.PNG)
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
@@ -410,7 +418,7 @@ Added the poster attribute to the video element to specify a preview image.
 Touch Target Spacing on Contact Links.
 
 - **Issue:** Google Lighthouse flagged the phone number and email links in the footer as too close together on mobile, making them difficult for some users to tap.
-- **Fix:** Increased spacing between links using margin-bottom instead of padding to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
+- **Fix:** Increased spacing between links using margin-bottom to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
 - **Result:** Improved mobile accessibility and passed Lighthouse's touch target spacing test while maintaining visual styling.
 
 ![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
