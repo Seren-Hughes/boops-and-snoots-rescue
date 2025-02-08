@@ -31,6 +31,8 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 - **Adopt Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fadopt-info.html)  
 
+- **Donate Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fdonations.html)
+
 
 ## **Manual Testing**
 ### User Stories:
@@ -245,7 +247,18 @@ Used CSS (from 'Inclusively Hidden' by Scott O'Hara) to visually hide a legend w
 - **Result:** The form is now better structured for assistive technologies without altering the visual layout.
 ---
 
+🐞 **Donate Page** 🐛
 
+Accessibility & Usability Improvements
+
+- **Issue:** Incorrect image path format (\ instead of /) flagged by W3C HTML Validator .
+- **Fix:** Updated all image paths to use forward slashes (/) for proper cross-platform compatibility.
+- **Result:** Ensured images load correctly across different operating systems and browsers.
+---
+- **Issue:** Duplicate id attributes on donate-image and donate-sub-heading.
+- **Fix:** Changed the duplicate IDs to classes and updated the corresponding styles in style.css.
+- **Result:** Ensured valid HTML and improved maintainability by following best practices for class-based styling.
+---
 #### Video Thumbnail on Mobile
 **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
 
