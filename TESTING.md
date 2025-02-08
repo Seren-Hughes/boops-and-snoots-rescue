@@ -37,6 +37,17 @@
 
 ![404 Page](assets/media/404-lighthouse.PNG)
 
+### Google Lighthouse Performance On Mobile
+
+<details><Summary>[Index Page Mobile](assets/media/mobile-index-lighthouse.PNG)</summary>
+
+</details>
+
+[Adopt Page Mobile](assets/media/mobile-adopt-lighthouse.PNG)
+
+[Donate Page Mobile](assets/media/mobile-donate-lighthouse.PNG)
+
+[Contact Page Mobile](assets/media/mobile-contact-lighthouse.PNG)
 
 
 ### Browser Compatibility
@@ -231,7 +242,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ---
 
-## Bugs
+# Bugs
  
  🐞 **Home | Index Page** 🐛
 
