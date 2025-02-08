@@ -27,6 +27,8 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ## **Code Validation**
 ### HTML W3C Validation
 
+- **Index Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Findex.html)
+
 - **Adopt Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fadopt-info.html)  
 
 
@@ -196,6 +198,32 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ## Bugs
  
+ 🐞 **Home | Index Page** 🐛
+
+Accessibility & Usability Improvements
+
+- **Issue:** Used width="100%" directly on the video element. The validator flagged this as an invalid attribute value.
+- **Fix:** Moved the width: 100% styling to CSS instead of using an inline attribute.
+- **Result:** Ensured proper styling while maintaining valid HTML.
+---
+- **Issue:** aria-labelledby attribute was used incorrectly without referencing an existing ID.
+- **Fix:** Replaced aria-labelledby with aria-label="Donate Now" where needed.
+- **Result:** Improved screen reader accessibility by providing a clear label for interactive elements.
+---
+- **Issue:** a elements had an invalid type="button" attribute.
+- **Fix:** Removed type="button" from a elements and kept role="button" where appropriate.
+- **Result:** Ensured valid HTML while maintaining accessible button-like behavior for links.
+---
+- **Issue:** Missing role="button" on modal-triggering links.
+- **Fix:** Added role="button" to a elements that function as buttons, such as those opening modals.
+- **Result:** Enhanced keyboard navigation and screen reader compatibility.
+---
+- **Issue:** Unclosed div tags, which could cause layout issues and unexpected behavior.
+- **Fix:** Identified and properly closed all div tags.
+- **Result:** Improved structural integrity of the HTML, preventing rendering errors.
+
+
+
 
 🐞 **Adopt Page** 🐛
 
