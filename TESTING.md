@@ -212,18 +212,16 @@ Accessibility & Usability Improvements
 ---
 - **Issue:** a elements had an invalid type="button" attribute.
 - **Fix:** Removed type="button" from a elements and kept role="button" where appropriate.
-- **Result:** Ensured valid HTML while maintaining accessible button-like behavior for links.
+- **Result:** Ensured valid HTML while maintaining accessible button-like behaviour for links.
 ---
 - **Issue:** Missing role="button" on modal-triggering links.
 - **Fix:** Added role="button" to a elements that function as buttons, such as those opening modals.
 - **Result:** Enhanced keyboard navigation and screen reader compatibility.
 ---
-- **Issue:** Unclosed div tags, which could cause layout issues and unexpected behavior.
+- **Issue:** Unclosed div tags, which could cause layout issues and unexpected behaviour.
 - **Fix:** Identified and properly closed all div tags.
 - **Result:** Improved structural integrity of the HTML, preventing rendering errors.
-
-
-
+---
 
 🐞 **Adopt Page** 🐛
 
@@ -245,6 +243,7 @@ Improved screen reader compatibility for forms
 - **Fix:** Added fieldset and legend elements to group related form fields logically.
 Used CSS (from 'Inclusively Hidden' by Scott O'Hara) to visually hide a legend while keeping it accessible to screen readers.
 - **Result:** The form is now better structured for assistive technologies without altering the visual layout.
+---
 
 
 #### Video Thumbnail on Mobile
