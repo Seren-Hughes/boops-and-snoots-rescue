@@ -474,3 +474,10 @@ Footer Heading Order Accessibility Fix
 - **Result:** Improved accessibility by ensuring proper heading structure while preserving the original visual styling.
 
 ![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.PNG)
+
+Footer Small Text Legibility Fix (Mobile Devices Best Practices)
+
+- **Issue:** Google Lighthouse flagged the 404 page and form confirmation page for having small, hard-to-read text in the footer (disclaimer, copyright, and brand text). This was due to the percentage of text under 12px being too high on mobile.
+- **Fix:** Added a media query for small screens (max-width: 480px) to ensure that footer text elements are at least 0.75rem (12px). This adjustment only applies on mobile to maintain consistency with the existing design.
+- **Result:** Improved Best Practices score to 100 on mobile while preserving the original footer styling on larger screens.
+
