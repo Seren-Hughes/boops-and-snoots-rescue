@@ -207,22 +207,31 @@ Accessibility & Usability Improvements
 - **Issue:** Used width="100%" directly on the video element. The validator flagged this as an invalid attribute value.
 - **Fix:** Moved the width: 100% styling to CSS instead of using an inline attribute.
 - **Result:** Ensured proper styling while maintaining valid HTML.
+
 ---
+
 - **Issue:** aria-labelledby attribute was used incorrectly without referencing an existing ID.
 - **Fix:** Replaced aria-labelledby with aria-label="Donate Now" where needed.
 - **Result:** Improved screen reader accessibility by providing a clear label for interactive elements.
+
 ---
+
 - **Issue:** a elements had an invalid type="button" attribute.
 - **Fix:** Removed type="button" from a elements and kept role="button" where appropriate.
 - **Result:** Ensured valid HTML while maintaining accessible button-like behaviour for links.
+
 ---
+
 - **Issue:** Missing role="button" on modal-triggering links.
 - **Fix:** Added role="button" to a elements that function as buttons, such as those opening modals.
 - **Result:** Enhanced keyboard navigation and screen reader compatibility.
+
 ---
+
 - **Issue:** Unclosed div tags, which could cause layout issues and unexpected behaviour.
 - **Fix:** Identified and properly closed all div tags.
 - **Result:** Improved structural integrity of the HTML, preventing rendering errors.
+
 ---
 
 🐞 **Adopt Page** 🐛
@@ -245,6 +254,7 @@ Improved screen reader compatibility for forms
 - **Fix:** Added fieldset and legend elements to group related form fields logically.
 Used CSS (from 'Inclusively Hidden' by Scott O'Hara) to visually hide a legend while keeping it accessible to screen readers.
 - **Result:** The form is now better structured for assistive technologies without altering the visual layout.
+
 ---
 
 🐞 **Donate Page** 🐛
@@ -254,11 +264,15 @@ Accessibility & Usability Improvements
 - **Issue:** Incorrect image path format (\ instead of /) flagged by W3C HTML Validator .
 - **Fix:** Updated all image paths to use forward slashes (/) for proper cross-platform compatibility.
 - **Result:** Ensured images load correctly across different operating systems and browsers.
+
 ---
+
 - **Issue:** Duplicate id attributes on donate-image and donate-sub-heading.
 - **Fix:** Changed the duplicate IDs to classes and updated the corresponding styles in style.css.
 - **Result:** Ensured valid HTML and improved maintainability by following best practices for class-based styling.
+
 ---
+
 #### Video Thumbnail on Mobile
 **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
 
