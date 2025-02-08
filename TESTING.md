@@ -37,6 +37,8 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 - **Form Confirmation Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fform-confirmation.html)
 
+- **404 Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2F404.html)
+
 
 ## **Manual Testing**
 ### User Stories:
@@ -320,6 +322,44 @@ Accessibility & Usability Improvements
 - **Result:** Improved screen reader accessibility by ensuring elements have proper labeling.
 
 ---
+
+🐞 **404 Error Page** 🐛
+
+Accessibility & Usability Improvements
+
+- **Issue:** Inline width styling on the cat image.
+- **Fix:** Removed the inline width attribute and added a new class (.bad-cat). Updated style.css to define width and adjusted media queries accordingly.
+- **Result:** Ensured a cleaner separation of structure and styling, improving maintainability and responsiveness.
+
+---
+
+- **Issue:** section elements were used where no heading was present were flagged by the validator.
+- **Fix:** Replaced unnecessary section elements with div elements where a heading wasn’t needed.
+- **Result:** Improved semantic HTML structure and ensured correct use of landmark elements.
+
+--- 
+
+- **Issue:** type="button" incorrectly used on a elements.
+- **Fix:** Removed type="button" and used role="button" to indicate button-like behaviour.
+- **Result:** Maintained accessibility for interactive elements while ensuring valid markup.
+
+--- 
+
+- **Issue:** aria-labelledby used without referencing an existing ID.
+- **Fix:** Replaced aria-labelledby with aria-label to provide a clear, standalone label for screen readers.
+- **Result:** Improved accessibility and ensured proper labeling of elements.
+
+--- 
+
+- **Issue:** Unclosed div tags, which could affect layout and rendering.
+- **Fix:** Identified and properly closed all div tags.
+- **Result:** Improved HTML validity and structural integrity.
+
+---
+
+- **Issue:** Missing alt attribute on the 404 error page image.
+- **Fix:** Added a descriptive alt attribute to the image to ensure accessibility for screen readers.
+- **Result:** Improved accessibility by making the image understandable for visually impaired users.
 
 #### Video Thumbnail on Mobile
 **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome).
