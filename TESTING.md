@@ -35,7 +35,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 - **Contact Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fcontact.html)
 
-
+- **Form Confirmation Page:** [Document checking completed. No errors or warnings to show.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fseren-hughes.github.io%2Fboops-and-snoots-rescue%2Fform-confirmation.html)
 
 
 ## **Manual Testing**
@@ -288,8 +288,36 @@ Accessibility & Usability Improvements
 --- 
 
 - **Issue:** Unclosed div tags flagged by W3C HTML Validator, which could cause structural and layout issues.
-- **Fix:** Identified and properly closed all <div> tags to ensure correct nesting.
+- **Fix:** Identified and properly closed all div tags to ensure correct nesting.
 - **Result:** Improved HTML validity and prevented potential rendering issues.
+
+---
+
+🐞 **Form Confirmation Page** 🐛
+
+Accessibility & Usability Improvements
+
+- **Issue:** Unclosed div tags, which could cause structural and layout issues.
+- **Fix:** Identified and properly closed all div tags to ensure correct nesting.
+- **Result:** Improved HTML validity and prevented potential rendering issues.
+
+---
+
+- **Issue:** section elements were used where no heading was present, which was flagged by the validator.
+- **Fix:** Replaced unnecessary section elements with div elements where a heading wasn’t needed.
+- **Result:** Improved semantic HTML structure and ensured proper use of landmark elements.
+
+---
+
+- **Issue:** type="button" attribute incorrectly used on a elements.
+- **Fix:** Removed type="button" and instead used role="button" to indicate button-like behavior.
+- **Result:** Ensured valid HTML while maintaining accessibility for interactive elements.
+
+---
+
+- **Issue:** aria-labelledby was used incorrectly without referencing an existing ID.
+- **Fix:** Replaced aria-labelledby with aria-label to provide a clear, standalone label for assistive technologies.
+- **Result:** Improved screen reader accessibility by ensuring elements have proper labeling.
 
 ---
 
