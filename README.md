@@ -31,9 +31,8 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)
-6. [Bugs](#bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ## Design & Planning:
 
@@ -207,16 +206,16 @@ Below are screenshots showing the full footer layout (for larger screens) and th
 </details>
 
 ## Other features
-### *"...Because Every Snoot Deserves a Boop"* - Custom Pointer and Modal for Donations
+### *"...Because Every Snoot Deserves a Boop"* - Custom Pointer, Modal and Video for Donations
 To add a bit of playfulness to the site, I’ve included a subtle "Easter egg" feature: the snoot/nose image, linked to a donation Modal, is paired with the phrase "Because Every Snoot Deserves a Boop" and an arrow pointing down. It's a light-hearted touch designed to make the site more engaging, and while I hope users will notice it, I’ve also made sure the donation button underneath is easy to find in case they miss this feature.
 
-This feature is intentional and part of the fun branding, offering an unexpected way for users to interact with the site. It also showcases the interactive modal and video functionality I’ve implemented, encouraging donations in a playful and engaging manner, while still providing a clear and accessible path to support the rescue.
+This feature is intentional and part of the fun branding for users to interact with the site. It also showcases the interactive modal and video functionality I’ve implemented, encouraging donations in a playful and engaging manner, while still providing a clear and accessible path to support the rescue.
 
 As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer that highlights the snoot (nose) image. This visual cue guides users toward the donation link, adding a playful touch and clearly indicating that it’s interactive. By changing the cursor to a finger pointer when hovering over the snoot image, users can easily identify the area where they can initiate an action, such as triggering the pop-up modal and playing the video.
 
-The hover effect further enhances this interaction: when users hover over the snoot image, it scales up by 10%, making it feel more dynamic and inviting. This ensures that users can clearly engage with the image and are encouraged to click.
+The hover effect further enhances this interaction: when users hover over the snoot image, it scales up by 10%, making it feel more dynamic. This ensures that users can clearly engage with the image and are encouraged to click.
 
-When users click on the snoot image, a modal pops up containing a short video of a cat enjoying a gentle snoot fuss, along with a clear call to action encouraging users to donate to support the rescue. The modal is designed to be user-friendly, providing easy access to a donation button that redirects users to the donation page. This ensures a seamless, controlled interaction where users can initiate actions, close the modal, and navigate back to the main content without frustration.
+When users click on the snoot/nose image, a modal pops up containing a short video of a cat enjoying a gentle snoot fuss, along with a clear call to action encouraging users to donate to support the rescue. The modal is designed to be user-friendly, providing easy access to a donation button that redirects users to the donation page. This ensures a seamless, controlled interaction where users can initiate actions, close the modal, and navigate back to the main content without frustration.
 
 Here’s a brief overview of the features:
 
@@ -259,11 +258,12 @@ These tools were used for planning, content writing, design, and proofreading:
 - **Adobe Photoshop & Illustrator** – Used for image editing and creating branding elements.
 - **DALL·E** (AI Image Generation) – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customized in Adobe Photoshop and Illustrator.
 - **ChatGPT** – Used as a writing aid to help refine and structure text.
-## Testing
-For detailed information on testing, including user story validation and test cases, please refer to the [TESTING.md](TESTING.md) file.  
 
-## Bugs
-🐛 A list of identified bugs and their fixes can be found in the [TESTING.md](TESTING.md) file.  
+## Testing
+The website has been thoroughly tested to ensure functionality, accessibility, and responsiveness. All HTML and CSS have passed validation checks without errors, and Lighthouse scores are excellent across performance, accessibility, best practices, and SEO. Additionally, multiple bug fixes and improvements were made during development to enhance the user experience.
+
+For a detailed breakdown of the testing process, including validation results, Lighthouse scores, and a list of bug fixes, please refer to [TESTING.md](TESTING.md)  
+
 
 ## Deployment
 
@@ -359,6 +359,10 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 - **Responsive Banner Image:** Referenced solutions from [Stack Overflow](https://stackoverflow.com/questions/39968620/responsive-banner-image-for-all-resolutions) and [Stack Overflow](https://stackoverflow.com/questions/40847247/trying-to-make-banner-image-responsive) for making the banner image responsive across all screen sizes.
 - **Horizontal Line in CSS:** Referenced a solution from [Stack Overflow](https://stackoverflow.com/questions/35036185/adding-horizontal-line-below-the-text-like-in-the-image) for adding a horizontal line below text.  
 - **Phone Number Link (Tel Link):** Used the approach from [Stack Overflow](https://stackoverflow.com/questions/1608548/how-to-trigger-a-phone-call-when-clicking-a-link-in-a-web-page-on-mobile-phone) to create a clickable phone number link for mobile devices.  
+- **Changing Image Size in Markdown:** Used solutions from [Stack Overflow](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown) to adjust image sizes in markdown.
+- **Autocomplete Attributes:** Referenced [DigitalA11Y](https://www.digitala11y.com/what-are-the-autocomplete-attributes-defined-in-1-3-5-input-purpose/) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#try_it) for guidance on autocomplete attributes for form inputs.
+- **HTML & CSS Validation:** Used [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors and ensure clean, valid code.
+- **Autoprefixer:** Utilized [Autoprefixer](https://autoprefixer.github.io/) to add vendor prefixes and improve browser compatibility.
 - **Code Institute Mentor – Daniel Hamilton:** Gained valuable insights from reviewing two of their projects, [*Bomb Catcher*](https://github.com/dlhamilton/Bomb-Catcher) and [*LPSB-Learn-GCSE-CS*](https://github.com/dlhamilton/LPSB-Learn-GCSE-CS). They shared a helpful CSS commenting method that involves clear sectioning using box-like comments, which I adapted for my own project. Additionally, I followed their professional approach to Git commits, using structured prefixes like `add:`, `fix:`, `docs:` etc.
 - **Code Institute Slack Channel:** Found valuable resources and support through the **Code Institute Slack channel**, where fellow students shared helpful links, insights, and guidance.
 

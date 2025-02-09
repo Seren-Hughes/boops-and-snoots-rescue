@@ -7,7 +7,7 @@
 4. [Code Validation](#code-validation)
 5. [Manual Testing](#manual-testing)
     * [User Stories](#user-stories)
-    * [Other Features](#manual-testing-other-features)
+    * [Features](#manual-testing-features)
 6. [Bugs](#bugs)
 
 
@@ -264,7 +264,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ---
 
-### Manual Testing Other Features:
+### Manual Testing Features:
 
 ---
 
@@ -427,7 +427,7 @@ Accessibility & Usability Improvements
 
 ---
 
-Video Thumbnail on Mobile Devices
+🐞 Video Thumbnail on Mobile Devices
 
 - **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome). The video should show a preview image before playback.
 - **Fix:** Added the poster attribute to the video element to specify a preview image.
@@ -459,7 +459,7 @@ Video Thumbnail on Mobile Devices
 
 --- 
 
-Touch Target Spacing on Contact Links 
+🐞 Touch Target Spacing on Contact Links 
 
 - **Issue:** Google Lighthouse flagged the phone number and email links in the footer as too close together on mobile, making them difficult for some users to tap.
 - **Fix:** Increased spacing between links using margin-bottom to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
@@ -467,7 +467,7 @@ Touch Target Spacing on Contact Links
 
 ![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
 
-Footer Heading Order Accessibility Fix
+🐞 Footer Heading Order Accessibility Fix
 
 - **Issue:** Google Lighthouse flagged footer headings on the 404 page and form confirmation page for not being in sequentially descending order, affecting accessibility.
 - **Fix:** Updated the HTML structure to follow correct heading hierarchy. This change initially affected styling, so I applied class="h4" inline to maintain consistent footer styles across all pages.
@@ -475,7 +475,7 @@ Footer Heading Order Accessibility Fix
 
 ![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.PNG)
 
-Footer Small Text Legibility Fix (Mobile Devices Best Practices)
+🐞 Footer Small Text Legibility Fix (Mobile Devices Best Practices)
 
 - **Issue:** Google Lighthouse flagged the 404 page and form confirmation page for having small, hard-to-read text in the footer (disclaimer, copyright, and brand text). This was due to the percentage of text under 12px being too high on mobile.
 - **Fix:** Added a media query for small screens (max-width: 480px) to ensure that footer text elements are at least 0.75rem (12px). This adjustment only applies on mobile to maintain consistency with the existing design.
