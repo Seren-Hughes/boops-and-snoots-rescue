@@ -111,7 +111,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 > "As someone visiting the website, I want to easily understand what the organization is about, find information about available animals, learn about the adoption process (including fees), how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
 
 #### Test Cases:                                 
-| **Goal**                                     | **How are they achieved?**                                                                                      | **Passed** |
+| **Goal**                                     | **How is it achieved?**                                                                                      | **Passed** |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------|
 | **Clear Organisation Purpose**                   |                                                                                                                 |  |
 | The homepage clearly states the purpose of the organisation. | The user sees a hero section with a welcoming message and an introduction to Boops & Snoots Rescue.            | ✅ |
@@ -157,7 +157,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 #### Test Cases:
 
-| **Goal**                                     | **How are they achieved?**                                                                                      | **Passed** |
+| **Goal**                                     | **How is it achieved?**                                                                                      | **Passed** |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------|
 | **Physical Donations**                        |                                                                                                                 |  |
 | Users can find out what items the shelter needs. | The donations page lists accepted physical donations like food, bedding, and toys.                              | ✅ |
@@ -196,7 +196,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 #### Test Cases:
 
-| **Goal**                                     | **How are they achieved?**                                                                                          | **Passed** |
+| **Goal**                                     | **How is it achieved?**                                                                                          | **Passed** |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------|
 | **Finding Adoption Information**                 |                                                                                                                     |  |
 | Users can easily access adoption information.    | The adoption page provides details on how to find adoptable pets via Facebook and Instagram or by contacting the shelter. | ✅ |
@@ -282,7 +282,7 @@ The website was tested on multiple browsers and devices to ensure compatibility 
 
 #### **Manual Testing Results**  
 
-| Feature Tested                      | Expected Outcome                                           | Test Result |
+| **Feature Tested**                      | **Expected Outcome**                                           | **Test Result** |
 |--------------------------------------|-----------------------------------------------------------|-------------|
 | Navigation Links                     | All links direct to correct pages                         | ✅ Passed   |
 | On-Page Text Links (e.g. Location in Footer)    | Links navigate smoothly to the correct section            | ✅ Passed   |
@@ -292,8 +292,8 @@ The website was tested on multiple browsers and devices to ensure compatibility 
 | External Links                        | Links open in a new tab as expected                       | ✅ Passed   |
 | Mobile Responsiveness                 | Layout adapts properly on all devices                     | ✅ Passed   |
 | Bootstrap Modal with Video            | Video opens in modal on image click; does not autoplay    | ✅ Passed   |
-| Custom Pointer on Image Link (Snoot)  | Custom pointer effect works on different browsers         | ✅ Passed   |
-
+| Custom Pointer on Nose Image Link          | Custom pointer effect works on different browsers         | ✅ Passed   |
+| 404 Page                              | 404.html on GitHub pages appears when a wrong address or typo is used | ✅ Passed |
 
 All tests were successfully completed, ensuring a smooth user experience across different platforms.  
 
