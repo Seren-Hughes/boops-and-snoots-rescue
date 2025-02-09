@@ -415,4 +415,11 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
     - Lato Designed by Łukasz Dziedzic used for typography.
   
 ## Acknowledgments
-- acknowledgment to mentors, peers, tutors, friends, family, facilitator (who ever contributed and helped with the project)
+
+This project has been an incredibly rewarding experience and I have loved every step of the journey. I am immensely grateful for the opportunity to apply my skills while building Boops & Snoots Rescue and for the incredible support I've received along the way.
+
+- Daniel Hamilton – My mentor, whose invaluable guidance, constructive feedback, and unwavering encouragement have made a real difference throughout this project. His professionalism and expertise set a standard I truly admire.
+- Marko Tot – Code Institute Facilitator, for the insightful weekly stand-up calls, where he shared his expertise, advice, and feedback.
+- My fellow students – For their camaraderie, motivation, and fun coding discussions in our weekly stand-up calls, as well as the invaluable support and knowledge-sharing in the Code Institute Slack channel.
+
+A heartfelt thank you to everyone who has contributed to my learning and growth during this milestone project!

@@ -9,6 +9,7 @@
     * [User Stories](#user-stories)
     * [Features](#manual-testing-features)
 6. [Bugs](#bugs)
+7. [Feedback](#feedback)
 
 
 ## Google Lighthouse Results
@@ -292,8 +293,8 @@ Accessibility & Usability Improvements
 
 ---
 
-- **Issue:** Missing role="button" on modal-triggering links.
-- **Fix:** Added role="button" to a elements that function as buttons, such as those opening modals.
+- **Issue:** Missing `<role="button">` on modal-triggering links.
+- **Fix:** Added `<role="button">` to a elements that function as buttons, such as those opening modals.
 - **Result:** Enhanced keyboard navigation and screen reader compatibility.
 
 ---
@@ -314,14 +315,14 @@ Incorrectly nested and unclosed div and section elements
 
 Accessibility & Usability Improvements:
 
-- **Issue:** Missing autocomplete attributes in forms. Lighthouse flagged the absence of autocomplete attributes on some form fields, which can improve user experience by enabling browser suggestions.
+- **Issue:** Missing `autocomplete` attributes in forms. Lighthouse flagged the absence of autocomplete attributes on some form fields, which can improve user experience by enabling browser suggestions.
 - **Fix:** Added appropriate autocomplete values (e.g., "name", "email", "address") to form fields.
 - **Result:** Improved form usability and accessibility.
 
 Improved screen reader compatibility for forms
 
 - **Issue:** Lighthouse flagged accessibility concerns related to form structure, specifically missing context for screen readers.
-- **Fix:** Added fieldset and legend elements to group related form fields logically.
+- **Fix:** Added `<fieldset>` and `<legend>` elements to group related form fields logically.
 Used CSS (from 'Inclusively Hidden' by Scott O'Hara) to visually hide a legend while keeping it accessible to screen readers.
 - **Result:** The form is now better structured for assistive technologies without altering the visual layout.
 
@@ -369,20 +370,20 @@ Accessibility & Usability Improvements
 
 ---
 
-- **Issue:** section elements were used where no heading was present, which was flagged by the validator.
+- **Issue:** `<section>` elements were used where no heading was present, which was flagged by the validator.
 - **Fix:** Replaced unnecessary section elements with div elements where a heading wasn’t needed.
 - **Result:** Improved semantic HTML structure and ensured proper use of landmark elements.
 
 ---
 
-- **Issue:** type="button" attribute incorrectly used on a elements.
-- **Fix:** Removed type="button" and instead used role="button" to indicate button-like behavior.
+- **Issue:** `type="button"` attribute incorrectly used on a elements.
+- **Fix:** Removed `type="button"` and instead used `role="button"` to indicate button-like behavior.
 - **Result:** Ensured valid HTML while maintaining accessibility for interactive elements.
 
 ---
 
-- **Issue:** aria-labelledby was used incorrectly without referencing an existing ID.
-- **Fix:** Replaced aria-labelledby with aria-label to provide a clear, standalone label for assistive technologies.
+- **Issue:** `aria-labelledby` was used incorrectly without referencing an existing ID.
+- **Fix:** Replaced `aria-labelledby` with `aria-label` to provide a clear, standalone label for assistive technologies.
 - **Result:** Improved screen reader accessibility by ensuring elements have proper labeling.
 
 ---
@@ -392,25 +393,25 @@ Accessibility & Usability Improvements
 Accessibility & Usability Improvements
 
 - **Issue:** Inline width styling on the cat image.
-- **Fix:** Removed the inline width attribute and added a new class (.bad-cat). Updated style.css to define width and adjusted media queries accordingly.
+- **Fix:** Removed the inline width attribute and added a new class `.bad-cat`. Updated style.css to define width and adjusted media queries accordingly.
 - **Result:** Ensured a cleaner separation of structure and styling, improving maintainability and responsiveness.
 
 ---
 
-- **Issue:** section elements were used where no heading was present were flagged by the validator.
-- **Fix:** Replaced unnecessary section elements with div elements where a heading wasn’t needed.
+- **Issue:** `<section>` elements were used where no heading was present were flagged by the validator.
+- **Fix:** Replaced unnecessary section elements with `<div>` elements where a heading wasn’t needed.
 - **Result:** Improved semantic HTML structure and ensured correct use of landmark elements.
 
 --- 
 
-- **Issue:** type="button" incorrectly used on a elements.
-- **Fix:** Removed type="button" and used role="button" to indicate button-like behaviour.
+- **Issue:** `<type="button">` incorrectly used on `<a>` elements.
+- **Fix:** Removed `<type="button">` and used `<role="button">` to indicate button-like behaviour.
 - **Result:** Maintained accessibility for interactive elements while ensuring valid markup.
 
 --- 
 
-- **Issue:** aria-labelledby used without referencing an existing ID.
-- **Fix:** Replaced aria-labelledby with aria-label to provide a clear, standalone label for screen readers.
+- **Issue:** `aria-labelledby` used without referencing an existing ID.
+- **Fix:** Replaced `aria-labelledby` with `aria-label` to provide a clear, standalone label for screen readers.
 - **Result:** Improved accessibility and ensured proper labeling of elements.
 
 --- 
@@ -421,7 +422,7 @@ Accessibility & Usability Improvements
 
 ---
 
-- **Issue:** Missing alt attribute on the 404 error page image.
+- **Issue:** Missing `alt` attribute on the 404 error page image.
 - **Fix:** Added a descriptive alt attribute to the image to ensure accessibility for screen readers.
 - **Result:** Improved accessibility by making the image understandable for visually impaired users.
 
@@ -430,7 +431,7 @@ Accessibility & Usability Improvements
 🐞 Video Thumbnail on Mobile Devices
 
 - **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome). The video should show a preview image before playback.
-- **Fix:** Added the poster attribute to the video element to specify a preview image.
+- **Fix:** Added the `poster` attribute to the video element to specify a preview image.
 - **Result:** The thumbnail now appears correctly on all devices.
 
 <details><summary>Issue Screenshot</summary>
@@ -481,3 +482,5 @@ Accessibility & Usability Improvements
 - **Fix:** Added a media query for small screens (max-width: 480px) to ensure that footer text elements are at least 0.75rem (12px). This adjustment only applies on mobile to maintain consistency with the existing design.
 - **Result:** Improved Best Practices score to 100 on mobile while preserving the original footer styling on larger screens.
 
+## Feedback
+I have thoroughly tested this project to ensure functionality, usability, and responsiveness. However, I welcome any feedback or suggestions for improvement. If you spot any issues or have ideas on how this project could be enhanced, please feel free to reach out.
