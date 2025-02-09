@@ -275,32 +275,32 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 Accessibility & Usability Improvements
 
-- **Issue:** Used width="100%" directly on the video element. The validator flagged this as an invalid attribute value.
-- **Fix:** Moved the width: 100% styling to CSS instead of using an inline attribute.
+- **Issue:** Used `<width="100%">` directly on the video element. The validator flagged this as an invalid attribute value.
+- **Fix:** Moved the `width: 100%` styling to CSS instead of using an inline attribute.
 - **Result:** Ensured proper styling while maintaining valid HTML.
 
 ---
 
-- **Issue:** aria-labelledby attribute was used incorrectly without referencing an existing ID.
-- **Fix:** Replaced aria-labelledby with aria-label="Donate Now" where needed.
+- **Issue:** `aria-labelledby` attribute was used incorrectly without referencing an existing ID.
+- **Fix:** Replaced `aria-labelledby` with `aria-label="Donate Now"` where needed.
 - **Result:** Improved screen reader accessibility by providing a clear label for interactive elements.
 
 ---
 
-- **Issue:** a elements had an invalid type="button" attribute.
-- **Fix:** Removed type="button" from a elements and kept role="button" where appropriate.
+- **Issue:** `<a>` elements had an invalid `type="button"` attribute.
+- **Fix:** Removed `type="button"` from `<a>` elements and kept `role="button"` where appropriate.
 - **Result:** Ensured valid HTML while maintaining accessible button-like behaviour for links.
 
 ---
 
-- **Issue:** Missing `<role="button">` on modal-triggering links.
-- **Fix:** Added `<role="button">` to a elements that function as buttons, such as those opening modals.
+- **Issue:** Missing `role="button"` on modal-triggering links.
+- **Fix:** Added `role="button"` to `<a>` elements that function as buttons, such as those opening modals.
 - **Result:** Enhanced keyboard navigation and screen reader compatibility.
 
 ---
 
-- **Issue:** Unclosed div tags, which could cause layout issues and unexpected behaviour.
-- **Fix:** Identified and properly closed all div tags.
+- **Issue:** Unclosed `<div>` tags, which could cause layout issues and unexpected behaviour.
+- **Fix:** Identified and properly closed all `<div>` tags.
 - **Result:** Improved structural integrity of the HTML, preventing rendering errors.
 
 ---
@@ -310,7 +310,7 @@ Accessibility & Usability Improvements
 Incorrectly nested and unclosed div and section elements 
 
 - **Issue:** W3C HTML Validator flagged errors due to unclosed div and section tags, and the use of section elements where no heading was needed.
-- **Fix:** Closed all open tags correctly and replaced unnecessary section elements with div to ensure proper document structure.
+- **Fix:** Closed all open tags correctly and replaced unnecessary `<section>` elements with `<div>` to ensure proper document structure.
 - **Result:** The page now passes W3C validation without errors.
 
 Accessibility & Usability Improvements:
@@ -338,7 +338,7 @@ Accessibility & Usability Improvements
 
 ---
 
-- **Issue:** Duplicate id attributes on donate-image and donate-sub-heading.
+- **Issue:** Duplicate id attributes on `donate-image` and `donate-sub-heading`.
 - **Fix:** Changed the duplicate IDs to classes and updated the corresponding styles in style.css.
 - **Result:** Ensured valid HTML and improved maintainability by following best practices for class-based styling.
 
@@ -371,12 +371,12 @@ Accessibility & Usability Improvements
 ---
 
 - **Issue:** `<section>` elements were used where no heading was present, which was flagged by the validator.
-- **Fix:** Replaced unnecessary section elements with div elements where a heading wasn’t needed.
+- **Fix:** Replaced unnecessary section elements with `<div>` elements where a heading wasn’t needed.
 - **Result:** Improved semantic HTML structure and ensured proper use of landmark elements.
 
 ---
 
-- **Issue:** `type="button"` attribute incorrectly used on a elements.
+- **Issue:** `type="button"` attribute incorrectly used on `<a>` elements.
 - **Fix:** Removed `type="button"` and instead used `role="button"` to indicate button-like behavior.
 - **Result:** Ensured valid HTML while maintaining accessibility for interactive elements.
 
@@ -463,7 +463,7 @@ Accessibility & Usability Improvements
 🐞 Touch Target Spacing on Contact Links 
 
 - **Issue:** Google Lighthouse flagged the phone number and email links in the footer as too close together on mobile, making them difficult for some users to tap.
-- **Fix:** Increased spacing between links using margin-bottom to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
+- **Fix:** Increased spacing between links using `margin-bottom` to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
 - **Result:** Improved mobile accessibility and passed Lighthouse's touch target spacing test while maintaining visual styling.
 
 ![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
@@ -471,7 +471,7 @@ Accessibility & Usability Improvements
 🐞 Footer Heading Order Accessibility Fix
 
 - **Issue:** Google Lighthouse flagged footer headings on the 404 page and form confirmation page for not being in sequentially descending order, affecting accessibility.
-- **Fix:** Updated the HTML structure to follow correct heading hierarchy. This change initially affected styling, so I applied class="h4" inline to maintain consistent footer styles across all pages.
+- **Fix:** Updated the HTML structure to follow correct heading hierarchy. This change initially affected styling, so I applied `class="h4"` inline to maintain consistent footer styles across all pages.
 - **Result:** Improved accessibility by ensuring proper heading structure while preserving the original visual styling.
 
 ![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.PNG)
@@ -479,7 +479,7 @@ Accessibility & Usability Improvements
 🐞 Footer Small Text Legibility Fix (Mobile Devices Best Practices)
 
 - **Issue:** Google Lighthouse flagged the 404 page and form confirmation page for having small, hard-to-read text in the footer (disclaimer, copyright, and brand text). This was due to the percentage of text under 12px being too high on mobile.
-- **Fix:** Added a media query for small screens (max-width: 480px) to ensure that footer text elements are at least 0.75rem (12px). This adjustment only applies on mobile to maintain consistency with the existing design.
+- **Fix:** Added a media query for small screens (max-width: 480px) to ensure that footer and text elements are legible. This adjustment only applies on mobile to maintain consistency with the existing design.
 - **Result:** Improved Best Practices score to 100 on mobile while preserving the original footer styling on larger screens.
 
 ## Feedback
