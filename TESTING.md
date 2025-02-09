@@ -7,7 +7,7 @@
 4. [Code Validation](#code-validation)
 5. [Manual Testing](#manual-testing)
     * [User Stories](#user-stories)
-    * [Features](#manual-testing-features)
+    * [Testing and Browser Compatibility](#testing-and-browser-compatibility)
 6. [Bugs](#bugs)
 7. [Feedback](#feedback)
 
@@ -242,18 +242,18 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 #### Test Cases:
 
-| **Goal**                                         | **How are they achieved?**                                                                                      | **Passed** |
-|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------|
-| **Finding Contact Information**                  |                                                                                                                 |  |
-| Easily locate general contact details.           | The footer contains the organisation's contact email and phone number.                                          | ✅ |
-| **Enquiry Form**                                 |                                                                                                                 |  |
-| A simple form for users to send enquiries.       | The contact page includes an easy-to-use enquiry form with fields for name, email, and message.                 | ✅ |
-| **Location & Opening Hours**                     |                                                                                                                 |  |
-| Access to address, phone number, and opening hours. | The footer and contact page display the location, phone number, and opening hours.                             | ✅ |
-| **Social Media Links**                           |                                                                                                                 |  |
-| Easily follow the organisation on social media.  | The footer and contact page provide links to Facebook, Instagram, TikTok and Threads social platforms.         | ✅ |
-| **Fictional Website Disclaimer**                 |                                                                                                                 |  |
-| Users understand the website is fictional.       | A disclaimer is placed in the footer, stating that the website is for educational and portfolio purposes only.  | ✅ |
+| **Goal**                                      | **How is it achieved?**                                                                 | **Passed** |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------|------------|
+| **Finding Contact Information**              |                                                                                         |            |
+| Easily locate general contact details.       | The footer contains the organisation's contact email and phone number.                 | ✅         |
+| **Enquiry Form**                              |                                                                                         |            |
+| A simple form for users to send enquiries.   | The contact page includes an easy-to-use enquiry form with fields for name, email, and message. | ✅  |
+| **Location & Opening Hours**                  |                                                                                         |            |
+| Access address, phone number, and hours.     | The footer and contact page display the location, phone number, and opening hours.     | ✅         |
+| **Social Media Links**                        |                                                                                         |            |
+| Easily follow the organisation on social media. | The footer and contact page provide links to Facebook, Instagram, TikTok, and Threads. | ✅         |
+| **Fictional Website Disclaimer**              |                                                                                         |            |
+| Users understand the website is fictional.   | A disclaimer is placed in the footer, stating that the website is for educational and portfolio purposes only. | ✅  |
 
 #### Screenshots:
 
@@ -265,7 +265,37 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ---
 
-### Manual Testing Features:
+## **Testing and Browser Compatibility**  
+
+The website was tested on multiple browsers and devices to ensure compatibility and responsiveness.  
+
+#### **Browsers Tested:**  
+- Google Chrome  
+- Microsoft Edge  
+- Firefox  
+- Safari  
+
+#### **Devices Tested:**  
+- Laptop  
+- iPhone X  
+- iPad  
+
+#### **Manual Testing Results**  
+
+| Feature Tested                      | Expected Outcome                                           | Test Result |
+|--------------------------------------|-----------------------------------------------------------|-------------|
+| Navigation Links                     | All links direct to correct pages                         | ✅ Passed   |
+| On-Page Text Links (e.g. Location in Footer)    | Links navigate smoothly to the correct section            | ✅ Passed   |
+| Forms                                 | Forms can be filled out and submitted                     | ✅ Passed   |
+| Form Confirmation Page               | Dummy confirmation page appears after valid submission    | ✅ Passed   |
+| Buttons                               | Buttons respond and perform actions                       | ✅ Passed   |
+| External Links                        | Links open in a new tab as expected                       | ✅ Passed   |
+| Mobile Responsiveness                 | Layout adapts properly on all devices                     | ✅ Passed   |
+| Bootstrap Modal with Video            | Video opens in modal on image click; does not autoplay    | ✅ Passed   |
+| Custom Pointer on Image Link (Snoot)  | Custom pointer effect works on different browsers         | ✅ Passed   |
+
+
+All tests were successfully completed, ensuring a smooth user experience across different platforms.  
 
 ---
 
@@ -275,7 +305,7 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 Accessibility & Usability Improvements
 
-- **Issue:** Used `<width="100%">` directly on the video element. The validator flagged this as an invalid attribute value.
+- **Issue:** Used `width="100%"` directly on the video element. The validator flagged this as an invalid attribute value.
 - **Fix:** Moved the `width: 100%` styling to CSS instead of using an inline attribute.
 - **Result:** Ensured proper styling while maintaining valid HTML.
 
@@ -404,8 +434,8 @@ Accessibility & Usability Improvements
 
 --- 
 
-- **Issue:** `<type="button">` incorrectly used on `<a>` elements.
-- **Fix:** Removed `<type="button">` and used `<role="button">` to indicate button-like behaviour.
+- **Issue:** `type="button"` incorrectly used on `<a>` elements.
+- **Fix:** Removed `type="button"` and used `role="button"` to indicate button-like behaviour.
 - **Result:** Maintained accessibility for interactive elements while ensuring valid markup.
 
 --- 
