@@ -2,14 +2,13 @@
 
 ## Table Of Contents:
 1. [Google Lighthouse Performance](#googles-lighthouse-performance)
-2. [Browser Compatibility](#browser-compatibility)
-3. [Responsiveness](#responsiveness)
-4. [Code Validation](#code-validation)
-5. [Manual Testing](#manual-testing)
+2. [Responsiveness](#responsiveness)
+3. [Code Validation](#code-validation)
+4. [Manual Testing](#manual-testing)
     * [User Stories](#user-stories)
     * [Testing and Browser Compatibility](#testing-and-browser-compatibility)
-6. [Bugs](#bugs)
-7. [Feedback](#feedback)
+5. [Bugs](#bugs)
+6. [Feedback](#feedback)
 
 
 ## Google Lighthouse Results
@@ -77,10 +76,58 @@
 </details>
 
 
-### Browser Compatibility
-Check compatability with different browsers
+
 ### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+
+The website was tested during development for responsiveness using Google Developer Tools to ensure it adapts to different screen sizes. The layout was checked across various devices, including mobile, tablet, and laptop views. All elements, including text, images, and navigation, adjusted correctly to different screen resolutions without overlapping or breaking. Below are some screenshots demonstrating the site's appearance on mobile, tablet, and laptop screens. 
+
+<details><summary>Home page on iPhone (Safari)</summary> 
+
+![home page iPhone](assets/media/iphone-safari-home.PNG)
+
+</details>
+
+<details><summary>Contact form page on iPhone (Safari)</summary> 
+
+![Contact page iPhone](assets/media/iphone-safari-form.PNG)
+
+</details>
+
+<details><summary>Confirmation page on iPhone (Safari)</summary> 
+
+![Confirmation page iPhone](assets/media/iphone-safari-confirmation.PNG)
+
+</details>
+
+<details><summary>Footer on iPhone (Chrome)</summary> 
+
+![Footer on iPhone](assets/media/iphone-footer-chrome.PNG)
+
+</details>
+
+<details><summary>Contact page on iPad</summary> 
+
+![Contact page iPad](assets/media/ipad-safari-contact.PNG)
+
+</details>
+
+<details><summary>Donate Page on iPad</summary> 
+
+![Donate page iPad](assets/media/ipad-donate-safari.PNG)
+
+</details>
+
+<details><summary>404 Page on iPad</summary> 
+
+![404 page iPad](assets/media/ipad-404-safari.PNG)
+
+</details>
+
+<details><summary>Adopt page on laptop</summary> 
+
+![Adopt page on laptop](assets/media/adopt-page-laptop-chrome.PNG)
+
+</details>
 
 ---
 
