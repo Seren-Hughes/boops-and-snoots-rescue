@@ -155,7 +155,7 @@ The website was tested during development for responsiveness using Google Develo
 ### User Stories:
 
 ### Home Page User Story: 
-> "As someone visiting the website, I want to easily understand what the organization is about, find information about available animals, learn about the adoption process (including fees), how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
+> "As someone visiting the website, I want to easily understand what the organisation is about, find information about available animals, learn about the adoption process (including fees), how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
 
 #### Test Cases:                                 
 | **Goal**                                     | **How is it achieved?**                                                                                      | **Passed** |
@@ -200,7 +200,7 @@ The website was tested during development for responsiveness using Google Develo
 
 > "As a visitor to the site, I want to know what items the shelter needs so I can contribute effectively."  
 
-> "As someone who wants to support the organization financially, I want clear information on how to donate money, so I can contribute easily and confidently."  
+> "As someone who wants to support the organisation financially, I want clear information on how to donate money, so I can contribute easily and confidently."  
 
 #### Test Cases:
 

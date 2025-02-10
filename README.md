@@ -1,12 +1,12 @@
 # Boops & Snoots Rescue 
 ![Boops & Snoots Rescue website shown on different devices](assets/media/boops-and-snoots-design-dark-background.PNG)
 #### About:
-Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organization, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organization’s strong brand identity, ensuring that visitors feel welcomed and informed.
+Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organisation, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organisation’s strong brand identity, ensuring that visitors feel welcomed and informed.
 
 [View Live Site.](https://seren-hughes.github.io/boops-and-snoots-rescue/) Hosted on GitHub Pages.
 
 #### Design & Brand Identity
-Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant colors and playful typography to reflect the joyful nature of animal adoption. The site’s branding emphasizes the theme that "pets are family members," with a tone that’s warm and supportive. By using images of happy animals, the site aims to highlight the positive impact of adoption and create an emotional connection with visitors.
+Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant colours and playful typography to reflect the joyful nature of animal adoption. The site’s branding emphasises the theme that "pets are family members," with a tone that’s warm and supportive. By using images of happy animals, the site aims to highlight the positive impact of adoption and create an emotional connection with visitors.
 
 #### Key Features
 - **Home Page:** Information about Boops & Snoots Rescue, its mission, and core values.
@@ -53,13 +53,13 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
 ## User Stories
 #### Home Page:
-- "As someone visiting the website, I want to easily understand what the organization is about, find information about available animals, learn about the adoption process (including fees) how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
+- "As someone visiting the website, I want to easily understand what the organisation is about, find information about available animals, learn about the adoption process (including fees) how to get involved or donate, and quickly access contact details, location, and opening hours so I can plan my visit or make enquiries."
 
 #### Contact:
-- "As a visitor to the website, I want to easily find contact information so that I can quickly get in touch with the organization for general inquiries."
+- "As a visitor to the website, I want to easily find contact information so that I can quickly get in touch with the organisation for general enquiries."
 - "As someone wanting to ask a question, I want a simple inquiry form so I can send a message without needing to email directly."
-- "As a potential visitor, I want to know the organization’s location, phone number, and opening hours so I can plan my visit."
-- "As a social media user, I want links to the organization’s social accounts so I can follow updates and message them through my preferred platform."
+- "As a potential visitor, I want to know the organisation’s location, phone number, and opening hours so I can plan my visit."
+- "As a social media user, I want links to the organisation’s social accounts so I can follow updates and message them through my preferred platform."
 - "As a user visiting the website, I want a disclaimer that explains the website is fictional so I understand its purpose and context."
   
 #### Donations:
@@ -133,14 +133,14 @@ The website’s colour scheme was carefully selected using [Coolors](https://coo
 - **Primary Colour – Dark Blue (#2D4A5B):** Used for text and headings, this deep blue conveys trust and stability.
 - **Secondary Colour – Light Blue (#365B78):** Featured in the navigation bar and logo, ensuring brand consistency.
 - **Primary Highlight – Orange (#E4810B):** A bold, warm and energetic colour used for call-to-action elements, drawing attention and encouraging interaction.
-- **Secondary Highlight – Yellow (#FBC037):** A cheerful, uplifting color used for hover effects and subtle separators.
+- **Secondary Highlight – Yellow (#FBC037):** A cheerful, uplifting colour used for hover effects and subtle separators.
 - **Accent Colour – Light Yellow (#FFD978):** Enhances decorative elements, softening the design while keeping it cheerful.
 - **Neutral Background – Light Grey (#F1EFE8A5):** Applied to the application and contact forms, ensuring readability while maintaining a light, friendly feel.
 
 Additionally, white space (#FFFFFF) plays a key role in the design, keeping the interface clean, modern, and easy to navigate. The balance of blues, warm tones, and neutral shades creates a professional yet friendly aesthetic that reflects the mission of Boops & Snoots Rescue.
 
 ### Accessibility Considerations
-Ensuring strong colour contrast for readability was a priority. Before development, the colour choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
+Ensuring strong colour contrast for readability was a key design principle from the outset. Before development, the colour choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
 
 ![Colour Pallette](assets/media/colour-pallette.png)
 
@@ -167,7 +167,7 @@ In addition to the custom logo and text, I’ve applied a hover effect to the na
 
 #### Key Features:
 
-- Responsive Layout: The navbar automatically adjusts for smaller screens and includes a toggle feature for easier - navigation on mobile devices.
+- Fully Responsive: The navbar adapts dynamically to different screen sizes, featuring a toggle menu for improved mobile usability.
 - Custom Branding: Added a custom brand logo and text to match the site’s playful tone.
 - Hover Effects on Links: Links have colour-changing hover effects, making them visually interactive and easy to navigate.
 - These customisations enhance the user experience by offering a sleek, responsive navigation system that allows users to quickly access key pages while maintaining the site’s branding and playful style.
@@ -179,21 +179,21 @@ Below are screenshots showing the full navbar (for larger screens) and the small
 ![Toggle Navbar](assets/media/toggle-navbar.PNG)
 
 ### Footer - Customised Bootstrap Layout with Interactive Links
-For the footer on the Boops & Snoots Rescue website, I designed a layout utilizing Bootstrap's responsive container and grid system that adapts to both large and small screens. While the structure is based on Bootstrap, I’ve custom-styled various elements to better align with the site’s branding and user experience. The footer contains essential information such as contact details, social media links, and a disclaimer, ensuring that users can easily access the information they need, regardless of the device they are using.
+For the footer on the Boops & Snoots Rescue website, I designed a layout utilizing Bootstrap's responsive container and grid system that adapts to both large and small screens. While the structure is based on Bootstrap, I’ve customised various elements to better align with the site’s branding and user experience. The footer contains essential information such as contact details, social media links, and a disclaimer, ensuring that users can easily access the information they need, regardless of the device they are using.
 
 Key features include:
 
-- **Interactive Contact Links:** I’ve linked the made-up address to Google Maps, so when users click on it, it opens Google Maps in a new tab or on mobile devices it opens the app if installed. The phone number is also linked, so clicking on it will open Skype (or whatever the default calling app is on the user's device), while the email address is linked to open the default email client, allowing users to easily contact the rescue.
-- **Social Media Links:** Custom icons for the rescue’s social media profiles are included, making it easy for users to stay connected for updates.
-- **Stylish Text Links:** For visual appeal, I added custom dashed dot links under the text, which is also part of the overall branding style.
+- **Interactive Contact Links:** The fictional address is linked to Google Maps, so clicking on it opens the map in a new tab (or in the app on mobile devices). The phone number is also linked, enabling users to open their default calling app, while the email address launches the default email client for easy communication.
+- **Social Media Links:** Custom icons provide quick access to the rescue’s social media pages, allowing users to stay up to date with available pets and fundraising events.
+- **Stylish Text Links:** To enhance visual appeal, I have added custom dashed-dot underline styles to text links, reinforcing the overall branding.
 - **Hover Effects:** All links in the footer have a colour change hover effect, ensuring they are easily identifiable as interactive elements.
-- **Override of Default Link Colours:** I’ve overridden the default blue hyperlinks (typically used for text links) to better align with the site’s colour scheme and branding. This gives the website a cohesive look and ensures that all interactive links are styled consistently.
-- **Opening Hours:** The footer includes the made-up opening hours for the rescue centre, providing users with important operational details.
+- **Override of Default Link Colours:** I have overridden the default blue hyperlinks to align with the website’s colour scheme and branding. This creates a consistent and cohesive look across all pages.
+- **Opening Hours:** The footer includes fictional opening hours for the rescue centre, providing users with operational details at a glance.
 - **Disclaimer:** At the bottom of the footer, I’ve added a disclaimer to clarify that the website is fictional and for educational or portfolio purposes only.
 
-These features ensure that the footer not only provides essential information but also offers an intuitive, user-friendly experience. Whether users are navigating the site on a desktop or mobile device, the footer remains accessible and functional.
+These features ensure that the footer provides essential information while remaining intuitive and user-friendly. Whether users are browsing on a desktop or mobile device, the footer remains accessible and functional.
 
-Below are screenshots showing the full footer layout (for larger screens) and the small-screen footer (for mobile view), demonstrating how the layout adjusts to ensure a seamless user experience.
+Below are screenshots demonstrating the footer layout across different screen sizes:
 
 <details><summary><em>Click to expand large footer layout</em></summary>
 
@@ -209,25 +209,33 @@ Below are screenshots showing the full footer layout (for larger screens) and th
 
 ## Other features
 ### *"...Because Every Snoot Deserves a Boop"* - Custom Pointer, Modal and Video for Donations
-To add a bit of playfulness to the site, I’ve included a subtle "Easter egg" feature: the snoot/nose image, linked to a donation Modal, is paired with the phrase "Because Every Snoot Deserves a Boop" and an arrow pointing down. It's a light-hearted touch designed to make the site more engaging, and while I hope users will notice it, I’ve also made sure the donation button underneath is easy to find in case they miss this feature.
+To add a playful touch to the site, I have included a subtle "Easter egg" feature: a snoot (nose) image linked to a donation modal, accompanied by the phrase "Because Every Snoot Deserves a Boop" with an arrow pointing downwards. This fun and interactive element is designed to engage users while drawing attention to the donation section. While the main donation button remains easily visible below, this feature adds an extra layer of personality and encourages interaction.
 
-This feature is intentional and part of the fun branding for users to interact with the site. It also showcases the interactive modal and video functionality I’ve implemented, encouraging donations in a playful and engaging manner, while still providing a clear and accessible path to support the rescue.
+This is an intentional part of the branding, ensuring that users can explore interactive elements while maintaining a clear and accessible donation pathway. It also showcases the interactive modal and video functionality, enhancing the user experience.
 
-As part of the interactive features on the Boops & Snoots Rescue website, I have implemented a custom pointer that highlights the snoot (nose) image. This visual cue guides users toward the donation link, adding a playful touch and clearly indicating that it’s interactive. By changing the cursor to a finger pointer when hovering over the snoot image, users can easily identify the area where they can initiate an action, such as triggering the pop-up modal and playing the video.
+#### Custom Pointer and Hover Effects
+![Custom Pointer](assets/media/hand-pointer-readme.png) 
 
-The hover effect further enhances this interaction: when users hover over the snoot image, it scales up by 10%, making it feel more dynamic. This ensures that users can clearly engage with the image and are encouraged to click.
+To highlight the nose image as an interactive element, I have implemented a custom pointer effect:
 
-When users click on the snoot/nose image, a modal pops up containing a short video of a cat enjoying a gentle snoot fuss, along with a clear call to action encouraging users to donate to support the rescue. The modal is designed to be user-friendly, providing easy access to a donation button that redirects users to the donation page. This ensures a seamless, controlled interaction where users can initiate actions, close the modal, and navigate back to the main content without frustration.
+- **Custom Pointer:** When users hover over the nose image, the cursor changes to a finger pointer to resemble a "boop" action, inviting them to click. 
+- **Hover Effect:** The nose image scales up by 10% on hover, creating a dynamic effect that makes it feel more interactive and engaging.
 
-Here’s a brief overview of the features:
 
-- **Custom Large Pointer:** Changes the cursor to a custom finger pointer when hovering over the snoot image to look like a boop action, inviting users to click.
-- **Hover Effect:** Scales the snoot image by 10% when hovered over, making it more interactive.
-- **Modal with Video:** Displays a sweet video of a cat's snoot being gently fussed, alongside a heartfelt message asking users to support the rescue.
+#### Donation Modal with Video
 
-These features are designed to give users full control over their interaction with the site, allowing them to play the video, close the modal, and navigate to the donation page at their own pace.
+When users click on the snoot image, a modal appears containing a short video of a cat enjoying a gentle snoot fuss, along with a clear call to action encouraging users to donate. The modal is designed to be user-friendly, providing an easy-to-access donation button that redirects users to the donation page.
 
-Below are screenshots showing these features in action:
+Key features:
+
+- **Custom Pointer Effect:** Reinforces interactivity by changing the cursor to a finger pointer.
+- **Hover Scaling:** Increases the size of the snoot image slightly when hovered over.
+- **Pop-up Modal:** Displays a heartwarming video of a cat’s snoot being fussed, paired with a message encouraging donations.
+- **Clear Call to Action:** A direct donation button within the modal ensures easy navigation to the donation page.
+
+These features allow users to engage with the site in a fun and meaningful way while maintaining control over their browsing experience. Users can play the video, close the modal, or proceed to the donation page at their own pace.
+
+Below are screenshots demonstrating these features in action:
 
 ![Custom Pointer](assets/media/custom-pointer-screenshot.PNG)
 
@@ -246,11 +254,11 @@ Below are screenshots showing these features in action:
 - **Font Awesome** – Provides scalable icons used for social media links and other design elements.
 - **Favicon Generator** – An online tool used to create and implement a custom favicon for the site.
 - **Balsamiq Wireframes** – Used for planning and sketching the website layout.
-- **WebAIM Contrast Checker** – Ensured accessible color contrast for readability.
-- **Coolors** – Helped generate and refine the site’s color palette.
-- **Eye Dropper (Chrome Extension)** – Used to extract and match colors from images.
+- **WebAIM Contrast Checker** – Ensured accessible colour contrast for readability.
+- **Coolors** – Helped generate and refine the site’s colour palette.
+- **Eye Dropper (Chrome Extension)** – Used to extract and match colours from images.
 - **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
-- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real-time.
+- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
 
 ### Additional Tools
 These tools were used for planning, content writing, design, and proofreading:
@@ -258,7 +266,7 @@ These tools were used for planning, content writing, design, and proofreading:
 - **Microsoft OneNote & Word** – Used to organise content, draft text, and structure ideas.
 - **Grammarly** – Assisted with proofreading and refining written content.
 - **Adobe Photoshop & Illustrator** – Used for image editing and creating branding elements.
-- **DALL·E** (AI Image Generation) – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customized in Adobe Photoshop and Illustrator.
+- **DALL·E** (AI Image Generation) – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customised in Adobe Photoshop and Illustrator.
 - **ChatGPT** – Used as a writing aid to help refine and structure text.
 
 ## Testing
@@ -285,7 +293,7 @@ For a detailed breakdown of the testing process, including validation results, L
 - Click Open in VS Code once cloning is complete.
 ### Alternative: Manual Deployment via Terminal
 For those who prefer the git bash terminal, the following commands can be used:  
-1. Initialize a Git repository (if not already initialized)
+1. Initialize a Git repository (if not already initialised)
 `git init`
 
 2. Add all files to the staging area
@@ -328,7 +336,7 @@ Whenever updates are made, they can be pushed using:
 
 As part of the initial planning phase, I identified additional pages and features that would enhance the website experience:
 
-- **About Page** – A section detailing the organization's history and mission.
+- **About Page** – A section detailing the organisation's history and mission.
 - **Volunteer Page** – Information on volunteer roles, benefits, and how to apply. This page was also intended to include an application form for volunteers and an accordion-style FAQ section to address common questions about volunteering.
 - **Gallery of Success Stories** – A collection of adopted animals and their happy endings.
 - **Events Section** – A showcase of past fundraising events and a link to social media for updates.
@@ -366,7 +374,7 @@ Since this is a static site, potential future updates could include:
 
 -	**Content Management System (CMS):** Allowing non-developers to easily update adoptable animals, events, and volunteer information without editing the code.
 - **User Accounts & Applications:** Personalized experiences where potential adopters and volunteers can create accounts, submit applications, and track their progress.
-- **API Integration:** Real-time updates on adoptable animals and upcoming events.
+- **API Integration:** Real time updates on adoptable animals and upcoming events.
 - **Search & Filter Features:** A dynamic database allowing users to search for pets based on criteria such as age, breed, child-friendliness, and compatibility with other pets.
 - **Online Donation Processing:** Integrated payment platforms for direct donations.
 - **Enhanced Interactivity:** Features like regular blog updates to engage the community.
@@ -392,7 +400,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
   - Inspiration & techniques: [Josh W. Comeau](https://www.joshwcomeau.com/css/designing-shadows/)  
   - Professional CSS techniques: [Nick Haralampopoulos](https://nick-haralampopoulos.medium.com/how-to-write-css-like-a-professional-best-techniques-to-get-from-idea-to-polished-result-b1c8066d3303)  
   - **Box Shadow Effect:** [LogRocket Blog](https://blog.logrocket.com/styling-css-box-shadow-property/) – Used as a reference and adapted for the **Donate and Home Buttons**.  
-- **Image Overlay with Color:**  
+- **Image Overlay with Colour:**  
   - [Stack Overflow](https://stackoverflow.com/questions/18815157/how-to-overlay-image-with-color-in-css)  
   - [HubSpot Community](https://community.hubspot.com/t5/CMS-Development/Adding-a-colour-overlay-to-an-image/m-p/780238)  
 - **Hover Effect Speed Adjustment:** [TutorialsPoint](https://www.tutorialspoint.com/set-the-speed-of-the-hover-effect-with-css#:~:text=To%20set%20the%20speed%20of%20the%20hover%20effect%2C%20we%20have,initial%20appearence%20of%20the%20button.)  
@@ -407,7 +415,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 - **Changing Image Size in Markdown:** Used solutions from [Stack Overflow](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown) to adjust image sizes in markdown.
 - **Autocomplete Attributes:** Referenced [DigitalA11Y](https://www.digitala11y.com/what-are-the-autocomplete-attributes-defined-in-1-3-5-input-purpose/) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#try_it) for guidance on autocomplete attributes for form inputs.
 - **HTML & CSS Validation:** Used [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to check for errors and ensure clean, valid code.
-- **Autoprefixer:** Utilized [Autoprefixer](https://autoprefixer.github.io/) to add vendor prefixes and improve browser compatibility.
+- **Autoprefixer:** Utilised [Autoprefixer](https://autoprefixer.github.io/) to add vendor prefixes and improve browser compatibility.
 - **Code Institute Mentor – Daniel Hamilton:** Gained valuable insights from reviewing two of their projects, [*Bomb Catcher*](https://github.com/dlhamilton/Bomb-Catcher) and [*LPSB-Learn-GCSE-CS*](https://github.com/dlhamilton/LPSB-Learn-GCSE-CS). They shared a helpful CSS commenting method that involves clear sectioning using box-like comments, which I adapted for my own project. Additionally, I followed their professional approach to Git commits, using structured prefixes like `add:`, `fix:`, `docs:` etc.
 - **Code Institute Slack Channel:** Found valuable resources and support through the **Code Institute Slack channel**, where fellow students shared helpful links, insights, and guidance.
 
