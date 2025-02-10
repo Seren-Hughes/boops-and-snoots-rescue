@@ -505,7 +505,7 @@ Accessibility & Usability Improvements
 
 ---
 
-🐞 Video Thumbnail on Mobile Devices
+🐞 Video Thumbnail on Mobile Devices 🐛
 
 - **Issue:** The video modal did not display a thumbnail on iPhone (Safari/Chrome). The video should show a preview image before playback.
 - **Fix:** Added the `poster` attribute to the video element to specify a preview image.
@@ -537,7 +537,7 @@ Accessibility & Usability Improvements
 
 --- 
 
-🐞 Touch Target Spacing on Contact Links 
+🐞 Touch Target Spacing on Contact Links 🐛
 
 - **Issue:** Google Lighthouse flagged the phone number and email links in the footer as too close together on mobile, making them difficult for some users to tap.
 - **Fix:** Increased spacing between links using `margin-bottom` to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
@@ -545,7 +545,7 @@ Accessibility & Usability Improvements
 
 ![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
 
-🐞 Footer Heading Order Accessibility Fix
+🐞 Footer Heading Order Accessibility Fix 🐛
 
 - **Issue:** Google Lighthouse flagged footer headings on the 404 page and form confirmation page for not being in sequentially descending order, affecting accessibility.
 - **Fix:** Updated the HTML structure to follow correct heading hierarchy. This change initially affected styling, so I applied `class="h4"` inline to maintain consistent footer styles across all pages.
@@ -553,11 +553,35 @@ Accessibility & Usability Improvements
 
 ![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.PNG)
 
-🐞 Footer Small Text Legibility Fix (Mobile Devices Best Practices)
+🐞 Footer Small Text Legibility Fix (Mobile Devices Best Practices) 🐛
 
 - **Issue:** Google Lighthouse flagged the 404 page and form confirmation page for having small, hard-to-read text in the footer (disclaimer, copyright, and brand text). This was due to the percentage of text under 12px being too high on mobile.
 - **Fix:** Added a media query for small screens (max-width: 480px) to ensure that footer and text elements are legible. This adjustment only applies on mobile to maintain consistency with the existing design.
 - **Result:** Improved Best Practices score to 100 on mobile while preserving the original footer styling on larger screens.
+
+🐞 Phone Number Input Accepting Letters 🐛
+
+- **Issue:** A fellow student kindly conducted manual testing of the form and discovered that the phone number input field (type="tel") allowed letters to be entered and submitted.
+- **Cause:** The type="tel" attribute does not automatically enforce numeric input; it provides the appropriate keyboard on mobile devices.
+- **Fix:** I chose not to use type="number". type="number" removes leading zeros.
+  - It also allows up/down arrows, which are unnecessary for entering a phone number.
+  - Screen readers may interpret it as a mathematical value rather than a phone number.
+  - Instead, I kept type="tel" for better accessibility and added validation:
+
+Pattern validation: Allows only numbers, spaces, +, -, () and a maximum input length of 15
+```
+<input type="tel" class="form-control" id="inputPhoneNumber" name="phone" pattern="[0-9+\s-()]{7,15}" maxlength="15" required>
+```
+JavaScript validation: Prevents invalid characters
+```
+<script>
+    document.getElementById("inputPhoneNumber").addEventListener("input", function (e) {
+      this.value = this.value.replace(/[^0-9+\s-()]/g, ""); 
+    });
+  </script> 
+```
+
+**Credit:** The input validation solution was inspired by discussions on [Stack Overflow](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and guidance from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation). Additionally, an insightful discussion on type="tel" and its behavior with assistive technologies was found in [this Stack Overflow answer.](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel)
 
 ## Feedback
 I have thoroughly tested this project to ensure functionality, usability, and responsiveness. However, I welcome any feedback or suggestions for improvement. If you spot any issues or have ideas on how this project could be enhanced, please feel free to reach out.
