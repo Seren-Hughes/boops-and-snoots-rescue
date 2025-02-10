@@ -561,14 +561,14 @@ Accessibility & Usability Improvements
 
 🐞 Phone Number Input Accepting Letters 🐛
 
-- **Issue:** A fellow student kindly conducted manual testing of the form and discovered that the phone number input field (type="tel") allowed letters to be entered and submitted.
-- **Cause:** The type="tel" attribute does not automatically enforce numeric input; it provides the appropriate keyboard on mobile devices.
-- **Fix:** I chose not to use type="number". type="number" removes leading zeros.
+- **Issue:** A fellow student kindly conducted manual testing of the form and discovered that the phone number input field `type="tel"` allowed letters to be entered and submitted.
+- **Cause:** The `type="tel"` attribute does not automatically enforce numeric input; it provides the appropriate keyboard on mobile devices.
+- **Fix:** I chose not to use `type="number"`. type="number" removes leading zeros.
   - It also allows up/down arrows, which are unnecessary for entering a phone number.
   - Screen readers may interpret it as a mathematical value rather than a phone number.
-  - Instead, I kept type="tel" for better accessibility and added validation:
+  - Instead, I kept `type="tel"` for better accessibility and added validation:
 
-Pattern validation: Allows only numbers, spaces, +, -, () and a maximum input length of 15
+Pattern validation: Restricts input to numbers, spaces, +, -, and (). The maximum length is set to 15 characters."
 ```
 <input type="tel" class="form-control" id="inputPhoneNumber" name="phone" pattern="[0-9+\s-()]{7,15}" maxlength="15" required>
 ```
@@ -581,7 +581,7 @@ JavaScript validation: Prevents invalid characters
   </script> 
 ```
 
-**Credit:** The input validation solution was inspired by discussions on [Stack Overflow](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and guidance from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation). Additionally, an insightful discussion on type="tel" and its behavior with assistive technologies was found in [this Stack Overflow answer.](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel)
+**Credit:** The input validation solution was inspired by discussions on [Stack Overflow](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and guidance from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation). Additionally, an insightful discussion on type="tel" and its behaviour with assistive technologies was found in [this Stack Overflow answer.](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel)
 
 ## Feedback
 I have thoroughly tested this project to ensure functionality, usability, and responsiveness. However, I welcome any feedback or suggestions for improvement. If you spot any issues or have ideas on how this project could be enhanced, please feel free to reach out.
