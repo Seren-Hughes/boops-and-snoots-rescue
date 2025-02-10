@@ -15,7 +15,7 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 - **Contact Page:** A contact form and fictional contact details (address, phone number and shelter opening hours) 
 
 ## Table Of Contents:
-1. [Design & Planning](#design-&-planning)
+1. [Design & Planning](#design--planning)
     * [Objectives](#objectives)
     * [User Stories](#user-stories)
     * [Wireframes](#wireframes)
@@ -24,10 +24,9 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 
     
 3. [Features](#features)
-    * [Navigation](#Navigation)
-    * [Footer](#Footer)
-    * [Home page](#Home-page)
-    * [Other features](#Other-features)
+    * [Navigation](#navigation---customised-boostrap-navbar)
+    * [Footer](#footer---customised-bootstrap-layout-with-interactive-links)
+    * [Other features](#other-features)
 
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)

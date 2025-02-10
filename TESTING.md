@@ -1,7 +1,7 @@
 # BOOPS & SNOOTS RESCUE - TESTING
 
 ## Table Of Contents:
-1. [Google Lighthouse Performance](#googles-lighthouse-performance)
+1. [Google Lighthouse Performance](#google-lighthouse-results)
 2. [Responsiveness](#responsiveness)
 3. [Code Validation](#code-validation)
 4. [Manual Testing](#manual-testing)
