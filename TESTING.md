@@ -15,63 +15,63 @@
 
 ### Index Page:
 
-![Index Page](assets/media/lighthouse-index-page.PNG)
+![Index Page](assets/media/lighthouse-index-page.png)
 
 ### Adopt Info Page:
 
-![Adopt Page](assets/media/adopt-page-lighthouse.PNG)
+![Adopt Page](assets/media/adopt-page-lighthouse.png)
 
 ### Donate Page:
 
-![Donate Page](assets/media/donate-page-lighthouse.PNG)
+![Donate Page](assets/media/donate-page-lighthouse.png)
 
 ### Contact Page
 
-![Contact Page](assets/media/contact-lighthouse.PNG)
+![Contact Page](assets/media/contact-lighthouse.png)
 
 ### Form Confirmation Page
 
-![Form confirmation Page](assets/media/thank-you-lighthouse.PNG)
+![Form confirmation Page](assets/media/thank-you-lighthouse.png)
 
 ### 404 Error Page
 
-![404 Page](assets/media/404-lighthouse.PNG)
+![404 Page](assets/media/404-lighthouse.png)
 
 ### Google Lighthouse Results On Mobile
 
 <details><Summary>Index Page</summary>
 
-![Index Page Mobile](assets/media/mobile-index-lighthouse.PNG)
+![Index Page Mobile](assets/media/mobile-index-lighthouse.png)
 
 </details>
 
 <details><Summary>Adopt Page</summary>
 
-![Adopt Page Mobile](assets/media/mobile-adopt-lighthouse.PNG)
+![Adopt Page Mobile](assets/media/mobile-adopt-lighthouse.png)
 
 </details>
 
 <details><Summary>Donate Page</summary>
 
-![Donate Page Mobile](assets/media/mobile-donate-lighthouse.PNG)
+![Donate Page Mobile](assets/media/mobile-donate-lighthouse.png)
 
 </details>
 
 <details><Summary>Contact Page</summary>
 
-![Contact Page Mobile](assets/media/mobile-contact-lighthouse.PNG)
+![Contact Page Mobile](assets/media/mobile-contact-lighthouse.png)
 
 </details>
 
 <details><Summary>Form Confirmation Page</summary>
 
-![Form Confirmation Page Mobile](assets/media/mobile-form-confirmation-lighthouse.PNG)
+![Form Confirmation Page Mobile](assets/media/mobile-form-confirmation-lighthouse.png)
 
 </details>
 
 <details><Summary>404 Page</summary>
 
-![404 Page Mobile](assets/media/mobile-404-lighthouse.PNG)
+![404 Page Mobile](assets/media/mobile-404-lighthouse.png)
 
 </details>
 
@@ -83,49 +83,49 @@ The website was tested during development for responsiveness using Google Develo
 
 <details><summary>Home page on iPhone (Safari)</summary> 
 
-![home page iPhone](assets/media/iphone-safari-home.PNG)
+![home page iPhone](assets/media/iphone-safari-home.png)
 
 </details>
 
 <details><summary>Contact form page on iPhone (Safari)</summary> 
 
-![Contact page iPhone](assets/media/iphone-safari-form.PNG)
+![Contact page iPhone](assets/media/iphone-safari-form.png)
 
 </details>
 
 <details><summary>Confirmation page on iPhone (Safari)</summary> 
 
-![Confirmation page iPhone](assets/media/iphone-safari-confirmation.PNG)
+![Confirmation page iPhone](assets/media/iphone-safari-confirmation.png)
 
 </details>
 
 <details><summary>Footer on iPhone (Chrome)</summary> 
 
-![Footer on iPhone](assets/media/iphone-footer-chrome.PNG)
+![Footer on iPhone](assets/media/iphone-footer-chrome.png)
 
 </details>
 
 <details><summary>Contact page on iPad</summary> 
 
-![Contact page iPad](assets/media/ipad-safari-contact.PNG)
+![Contact page iPad](assets/media/ipad-safari-contact.png)
 
 </details>
 
 <details><summary>Donate Page on iPad</summary> 
 
-![Donate page iPad](assets/media/ipad-donate-safari.PNG)
+![Donate page iPad](assets/media/ipad-donate-safari.png)
 
 </details>
 
 <details><summary>404 Page on iPad</summary> 
 
-![404 page iPad](assets/media/ipad-404-safari.PNG)
+![404 page iPad](assets/media/ipad-404-safari.png)
 
 </details>
 
 <details><summary>Adopt page on laptop</summary> 
 
-![Adopt page on laptop](assets/media/adopt-page-laptop-chrome.PNG)
+![Adopt page on laptop](assets/media/adopt-page-laptop-chrome.png)
 
 </details>
 
@@ -149,7 +149,7 @@ The website was tested during development for responsiveness using Google Develo
 
 ### CSS W3C Validation
 
-![CSS Validation Screenshot](assets/media/css-validation-no-errors.PNG)
+![CSS Validation Screenshot](assets/media/css-validation-no-errors.png)
 
 ## **Manual Testing**
 ### User Stories:
@@ -175,19 +175,19 @@ The website was tested during development for responsiveness using Google Develo
 #### Screenshots:
 <details><summary>Navigation to key sections including adoption. Click to see screenshots</summary>
 
-![Home Page Navigation Screenshot](assets/media/home-page-navigation.PNG)
+![Home Page Navigation Screenshot](assets/media/home-page-navigation.png)
 
 </details>
 
 <details><summary>Purpose of the organisation. Donation link. Click to see screenshots</summary>
 
-![Home Page Information Screenshot](assets/media/home-page-information.PNG)
+![Home Page Information Screenshot](assets/media/home-page-information.png)
 
 </details>
 
 <details><summary>Contact details, location, and opening hours. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/home-page-footer-location.PNG)
+![Home Page Footer Location Screenshot](assets/media/home-page-footer-location.png)
 
 </details>
 
@@ -219,13 +219,13 @@ The website was tested during development for responsiveness using Google Develo
 
 <details><summary>Monetary and item list donations. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/donate-page-info.PNG)
+![Home Page Footer Location Screenshot](assets/media/donate-page-info.png)
 
 </details>
 
 <details><summary>Encouraging support calls to action. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/donate-encouragement.PNG)
+![Home Page Footer Location Screenshot](assets/media/donate-encouragement.png)
 
 </details>
 
@@ -259,19 +259,19 @@ The website was tested during development for responsiveness using Google Develo
 
 <details><summary>Adopting information. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/adoption-page-info.PNG)
+![Home Page Footer Location Screenshot](assets/media/adoption-page-info.ong)
 
 </details>
 
 <details><summary>Confidence and trust in shelters adoption process. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/adoption-page-confidence.PNG)
+![Home Page Footer Location Screenshot](assets/media/adoption-page-confidence.png)
 
 </details>
 
 <details><summary>Adopt application form. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/adopt-page-application-form.PNG)
+![Home Page Footer Location Screenshot](assets/media/adopt-page-application-form.png)
 
 </details>
 
@@ -306,7 +306,7 @@ The website was tested during development for responsiveness using Google Develo
 
 <details><summary>Contact form. Click to see screenshot</summary>
 
-![Home Page Footer Location Screenshot](assets/media/contact-form.PNG)
+![Home Page Footer Location Screenshot](assets/media/contact-form.png)
 
 </details>
 
@@ -513,25 +513,25 @@ Accessibility & Usability Improvements
 
 <details><summary>Issue Screenshot</summary>
 
-![Before](assets/media/issue-modal-video-before.PNG)
+![Before](assets/media/issue-modal-video-before.png)
 
 </details>
 
 <details><summary>Fix on Chrome iPhone</summary>
 
-![Fixed Chrome](assets/media/fix-modal-video-thumbnail-chrome.PNG)
+![Fixed Chrome](assets/media/fix-modal-video-thumbnail-chrome.png)
 
 </details>
 
 <details><summary>Fix on Safari iPhone</summary>
 
-![Fixed Safari](assets/media/fix-modal-video-thumbnail-safari.PNG)
+![Fixed Safari](assets/media/fix-modal-video-thumbnail-safari.png)
 
 </details>
 
 <details><summary>Fix on Safari iPad</summary>
 
-![Fixed iPad Safari](assets/media/modal-video-ipad-screenshot.PNG)
+![Fixed iPad Safari](assets/media/modal-video-ipad-screenshot.png)
 
 </details>
 
@@ -543,7 +543,7 @@ Accessibility & Usability Improvements
 - **Fix:** Increased spacing between links using `margin-bottom` to prevent shifting the dashed underline. Applied changes only in media queries for smaller screens.
 - **Result:** Improved mobile accessibility and passed Lighthouse's touch target spacing test while maintaining visual styling.
 
-![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.PNG)
+![Lighthouse Mobile Screenshot](assets/media/lighthouse-home-mobile.png)
 
 🐞 Footer Heading Order Accessibility Fix 🐛
 
@@ -551,7 +551,7 @@ Accessibility & Usability Improvements
 - **Fix:** Updated the HTML structure to follow correct heading hierarchy. This change initially affected styling, so I applied `class="h4"` inline to maintain consistent footer styles across all pages.
 - **Result:** Improved accessibility by ensuring proper heading structure while preserving the original visual styling.
 
-![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.PNG)
+![Lighthouse Header Flag](assets/media/404-form-confirmation-footer-header.png)
 
 🐞 Footer Small Text Legibility Fix (Mobile Devices Best Practices) 🐛
 

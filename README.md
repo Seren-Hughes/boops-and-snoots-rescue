@@ -1,5 +1,5 @@
 # Boops & Snoots Rescue 
-![Boops & Snoots Rescue website shown on different devices](assets/media/boops-and-snoots-design-dark-background.PNG)
+![Boops & Snoots Rescue website shown on different devices](assets/media/boops-and-snoots-design-dark-background.png)
 #### About:
 Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organisation, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organisation’s strong brand identity, ensuring that visitors feel welcomed and informed.
 
@@ -156,7 +156,7 @@ Ensuring strong colour contrast for readability was a key design principle from 
   - A dummy Confirmation page for submitted forms. Since this is a static website with no backend functionality, the confirmation page is a placeholder to demonstrate the user experience after form submission.
 - ### 404 Page
   - Custom 404 page with redirect button to homepage
-  ![404 Screenshot](assets/media/404-screenshot.PNG)
+  ![404 Screenshot](assets/media/404-screenshot.png)
 ### Navigation - Customised Boostrap Navbar
 For the navigation bar on the Boops & Snoots Rescue website, I’ve used Bootstrap's responsive navbar component, which I customised to suit the branding and style of the site. The navbar is fully responsive, automatically adjusting its layout for smaller screens, and includes a toggle feature that allows users to easily access the navigation links on mobile devices.
 
@@ -173,9 +173,9 @@ In addition to the custom logo and text, I’ve applied a hover effect to the na
 
 Below are screenshots showing the full navbar (for larger screens) and the small-screen toggle navbar (for mobile and tablet view), highlighting how the layout adjusts to ensure a seamless user experience across all devices.
 
-![Full Navbar](assets/media/full-navbar.PNG)
+![Full Navbar](assets/media/full-navbar.png)
 
-![Toggle Navbar](assets/media/toggle-navbar.PNG)
+![Toggle Navbar](assets/media/toggle-navbar.png)
 
 ### Footer - Customised Bootstrap Layout with Interactive Links
 For the footer on the Boops & Snoots Rescue website, I designed a layout utilizing Bootstrap's responsive container and grid system that adapts to both large and small screens. While the structure is based on Bootstrap, I’ve customised various elements to better align with the site’s branding and user experience. The footer contains essential information such as contact details, social media links, and a disclaimer, ensuring that users can easily access the information they need, regardless of the device they are using.
@@ -196,13 +196,13 @@ Below are screenshots demonstrating the footer layout across different screen si
 
 <details><summary><em>Click to expand large footer layout</em></summary>
 
-![Large Footer Screenshot](assets/media/large-footer-screenshot.PNG)
+![Large Footer Screenshot](assets/media/large-footer-screenshot.png)
 
 </details>
 
 <details><summary><em>Click to expand small footer layout</em></summary>
 
-![Small Footer Screenshot](assets/media/Small-footer-screenshot.PNG)
+![Small Footer Screenshot](assets/media/Small-footer-screenshot.png)
 
 </details>
 
@@ -236,7 +236,7 @@ These features allow users to engage with the site in a fun and meaningful way w
 
 Below are screenshots demonstrating these features in action:
 
-![Custom Pointer](assets/media/custom-pointer-screenshot.PNG)
+![Custom Pointer](assets/media/custom-pointer-screenshot.png)
 
 ![Modal Video Message Donate Button](assets/media/modal-button-video-screenshot.png)
 
