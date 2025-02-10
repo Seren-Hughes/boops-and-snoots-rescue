@@ -32,7 +32,9 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 4. [Technologies Used](#technologies-used)
 5. [Testing](#testing)
 6. [Deployment](#deployment)
-7. [Credits](#credits)
+7. [Stretch Goals](#stretch-goals)
+8. [Future Enhancements](#future-enhancements)
+9. [Credits](#credits)
 
 ## Design & Planning:
 
@@ -152,7 +154,7 @@ Ensuring strong colour contrast for readability was a priority. Before developme
 - ### Contact Us Page
   - Enquiry form with dropdown for enquiry type selection
 - ### Success Page
-  - Confirmation page for submitted forms
+  - A dummy Confirmation page for submitted forms. Since this is a static website with no backend functionality, the confirmation page is a placeholder to demonstrate the user experience after form submission.
 - ### 404 Page
   - Custom 404 page with redirect button to homepage
   ![404 Screenshot](assets/media/404-screenshot.PNG)
@@ -181,7 +183,7 @@ For the footer on the Boops & Snoots Rescue website, I designed a layout utilizi
 
 Key features include:
 
-- **Interactive Contact Links:** I’ve linked the made-up address to Google Maps, so when users click on it, it opens the location in a new tab. The phone number is also linked, so clicking on it will open Skype (or whatever the default calling app is on the user's device), while the email address is linked to open the default email client, allowing users to easily contact the rescue.
+- **Interactive Contact Links:** I’ve linked the made-up address to Google Maps, so when users click on it, it opens Google Maps in a new tab or on mobile devices it opens the app if installed. The phone number is also linked, so clicking on it will open Skype (or whatever the default calling app is on the user's device), while the email address is linked to open the default email client, allowing users to easily contact the rescue.
 - **Social Media Links:** Custom icons for the rescue’s social media profiles are included, making it easy for users to stay connected for updates.
 - **Stylish Text Links:** For visual appeal, I added custom dashed dot links under the text, which is also part of the overall branding style.
 - **Hover Effects:** All links in the footer have a colour change hover effect, ensuring they are easily identifiable as interactive elements.
@@ -234,7 +236,7 @@ Below are screenshots showing these features in action:
 ## Technologies Used
 ### Languages & Frameworks:
 - **HTML** – Provides the structure and content of the website.
-- **CSS** – Used for styling, including custom hover effects, animations, and branding elements.
+- **CSS** – Used for styling, including custom hover effects and branding elements.
 - **Bootstrap** – Utilised for a responsive, mobile-friendly layout, with custom styling applied to elements such as the navbar, buttons, and modals.
 
 ### Tools and Software
@@ -320,6 +322,45 @@ Whenever updates are made, they can be pushed using:
 5. Click **Save**.
 6. After a few moments, GitHub Pages will generate a link to your live site.
 
+--- 
+
+## Stretch Goals
+
+As part of the initial planning phase, I identified additional pages and features that would enhance the website experience:
+
+- **About Page** – A section detailing the organization's history and mission.
+- **Volunteer Page** – Information on volunteer roles, benefits, and how to apply. This page was also intended to include an application form for volunteers and an accordion-style FAQ section to address common questions about volunteering.
+- **Gallery of Success Stories** – A collection of adopted animals and their happy endings.
+- **Events Section** – A showcase of past fundraising events and a link to social media for updates.
+
+I created wireframes and wrote content for these pages; however, during development, I reassessed the project scope and prioritized completing core features, validation checks, and ensuring overall site stability. Given that CSS changes could have a site-wide impact, I made the strategic decision to avoid last-minute additions that might introduce unintended issues.
+
+These pages remain stretch goals for future development, and their wireframes are included below for reference:
+
+<details><summary>About Page Wireframes. Click to view</summary>
+
+![About Page Wireframe](assets/media/about-page.png)
+
+</details>
+
+<details><summary>Volunteer Page Wireframes. Click to view</summary>
+
+![Volunteer Page Wireframe](assets/media/volunteer-page.png)
+
+</details>
+
+<details><summary>Gallery Success Stories Page Wireframes. Click to view</summary>
+
+![Gallery Page Wireframe](assets/media/gallery-success-stories.png)
+
+</details>
+
+<details><summary>Events Page Wireframes. Click to view</summary>
+
+![Events Page Wireframe](assets/media/events-page.png)
+
+</details>
+
 ## Future Enhancements
 Since this is a static site, potential future updates could include:
 -	A CMS for easier content management
@@ -331,7 +372,7 @@ Since this is a static site, potential future updates could include:
 -	Newsletter signup for updates, events and adoption stories
 - Merchandise store to sell branded items like t-shirts and mugs to raise funds and increase brand visibility
 
-As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding to new locations, and increasing its reach — the demand for these enhancements would naturally increase. These future updates would make it easier to adopt pets, and provide a fun way for supporters to contribute while spreading the word about the organization.
+As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding to new locations, and increasing its reach — the demand for these enhancements would naturally increase. These future updates would make it easier to adopt pets, and provide a fun way for supporters to contribute while spreading the word about the organisation.
 
 ## Credits
 ### Code & Text Content  
