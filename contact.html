@@ -101,15 +101,18 @@
                     <form action="form-confirmation.html" class="row g-3">
                         <div class="col-12 col-md-6">
                             <label for="name" class="form-label">Name:</label>
-                            <input type="text" class="form-control" id="name" autocomplete="name" required>
+                            <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
                         </div>
                         <div class="col-12 col-md-6">
                             <label for="email" class="form-label">Email:</label>
-                            <input type="email" class="form-control" id="email" autocomplete="email" required>
+                            <input type="email" class="form-control" id="email" name="email" autocomplete="email"
+                                required>
                         </div>
                         <div class="col-12 col-md-6">
+                            <!-- Phone number input with pattern and maxlength for validation from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation -->
                             <label for="inputPhoneNumber" class="form-label">Phone Number:</label>
-                            <input type="tel" class="form-control" id="inputPhoneNumber" required>
+                            <input type="tel" class="form-control" id="inputPhoneNumber" name="phone"
+                                pattern="[0-9+\s-()]{7,15}" maxlength="15" required>
                         </div>
                         <div class="col-12 col-md-6">
                             <label for="enquiry" class="form-label">Your Enquiry</label>
@@ -173,7 +176,8 @@
                                 <br>Betws-y-Coed
                                 <br>Conwy
                                 <br>North Wales</a></p>
-                        <p class="contact-info"><i class="fa-solid fa-phone"></i> <a href="tel:01234567890">01234 567890</a>
+                        <p class="contact-info"><i class="fa-solid fa-phone"></i> <a href="tel:01234567890">01234
+                                567890</a>
                             <br><i class="fa-solid fa-at"></i> <a
                                 href="mailto:boops&snootsrescue@boop.com">boops&snootsrescue@boop.com</a>
                         </p>
@@ -223,6 +227,13 @@
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/6455293cfc.js" crossorigin="anonymous"></script>
+
+    <!-- JS for phone tel input validation from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation and https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field -->
+    <script>
+        document.getElementById("inputPhoneNumber").addEventListener("input", function (e) {
+            this.value = this.value.replace(/[^0-9+\s-()]/g, ""); // Remove any invalid characters
+        });
+    </script>
 </body>
 
 </html>

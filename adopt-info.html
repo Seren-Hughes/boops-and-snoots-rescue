@@ -229,31 +229,37 @@
               <form action="form-confirmation.html" class="row g-3">
                 <div class="col-md-6">
                   <label for="name" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="name" autocomplete="name" required>
+                  <input type="text" class="form-control" id="name" name="fullname" autocomplete="name" required>
                 </div>
                 <div class="col-md-6">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" autocomplete="email" required>
+                  <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
                 </div>
                 <div class="col-12">
                   <label for="inputAddress" class="form-label">Address Line 1</label>
-                  <input type="text" class="form-control" id="inputAddress" autocomplete="address-level1" required>
+                  <input type="text" class="form-control" id="inputAddress" name="address1"
+                    autocomplete="address-level1" required>
                 </div>
                 <div class="col-12">
                   <label for="inputAddress2" class="form-label">Address Line 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" autocomplete="address-level2">
+                  <input type="text" class="form-control" id="inputAddress2" name="address2"
+                    autocomplete="address-level2">
                 </div>
                 <div class="col-md-4">
                   <label for="inputCounty" class="form-label">County</label>
-                  <input type="text" class="form-control" id="inputCounty" autocomplete="address-level3" required>
+                  <input type="text" class="form-control" id="inputCounty" name="county" autocomplete="address-level3"
+                    required>
                 </div>
                 <div class="col-md-4">
                   <label for="inputPostCode" class="form-label">Post Code</label>
-                  <input type="text" class="form-control" id="inputPostCode" autocomplete="postal-code" required>
+                  <input type="text" class="form-control" id="inputPostCode" name="postcode" autocomplete="postal-code"
+                    required>
                 </div>
                 <div class="col-md-4">
+                  <!-- Phone number input with pattern and maxlength for validation from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation -->
                   <label for="inputPhoneNumber" class="form-label">Contact Phone Number</label>
-                  <input type="tel" class="form-control" id="inputPhoneNumber" required>
+                  <input type="tel" class="form-control" id="inputPhoneNumber" name="phone" pattern="[0-9+\s-()]{7,15}"
+                    maxlength="15" required>
                 </div>
 
                 <!-- adoption preferences -->
@@ -462,6 +468,13 @@
 
   <!-- Font Awesome Kit -->
   <script src="https://kit.fontawesome.com/6455293cfc.js" crossorigin="anonymous"></script>
+
+  <!-- JS for phone tel input validation from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation and https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field -->
+  <script>
+    document.getElementById("inputPhoneNumber").addEventListener("input", function (e) {
+      this.value = this.value.replace(/[^0-9+\s-()]/g, ""); // Remove any invalid characters
+    });
+  </script>
 </body>
 
 </html>
