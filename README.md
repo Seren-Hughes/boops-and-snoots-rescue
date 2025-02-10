@@ -363,16 +363,20 @@ These pages remain stretch goals for future development, and their wireframes ar
 
 ## Future Enhancements
 Since this is a static site, potential future updates could include:
--	A CMS for easier content management
--	User accounts for personalized experiences
--	API integration for real-time updates on adoptable animals and events
--	Search and filter features for adoptable animals (e.g., age, breed, child-friendliness, ability to live with other pets)
--	Online donation processing via integrated payment platforms
--	Enhanced interactivity with features like regular blog updates
--	Newsletter signup for updates, events and adoption stories
-- Merchandise store to sell branded items like t-shirts and mugs to raise funds and increase brand visibility
 
-As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding to new locations, and increasing its reach — the demand for these enhancements would naturally increase. These future updates would make it easier to adopt pets, and provide a fun way for supporters to contribute while spreading the word about the organisation.
+-	**Content Management System (CMS):** Allowing non-developers to easily update adoptable animals, events, and volunteer information without editing the code.
+- **User Accounts & Applications:** Personalized experiences where potential adopters and volunteers can create accounts, submit applications, and track their progress.
+- **API Integration:** Real-time updates on adoptable animals and upcoming events.
+- **Search & Filter Features:** A dynamic database allowing users to search for pets based on criteria such as age, breed, child-friendliness, and compatibility with other pets.
+- **Online Donation Processing:** Integrated payment platforms for direct donations.
+- **Enhanced Interactivity:** Features like regular blog updates to engage the community.
+- **Newsletter Signup:** An email subscription system for updates, events, and adoption stories.
+- **Merchandise Store:** Selling branded items like t-shirts and mugs to raise funds and increase brand visibility.
+- **Interactive Event Calendar:** A live-updating calendar where users can register for upcoming fundraising and adoption events.
+- **Community Forum or Blog:** A space for adopters to share updates and for the rescue to post success stories and training tips.
+
+As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding to new locations, and increasing its reach — the demand for these enhancements would naturally increase. While this project remains a static website, these theoretical future updates would improve usability, streamline the adoption process, and provide more ways for supporters to engage with and contribute to the organisation.
+
 
 ## Credits
 ### Code & Text Content  
