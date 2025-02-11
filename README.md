@@ -270,27 +270,39 @@ Below are screenshots demonstrating these features in action:
 
 ## Technologies Used
 
-### Languages & Frameworks:
+### Languages, Frameworks & Tools
+
+#### Languages & Frameworks:
 
 - **HTML** – Provides the structure and content of the website.
 - **CSS** – Used for styling, including custom hover effects and branding elements.
 - **Bootstrap** – Utilised for a responsive, mobile-friendly layout, with custom styling applied to elements such as the navbar, buttons, and modals.
+- **JavaScript** – Used for form validation (restricting input to numbers on forms).
 
-### Tools and Software
+#### Development Tools:
 
 - **GitHub** – Used for version control, tracking changes, and hosting the project repository.
 - **Visual Studio Code** – The primary code editor for developing the site.
+- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
+- **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
+
+#### Design & UI Tools:
+
+- **Balsamiq Wireframes** – Used for planning and sketching the website layout.
+- **Coolors** – Helped generate and refine the site’s colour palette.
+- **WebAIM Contrast Checker** – Ensured accessible colour contrast for readability.
+- **Eye Dropper (Chrome Extension)** – Used to extract and match colours from images.
 - **Google Fonts** – Used to enhance the site's typography with custom fonts.
 - **Font Awesome** – Provides scalable icons used for social media links and other design elements.
 - **Favicon Generator** – An online tool used to create and implement a custom favicon for the site.
-- **Balsamiq Wireframes** – Used for planning and sketching the website layout.
-- **WebAIM Contrast Checker** – Ensured accessible colour contrast for readability.
-- **Coolors** – Helped generate and refine the site’s colour palette.
-- **Eye Dropper (Chrome Extension)** – Used to extract and match colours from images.
-- **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
-- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
 
-### Additional Tools
+#### Testing & Validation Tools:
+
+- [**W3C Markup Validator**](validator.w3.org) – Ensured valid HTML code.
+- [**W3C CSS Validator**](jigsaw.w3.org/css-validator) – Checked for valid CSS.
+- [**Autoprefixer**](autoprefixer.github.io) – Added necessary vendor prefixes for better browser compatibility.
+
+#### Additional Tools:
 
 These tools were used for planning, content writing, design, and proofreading:
 
@@ -298,7 +310,7 @@ These tools were used for planning, content writing, design, and proofreading:
 - **Microsoft OneNote & Word** – Used to organise content, draft text, and structure ideas.
 - **Grammarly** – Assisted with proofreading and refining written content.
 - **Adobe Photoshop & Illustrator** – Used for image editing and creating branding elements.
-- **DALL·E** (AI Image Generation) – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customised in Adobe Photoshop and Illustrator.
+- **DALL·E (AI Image Generation)** – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customised in Adobe Photoshop and Illustrator.
 - **ChatGPT** – Used as a writing aid to help refine and structure text.
 
 ## Testing
@@ -435,6 +447,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 - **Bootstrap Cursor Pointer Customization:** [Scaler](https://www.scaler.com/topics/cursor-pointer-bootstrap/)
 - **Increasing Cursor Size:** [Stack Overflow](https://stackoverflow.com/questions/27351916/increase-cursor-size-in-html-body#:~:text=You%20can't%20increase%20the,Javascript%2FjQuery%20hack%20for%20this.)
 - **noopener vs noreferrer Explanation:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener)
+- **Phone Number Input Validation:** Used solutions from [Stack Overflow 1](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel), [Stack Overflow 2](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation) Used a combination of `pattern` attributes and JavaScript to ensure only numeric characters are accepted in the phone number input field while keeping `type="tel"`. 
 - **Custom Box Shadows:**
   - Inspiration & techniques: [Josh W. Comeau](https://www.joshwcomeau.com/css/designing-shadows/)
   - Professional CSS techniques: [Nick Haralampopoulos](https://nick-haralampopoulos.medium.com/how-to-write-css-like-a-professional-best-techniques-to-get-from-idea-to-polished-result-b1c8066d3303)

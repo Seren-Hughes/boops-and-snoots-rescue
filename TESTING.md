@@ -259,7 +259,7 @@ The website was tested during development for responsiveness using Google Develo
 
 <details><summary>Adopting information. Click to see screenshots</summary>
 
-![Home Page Footer Location Screenshot](assets/media/adoption-page-info.ong)
+![Home Page Footer Location Screenshot](assets/media/adoption-page-info.png)
 
 </details>
 
