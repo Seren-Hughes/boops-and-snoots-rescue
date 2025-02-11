@@ -313,6 +313,8 @@ These tools were used for planning, content writing, design, and proofreading:
 - **Adobe Photoshop & Illustrator** – Used for image editing and creating branding elements.
 - **DALL·E (AI Image Generation)** – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customised in Adobe Photoshop and Illustrator.
 - **ChatGPT** – Used as a writing aid to help refine and structure text.
+- **OpenShot Video Editor** - Used for editing video modal, adding audio, and ambient music.
+- **Ableton Live** - Used for editing audio for the video.  
 
 ## Testing
 
@@ -513,6 +515,11 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 
 - **Pexels**
   - Video of person petting orange cat on [Index page - modal] by ROMAN ODINTSOV from Pexels [Link to the video](https://www.pexels.com/video/a-person-petting-a-cat-5668810/)
+
+### **Audio**
+
+- **Pixabay**
+  - Cat purring used on video in modal by locontrario23 (Freesound) [Link to audio](https://pixabay.com/sound-effects/cat-purring-70622/)
 
 ### **Icons and Fonts**
 
