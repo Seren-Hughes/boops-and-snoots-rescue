@@ -285,6 +285,7 @@ Below are screenshots demonstrating these features in action:
 - **Visual Studio Code** – The primary code editor for developing the site.
 - **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
 - **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
+- [**GitHub Project Board**](https://github.com/users/Seren-Hughes/projects/5) – Used for project management with a *To Do*, *In Progress*, and *Done* Kanban board. An additional *Stretch Goals* column was added to park "Could Have" features for future consideration. This structure was guided by the Minimum Viable Product (MVP) approach learned in Code Institute, ensuring the core website was strong without being sidetracked by non-essential features.
 
 #### Design & UI Tools:
 
