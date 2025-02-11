@@ -247,7 +247,7 @@ This is an intentional part of the branding, ensuring that users can explore int
 To highlight the nose image as an interactive element, I have implemented a custom pointer effect:
 
 - **Custom Pointer:** When users hover over the nose image, the cursor changes to a finger pointer to resemble a "boop" action, inviting them to click.
-- **Hover Effect:** The nose image scales up by 10% on hover, creating a dynamic effect that makes it feel more interactive and engaging.
+- **Pulsing Effect:** The nose image continuously pulses with a smooth scaling animation. The image gradually grows by 10% and then returns to its original size, creating an eye-catching and dynamic effect that draws attention to the donation prompt.
 
 #### Donation Modal with Video
 
@@ -460,6 +460,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
   - [HubSpot Community](https://community.hubspot.com/t5/CMS-Development/Adding-a-colour-overlay-to-an-image/m-p/780238)
 - **Hover Effect Speed Adjustment:** [TutorialsPoint](https://www.tutorialspoint.com/set-the-speed-of-the-hover-effect-with-css#:~:text=To%20set%20the%20speed%20of%20the%20hover%20effect%2C%20we%20have,initial%20appearence%20of%20the%20button.)
 - **Hover Effect Zoom:** [W3Schools](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+- **CSS Pulse Animation:** Pulse effect used on nose image adapted from [Geeks For Geeks](https://www.geeksforgeeks.org/css-pulse-animation/) and [Travis Media](https://travis.media/blog/css-pulse-effect/)
 - **Scrollbar Styling for Mobile & Tablet:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) for pseudo-classes and implementation.
 - **Image Conversion:** Used [FreeConvert.com](https://www.freeconvert.com/) to convert images to WebP format for better performance and optimization.
 - **Google Fonts:** Used [Google Fonts](https://fonts.google.com/selection/embed) to import custom fonts for the website's design.

@@ -244,11 +244,21 @@ header > .line-break {
   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
-/* hover effect nose/snoot expands slightly - adapted from Sara Cope tutorial at https://css-tricks.com/almanac/properties/t/transform/*/
-.large-pointer:hover img {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1); /* Scale the image by 10% when hovering */
+/* pulse animation effect on nose image to encourage users to click - adapted from https://travis.media/blog/css-pulse-effect/ and https://www.geeksforgeeks.org/css-pulse-animation/ */
+#donateBtn img {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Make the image grow */
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Modal video*/
