@@ -285,7 +285,7 @@ Below are screenshots demonstrating these features in action:
 - **Visual Studio Code** – The primary code editor for developing the site.
 - **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
 - **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
-- [**GitHub Project Board**](https://github.com/users/Seren-Hughes/projects/5) – Used for project management with a *To Do*, *In Progress*, and *Done* Kanban board. An additional *Stretch Goals* column was added to park "Could Have" features for future consideration. This structure was guided by the Minimum Viable Product (MVP) approach learned in Code Institute, ensuring the core website was strong without being sidetracked by non-essential features.
+- [**GitHub Project Board**](https://github.com/users/Seren-Hughes/projects/5) – Used for project management with a _To Do_, _In Progress_, and _Done_ Kanban board. An additional _Stretch Goals_ column was added to park "Could Have" features for future consideration. This structure was guided by the Minimum Viable Product (MVP) approach learned in Code Institute, ensuring the core website was strong without being sidetracked by non-essential features.
 
 #### Design & UI Tools:
 
@@ -448,7 +448,7 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 - **Bootstrap Cursor Pointer Customization:** [Scaler](https://www.scaler.com/topics/cursor-pointer-bootstrap/)
 - **Increasing Cursor Size:** [Stack Overflow](https://stackoverflow.com/questions/27351916/increase-cursor-size-in-html-body#:~:text=You%20can't%20increase%20the,Javascript%2FjQuery%20hack%20for%20this.)
 - **noopener vs noreferrer Explanation:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener)
-- **Phone Number Input Validation:** Used solutions from [Stack Overflow 1](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel), [Stack Overflow 2](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation) Used a combination of `pattern` attributes and JavaScript to ensure only numeric characters are accepted in the phone number input field while keeping `type="tel"`. 
+- **Phone Number Input Validation:** Used solutions from [Stack Overflow 1](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel), [Stack Overflow 2](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation) Used a combination of `pattern` attributes and JavaScript to ensure only numeric characters are accepted in the phone number input field while keeping `type="tel"`.
 - **Custom Box Shadows:**
   - Inspiration & techniques: [Josh W. Comeau](https://www.joshwcomeau.com/css/designing-shadows/)
   - Professional CSS techniques: [Nick Haralampopoulos](https://nick-haralampopoulos.medium.com/how-to-write-css-like-a-professional-best-techniques-to-get-from-idea-to-polished-result-b1c8066d3303)
