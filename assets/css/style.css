@@ -299,6 +299,12 @@ video {
 
 /* ==================Adoption Page Styles================ */
 
+/* id to style 'browse available animals' h2 heading to consistent style on adopt page */
+#browse-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+} 
+
 /* Adoption page images */
 img.adopt-image {
   border-radius: 100%;
