@@ -611,7 +611,7 @@ JavaScript validation: Prevents invalid characters
 
 ![Error addEventListener](assets/media/addeventlistener-error.png)
 
-- **Cause** This happened because my JavaScript was trying to attach an event listener to an element before it existed in the DOM.
+- **Cause:** This happened because my JavaScript was trying to attach an event listener to an element before it existed in the DOM.
 - **Fix:** I wrapped my script inside a `DOMContentLoaded` event to ensure it runs only after the page has fully loaded.
 Even though my script was already placed before `</body>`, this extra safeguard ensured there were no timing issues.
 
