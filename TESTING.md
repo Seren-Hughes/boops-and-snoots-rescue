@@ -581,7 +581,7 @@ Accessibility & Usability Improvements
 Pattern validation: Restricts input to numbers, spaces, +, -, and (). The maximum length is set to 15 characters."
 
 ```
-<input type="tel" class="form-control" id="inputPhoneNumber" name="phone" pattern="[0-9+\s-()]{7,15}" maxlength="15" required>
+<input type="tel" class="form-control" id="inputPhoneNumber" name="phone" pattern="[0-9\s\-\(\)\+]+" maxlength="15" required>
 ```
 
 JavaScript validation: Prevents invalid characters
@@ -595,6 +595,27 @@ JavaScript validation: Prevents invalid characters
 ```
 
 **Credit:** The input validation solution was inspired by discussions on [Stack Overflow](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and guidance from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation). Additionally, an insightful discussion on type="tel" and its behaviour with assistive technologies was found in [this Stack Overflow answer.](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel)
+
+🐞 Moving Inline JavaScript to an External Script File 🐛
+
+- **Issue:** Initially, I placed my JavaScript directly at the bottom of my adopt.html page. While this worked, my mentor, Daniel Hamilton, pointed out that it’s best practice to keep JavaScript separate for better maintainability, reusability, and readability.
+- **Fix:** I created a js folder inside the assets directory and moved my script into assets/js/script.js. I then linked this file in my adopt.html and contact.html using: 
+`<script src="assets/js/script.js"></script>`
+- **Result:** This approach keeps my HTML cleaner and allows me to manage my scripts more efficiently.
+
+**Credit** Thanks to my mentor, Daniel Hamilton, for the guidance on structuring my project properly.
+
+🐞 Uncaught TypeError: Cannot Read Properties of Null (Reading 'addEventListener') 🐛
+
+- **Issue:** While testing in Google Developer Tools, I encountered an error:
+
+![Error addEventListener](assets/media/addeventlistener-error.png)
+
+- **Cause** This happened because my JavaScript was trying to attach an event listener to an element before it existed in the DOM.
+- **Fix:** I wrapped my script inside a `DOMContentLoaded` event to ensure it runs only after the page has fully loaded.
+Even though my script was already placed before `</body>`, this extra safeguard ensured there were no timing issues.
+
+**Credit:** The explanation that helped me understand this issue came from [Codedamn](https://codedamn.com/news/javascript/fixing-cannot-read-property-addeventlistener-of-null-error-in-javascript), which clearly outlined why this error occurs and how `DOMContentLoaded` resolves it.
 
 ## Feedback
 
