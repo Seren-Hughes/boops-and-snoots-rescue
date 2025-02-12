@@ -234,13 +234,13 @@ Below are screenshots demonstrating the footer layout across different screen si
 
 ## Other features
 
-### _"...Because Every Snoot Deserves a Boop"_ - Custom Pointer, Modal and Video for Donations
+### _"Click to Boop the Snoot""_ - Custom Pointer, Modal and Video for Donations
 
-To add a playful touch to the site, I have included a subtle "Easter egg" feature: a snoot (nose) image linked to a donation modal, accompanied by the phrase "Because Every Snoot Deserves a Boop" with an arrow pointing downwards. This fun and interactive element is designed to engage users while drawing attention to the donation section. While the main donation button remains easily visible below, this feature adds an extra layer of personality and encourages interaction.
+To add a playful touch to the site, I have included a subtle "Easter egg" feature: a snoot (nose) image linked to a donation modal, accompanied by the call to action "Click to Boop the Snoot" with an arrow pointing downwards. This fun and interactive element is designed to engage users while drawing attention to the donation section. While the main donation button remains easily visible below, this feature adds an extra layer of personality and encourages interaction.
 
 This is an intentional part of the branding, ensuring that users can explore interactive elements while maintaining a clear and accessible donation pathway. It also showcases the interactive modal and video functionality, enhancing the user experience.
 
-#### Custom Pointer and Hover Effects
+#### Custom Pointer and Pulsing Effect
 
 ![Custom Pointer](assets/media/hand-pointer-readme.png)
 
@@ -256,13 +256,15 @@ When users click on the snoot image, a modal appears containing a short video of
 Key features:
 
 - **Custom Pointer Effect:** Reinforces interactivity by changing the cursor to a finger pointer.
-- **Hover Scaling:** Increases the size of the snoot image slightly when hovered over.
+- **Pulsing Effect:** Scaling animation to draw users attention to interact.
 - **Pop-up Modal:** Displays a heartwarming video of a cat’s snoot being fussed, paired with a message encouraging donations.
 - **Clear Call to Action:** A direct donation button within the modal ensures easy navigation to the donation page.
 
 These features allow users to engage with the site in a fun and meaningful way while maintaining control over their browsing experience. Users can play the video, close the modal, or proceed to the donation page at their own pace.
 
-Below are screenshots demonstrating these features in action:
+Below is a gif and screenshots demonstrating these features in action:
+
+![Gif pointer ](assets/media/gif-showing-pointer-nose-modal-video.gif)
 
 ![Custom Pointer](assets/media/custom-pointer-screenshot.png)
 
@@ -313,8 +315,9 @@ These tools were used for planning, content writing, design, and proofreading:
 - **Adobe Photoshop & Illustrator** – Used for image editing and creating branding elements.
 - **DALL·E (AI Image Generation)** – Used as a brainstorming tool for initial logo ideas, but all final design work was edited and customised in Adobe Photoshop and Illustrator.
 - **ChatGPT** – Used as a writing aid to help refine and structure text.
+- **Gyazo** – Used for capturing gifs for readme.md 
 - **OpenShot Video Editor** - Used for editing video modal, adding audio, and ambient music.
-- **Ableton Live** - Used for editing audio for the video.  
+- **Ableton Live** - Used for editing audio used in video.  
 
 ## Testing
 
@@ -451,6 +454,14 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 - **Increasing Cursor Size:** [Stack Overflow](https://stackoverflow.com/questions/27351916/increase-cursor-size-in-html-body#:~:text=You%20can't%20increase%20the,Javascript%2FjQuery%20hack%20for%20this.)
 - **noopener vs noreferrer Explanation:** [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener)
 - **Phone Number Input Validation:** Used solutions from [Stack Overflow 1](https://stackoverflow.com/questions/67903970/how-do-i-accept-only-numbers-and-reject-letters-for-input-tel), [Stack Overflow 2](https://stackoverflow.com/questions/8936018/limit-input-to-numbers-and-on-input-field) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation) Used a combination of `pattern` attributes and JavaScript to ensure only numeric characters are accepted in the phone number input field while keeping `type="tel"`.
+- **Radio Button Validation:** The implementation for enabling and disabling text inputs with JavaScript based on radio button selection was adapted from the following sources:
+  - Disable input field until radio button is checked [Stack Overflow]( https://stackoverflow.com/questions/12491297/input-field-disabled-until-radio-button-is-checked-html )
+  - Enabling text fields based on radio button selection [Stack Overflow](https://stackoverflow.com/questions/15496350/enabling-text-fields-based-on-radio-button-selection)
+  - Enable/Disable TextBox on RadioButton click [ASP Snippets](https://www.aspsnippets.com/Articles/2863/Enable-Disable-TextBox-on-RadioButton-click-checked-unchecked-using-JavaScript-and-jQuery/)
+  - addEventListener [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+  - Disable text box when radio button is selected [Stack Overflow](https://stackoverflow.com/questions/71837255/html-disable-text-box-when-radio-button-is-selected)
+  - getElementById [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+- **Asterix Conventions Required Fields:** Referenced a great article on form UX design by Raluca Budiu [NNGroup](https://www.nngroup.com/articles/required-fields/)
 - **Custom Box Shadows:**
   - Inspiration & techniques: [Josh W. Comeau](https://www.joshwcomeau.com/css/designing-shadows/)
   - Professional CSS techniques: [Nick Haralampopoulos](https://nick-haralampopoulos.medium.com/how-to-write-css-like-a-professional-best-techniques-to-get-from-idea-to-polished-result-b1c8066d3303)
@@ -521,6 +532,9 @@ As Boops & Snoots Rescue continues to grow — welcoming more animals, expanding
 
 - **Pixabay**
   - Cat purring used on video in modal by locontrario23 (Freesound) [Link to audio](https://pixabay.com/sound-effects/cat-purring-70622/)
+
+### **gifs** 
+- gifs created using [Gyazo](https://gyazo.com/)
 
 ### **Icons and Fonts**
 
