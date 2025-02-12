@@ -100,22 +100,22 @@
                     <h3>Contact Us</h3>
                     <form action="form-confirmation.html" class="row g-3">
                         <div class="col-12 col-md-6">
-                            <label for="name" class="form-label">Name:</label>
+                            <label for="name" class="form-label">Name *</label>
                             <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
                         </div>
                         <div class="col-12 col-md-6">
-                            <label for="email" class="form-label">Email:</label>
+                            <label for="email" class="form-label">Email *</label>
                             <input type="email" class="form-control" id="email" name="email" autocomplete="email"
                                 required>
                         </div>
                         <div class="col-12 col-md-6">
                             <!-- Phone number input with pattern and maxlength for validation from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#validation -->
-                            <label for="inputPhoneNumber" class="form-label">Phone Number:</label>
+                            <label for="inputPhoneNumber" class="form-label">Phone Number *</label>
                             <input type="tel" class="form-control" id="inputPhoneNumber" name="phone"
                                 pattern="[0-9+\s-()]{7,15}" maxlength="15" autocomplete="tel" required>
                         </div>
                         <div class="col-12 col-md-6">
-                            <label for="enquiry" class="form-label">Your Enquiry</label>
+                            <label for="enquiry" class="form-label">Your Enquiry *</label>
                             <select class="form-select" id="enquiry" required>
                                 <option value="" disabled selected>Select an option</option>
                                 <option value="general">General</option>
@@ -127,9 +127,9 @@
                             </select>
                         </div>
                         <div class="col-12">
-                            <label for="message" class="form-label">Your Message</label>
+                            <label for="message" class="form-label">Your Message *</label>
                             <textarea class="form-control" id="message" name="message" rows="4"
-                                placeholder="Write your message here..."></textarea>
+                                placeholder="Write your message here..." required></textarea>
                         </div>
                         <fieldset class="col-12 mb-3">
                             <legend class="form-label">How would you like to be contacted?</legend>
