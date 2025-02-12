@@ -275,7 +275,7 @@ Below is a gif and screenshots demonstrating these features in action:
 
 ![Gif pointer ](assets/media/gif-showing-pointer-nose-modal-video.gif)
 
-![Custom Pointer](assets/media/custom-pointer-screenshot.png)
+![Custom Pointer](assets/media/nose-custom-pointer.png)
 
 ![Modal Video Message Donate Button](assets/media/modal-button-video-screenshot.png)
 
