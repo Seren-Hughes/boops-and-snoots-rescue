@@ -211,7 +211,7 @@ header > .line-break {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(68, 51, 27, 0.622); /* Dark transparent overlay for contrast readability */
+  background-color: rgba(49, 37, 20, 0.674); /* Dark transparent overlay for contrast readability */
   z-index: -1; /* Place behind the text and icons */
 }
 
