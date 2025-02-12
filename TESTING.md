@@ -149,6 +149,11 @@ The website was tested during development for responsiveness using Google Develo
 
 ![CSS Validation Screenshot](assets/media/css-validation-no-errors.png)
 
+### JSHint
+- **JSHint JavaScript Validating** 
+
+![JSHint JavaScript Validating Screenshot](assets/media/boops-js-check-jshint.png)
+
 ## **Manual Testing**
 
 ### User Stories:

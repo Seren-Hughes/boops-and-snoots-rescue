@@ -304,6 +304,7 @@ Below is a gif and screenshots demonstrating these features in action:
 - [**W3C Markup Validator**](validator.w3.org) – Ensured valid HTML code.
 - [**W3C CSS Validator**](jigsaw.w3.org/css-validator) – Checked for valid CSS.
 - [**Autoprefixer**](autoprefixer.github.io) – Added necessary vendor prefixes for better browser compatibility.
+- [**JSHint**](https://jshint.com/) - Ensured JavaScript code follows best practices and avoids potential errors. Used `/* jshint esversion: 6 */` to enforce ES6 standards. 
 
 #### Additional Tools:
 
