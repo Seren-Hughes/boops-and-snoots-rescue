@@ -169,17 +169,26 @@ Ensuring strong colour contrast for readability was a key design principle from 
 
 - ### Homepage
   - Introduction to the organisation's mission, goals and brand
+      ![Index Page Full Web Screenshot](assets/media/seren-hughes.github.io_boops-and-snoots-rescue_index.html.png)
+
 - ### Adoption Page
   - Overview of adoption processes, fees, links to social media for available animals and an application form
+      ![Adopt Page Full Web Screenshot](assets/media/seren-hughes.github.io_boops-and-snoots-rescue_adopt-info.html.png)
+
 - ### Donation Page
   - Options for monetary and item donations
+      ![Donate Page Full Web Screenshot](assets/media/seren-hughes.github.io_boops-and-snoots-rescue_donations.html.png)
+
 - ### Contact Us Page
   - Enquiry form with dropdown for enquiry type selection
+      ![Contact Page Full Web Screenshot](assets/media/seren-hughes.github.io_boops-and-snoots-rescue_contact.html.png)
+
 - ### Success Page
   - A dummy Confirmation page for submitted forms. Since this is a static website with no backend functionality, the confirmation page is a placeholder to demonstrate the user experience after form submission.
+      ![Success Page Full Web Screenshot](assets/media/seren-hughes.github.io_boops-and-snoots-rescue_form-confirmation.html.png)
 - ### 404 Page
   - Custom 404 page with redirect button to homepage
-    ![404 Screenshot](assets/media/404-screenshot.png)
+    ![404 Full Web Screenshot](assets/media/seren-hughes.github.io_boops-and-snoots-rescue_wrong-bad-cat.html.png)
 
 ### Navigation - Customised Boostrap Navbar
 
