@@ -617,6 +617,8 @@ Even though my script was already placed before `</body>`, this extra safeguard 
 
 **Credit:** The explanation that helped me understand this issue came from [Codedamn](https://codedamn.com/news/javascript/fixing-cannot-read-property-addeventlistener-of-null-error-in-javascript), which clearly outlined why this error occurs and how `DOMContentLoaded` resolves it.
 
+**Note:** While most of my JavaScript is in a separate script.js file (e.g., for form validation), I chose to keep my Bootstrap modal script inline in the index HTML. This follows Bootstrap’s standard implementation and ensures smooth functionality without additional complexity. The modal performed as expected in all tests, opening and closing correctly without errors. 
+
 ## Feedback
 
 I have thoroughly tested this project to ensure functionality, usability, and responsiveness. However, I welcome any feedback or suggestions for improvement. If you spot any issues or have ideas on how this project could be enhanced, please feel free to reach out.
