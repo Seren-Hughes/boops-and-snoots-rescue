@@ -310,9 +310,9 @@ Below is a gif and screenshots demonstrating these features in action:
 
 #### Testing & Validation Tools:
 
-- [**W3C Markup Validator**](validator.w3.org) – Ensured valid HTML code.
-- [**W3C CSS Validator**](jigsaw.w3.org/css-validator) – Checked for valid CSS.
-- [**Autoprefixer**](autoprefixer.github.io) – Added necessary vendor prefixes for better browser compatibility.
+- [**W3C Markup Validator**](https://validator.w3.org) – Ensured valid HTML code.
+- [**W3C CSS Validator**](https://jigsaw.w3.org/css-validator) – Checked for valid CSS.
+- [**Autoprefixer**](https://autoprefixer.github.io) – Added necessary vendor prefixes for better browser compatibility.
 - [**JSHint**](https://jshint.com/) - Ensured JavaScript code follows best practices and avoids potential errors. Used `/* jshint esversion: 6 */` to enforce ES6 standards. 
 
 #### Additional Tools:
