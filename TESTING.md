@@ -605,6 +605,8 @@ JavaScript validation: Prevents invalid characters
 
 **Credit** Thanks to my mentor, Daniel Hamilton, for the guidance on structuring my project properly.
 
+**Note:** While most of my JavaScript is in a separate script.js file (e.g., for form validation), I chose to keep my Bootstrap modal script inline in the index HTML. This follows Bootstrap’s standard implementation and ensures smooth functionality without additional complexity. The modal performed as expected in all tests, opening and closing correctly without errors. 
+
 🐞 Uncaught TypeError: Cannot Read Properties of Null (Reading 'addEventListener') 🐛
 
 - **Issue:** While testing in Google Developer Tools, I encountered an error:
@@ -616,8 +618,6 @@ JavaScript validation: Prevents invalid characters
 Even though my script was already placed before `</body>`, this extra safeguard ensured there were no timing issues.
 
 **Credit:** The explanation that helped me understand this issue came from [Codedamn](https://codedamn.com/news/javascript/fixing-cannot-read-property-addeventlistener-of-null-error-in-javascript), which clearly outlined why this error occurs and how `DOMContentLoaded` resolves it.
-
-**Note:** While most of my JavaScript is in a separate script.js file (e.g., for form validation), I chose to keep my Bootstrap modal script inline in the index HTML. This follows Bootstrap’s standard implementation and ensures smooth functionality without additional complexity. The modal performed as expected in all tests, opening and closing correctly without errors. 
 
 ## Feedback
 
