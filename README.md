@@ -256,7 +256,10 @@ This is an intentional part of the branding, ensuring that users can explore int
 To highlight the nose image as an interactive element, I have implemented a custom pointer effect:
 
 - **Custom Pointer:** When users hover over the nose image, the cursor changes to a finger pointer to resemble a "boop" action, inviting them to click.
-- **Pulsing Effect:** The nose image continuously pulses with a smooth scaling animation. The image gradually grows by 10% and then returns to its original size, creating an eye-catching and dynamic effect that draws attention to the donation prompt.
+- **Pulsing & Twitching Effect:**
+  - The nose image continuously pulses with a smooth scaling animation, subtly growing by 10% before returning to its original size.
+  - When hovered over, the pulsing stops, and the image remains at the larger size.
+  - To further emphasise interaction, the image performs a quick "twitching" effect — two rapid mini-pulses when hovered over.
 
 #### Donation Modal with Video
 
@@ -265,7 +268,7 @@ When users click on the snoot image, a modal appears containing a short video of
 Key features:
 
 - **Custom Pointer Effect:** Reinforces interactivity by changing the cursor to a finger pointer.
-- **Pulsing Effect:** Scaling animation to draw users attention to interact.
+- **Pulsing  and Twitching Effect:** Scaling animation to draw users attention to interact.
 - **Pop-up Modal:** Displays a heartwarming video of a cat’s snoot being fussed, paired with a message encouraging donations.
 - **Clear Call to Action:** A direct donation button within the modal ensures easy navigation to the donation page.
 
