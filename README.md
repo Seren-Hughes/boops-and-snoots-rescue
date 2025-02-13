@@ -4,7 +4,7 @@
 
 #### About:
 
-Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organisation, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasizes the organisation’s strong brand identity, ensuring that visitors feel welcomed and informed.
+Boops & Snoots Rescue is a fictional animal adoption organisation based in North Wales. This static front-end website is designed to raise awareness of the organisation, encourage pet adoptions, and provide clear ways to donate and support the cause. The website focuses on a user-friendly experience that emphasises the organisation’s strong brand identity, ensuring that visitors feel welcomed and informed.
 
 [View Live Site.](https://seren-hughes.github.io/boops-and-snoots-rescue/) Hosted on GitHub Pages.
 
@@ -17,7 +17,7 @@ Boops & Snoots Rescue aims for a friendly and approachable feel, using vibrant c
 - **Home Page:** Information about Boops & Snoots Rescue, its mission, and core values.
 - **Adopt Page:** Information on the adoption process, adoption fees, and reasons to adopt a pet, as well as an application form to start the adoption process.
 - **Donate Page:** Clear donation options, including links to PayPal, Just Giving and instructions for donating food, bedding, and toys to the rescue.
-- **Contact Page:** A contact form and fictional contact details (address, phone number and shelter opening hours)
+- **Contact Page:** A contact form and fictional contact details (address, phone number and shelter opening hours).
 
 ## Table Of Contents:
 
@@ -243,7 +243,7 @@ Below are screenshots demonstrating the footer layout across different screen si
 
 ## Other features
 
-### _"Click to Boop the Snoot""_ - Custom Pointer, Modal and Video for Donations
+### _"Click to Boop the Snoot"_ - Custom Pointer, Modal and Video for Donations
 
 To add a playful touch to the site, I have included a subtle "Easter egg" feature: a snoot (nose) image linked to a donation modal, accompanied by the call to action "Click to Boop the Snoot" with an arrow pointing downwards. This fun and interactive element is designed to engage users while drawing attention to the donation section. While the main donation button remains easily visible below, this feature adds an extra layer of personality and encourages interaction.
 
@@ -361,7 +361,7 @@ For a detailed breakdown of the testing process, including validation results, L
 
 For those who prefer the git bash terminal, the following commands can be used:
 
-1. Initialize a Git repository (if not already initialised)
+1. Initialise a Git repository (if not already initialised)
    `git init`
 
 2. Add all files to the staging area
@@ -409,7 +409,7 @@ As part of the initial planning phase, I identified additional pages and feature
 - **Gallery of Success Stories** – A collection of adopted animals and their happy endings.
 - **Events Section** – A showcase of past fundraising events and a link to social media for updates.
 
-I created wireframes and wrote content for these pages; however, during development, I reassessed the project scope and prioritized completing core features, validation checks, and ensuring overall site stability. Given that CSS changes could have a site-wide impact, I made the strategic decision to avoid last-minute additions that might introduce unintended issues.
+I created wireframes and wrote content for these pages; however, during development, I reassessed the project scope and prioritised completing core features, validation checks, and ensuring overall site stability. Given that CSS changes could have a site-wide impact, I made the strategic decision to avoid last-minute additions that might introduce unintended issues.
 
 These pages remain stretch goals for future development, and their wireframes are included below for reference:
 
@@ -442,7 +442,7 @@ These pages remain stretch goals for future development, and their wireframes ar
 Since this is a static site, potential future updates could include:
 
 - **Content Management System (CMS):** Allowing non-developers to easily update adoptable animals, events, and volunteer information without editing the code.
-- **User Accounts & Applications:** Personalized experiences where potential adopters and volunteers can create accounts, submit applications, and track their progress.
+- **User Accounts & Applications:** Personalised experiences where potential adopters and volunteers can create accounts, submit applications, and track their progress.
 - **API Integration:** Real time updates on adoptable animals and upcoming events.
 - **Search & Filter Features:** A dynamic database allowing users to search for pets based on criteria such as age, breed, child-friendliness, and compatibility with other pets.
 - **Online Donation Processing:** Integrated payment platforms for direct donations.
