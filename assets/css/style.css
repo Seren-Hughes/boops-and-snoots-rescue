@@ -247,6 +247,7 @@ header > .line-break {
 /* pulse animation effect on nose image to encourage users to click - adapted from https://travis.media/blog/css-pulse-effect/ and https://www.geeksforgeeks.org/css-pulse-animation/ */
 #donateBtn img {
   animation: pulse 2s infinite;
+  transition: transform 0.2s ease-in-out;
 }
 
 @keyframes pulse {
@@ -254,10 +255,33 @@ header > .line-break {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1); /* Make the image grow */
+    transform: scale(1.1); 
   }
   100% {
     transform: scale(1);
+  }
+}
+
+/* On hover stop infinite pulsing and stay at 1.1x size on hover */
+#donateBtn img:hover {
+  animation: none;
+  transform: scale(1.1);
+}
+
+/* Trigger quick mini pulses immediately when hovered */
+#donateBtn img:hover {
+  animation: miniPulse 0.3s ease-in-out 2;
+}
+
+@keyframes miniPulse {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15); /* Slightly bigger quick pulse */
+  }
+  100% {
+    transform: scale(1.1);
   }
 }
 
